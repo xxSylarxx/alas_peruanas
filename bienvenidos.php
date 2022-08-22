@@ -20,6 +20,8 @@
 
 <body id='cuerpo'>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- animaciones letras -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="./public/js/bootstrap.min.js"></script>
     <script>
         window.addEventListener("scroll", function() {
@@ -744,6 +746,25 @@
             height: 4px;
             width: 50px;
         }
+        .ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 1.3em;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
 
 
 
@@ -789,16 +810,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Bienvenidos</h2>
-                    <div class="separador mx-start"></div>
+                <h2 class="ml6">
+  <span class="text-wrapper">
+    <span class="letters">Inicio&nbsp; >&nbsp; Nosotros &nbsp;>&nbsp; <span style="color:black;">Bienvenidos</span>
+   </span>
+  </span>
+  <div class="separador mx-start"></div>
+</h2>
+                    <!-- <h2>Bienvenidos</h2>-->
+                   
                     <br>
                     <br>
-                    <br>
+                    <br> 
                 </div>
             </div>
         </div>
     </section>
-    
     <section id="bienvenidos-interno">
         <div class="container">
             <div class="row">
@@ -955,7 +982,26 @@
 <script>
     AOS.init();
 </script>
+<script>
+    // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml6 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml6 .letter',
+    translateY: ["1.1em", 0],
+    translateZ: 0,
+    duration: 750,
+    delay: (el, i) => 50 * i
+  }).add({
+    targets: '.ml6',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
 
 
 
