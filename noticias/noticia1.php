@@ -10,7 +10,7 @@
         <div class="d-flex justify-content-center align-align-items-center">
             <img src="./public/img/galeria/ajedrez.jpg" width="90%" height="40%" alt="">
         </div>
-<br>
+        <br>
         <p>
 
             Felicitamos a nuestra alumna Del Carpio Encinas Fernanda Romina, que clasifico para el Campeonato Nacional de Ajedrez, evento que se realizara capital de Lima.

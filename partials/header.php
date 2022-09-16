@@ -46,7 +46,7 @@ switch ($pagina) {
 
 <!-- <div id="head-top"></div> -->
 <header class="" id="header">
-  
+
 
     <nav class="navbar navbar-expand-lg navbar-light  py-3">
         <div class="container">
@@ -64,7 +64,6 @@ switch ($pagina) {
                     </li>
                     <!-- <span id="separador"></span> -->
                     <li class="nav-item dropdown">
-
                         <a class="<?= $active2 ?> dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             NOSOTROS
                         </a>
@@ -75,22 +74,24 @@ switch ($pagina) {
                             <li><a class="dropdown-item" href="./valores.php">VALORES INSTITUCIONALES</a></li>
                         </ul>
                     </li>
-
+                    <li class="nav-item ">
+                        <a class="<?= $active3 ?>" href="./educativa.php">PROPUESTA EDUCATIVA</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="<?= $active4 ?>" href="./areas.php">PERFIL DEL EGRESADO</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="<?= $active5 ?>" href="./areas.php">TALLERES</a>
+                    </li>
                     <li class="nav-item dropdown">
-                        <a class="<?= $active3 ?> dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            PROPUESTA
+                        <a class="<?= $active6 ?> dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SERVICIOS
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="./educativa.php">PROPUESTA EDUCATIVA</a></li>
-                            <!-- <li><a class="dropdown-item" href="./inicial.php">PROPUESTA PEDAGÓGICA</a></li> -->
-                            <li><a class="dropdown-item" href="./primaria.php">PERFIL DEL EGRESADO</a></li>
+                            <li><a class="dropdown-item" href="#">PSICOPEDAG0GICO</a></li>
+                            <li><a class="dropdown-item" href="#">COECE</a></li>
+                            <li><a class="dropdown-item" href="#">TUTORÍA</a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="<?= $active4 ?>" href="./areas.php">TALLERES</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="<?= $active5 ?>" href="./areas.php">SERVICIOS</a>
                     </li>
                 </ul>
             </div>
