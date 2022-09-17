@@ -10,7 +10,7 @@
         justify-content: end;
         position: fixed!important;
         left: 10px;
-        bottom: 400px;
+        bottom: 450px;
         z-index: 99 !important;
 
     }

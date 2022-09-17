@@ -984,7 +984,7 @@
                                                     </ul>
                                                     <p>Para poder realizar la matrícula se debe presentar lo siguiente:</p>
                                                     <ul>
-                                                        <li>Voucher de pago del monto de la matricula.</li>
+                                                        <li>Voucher de pago del monto de la matrícula.</li>
                                                         <li>Copia del DNI (actualizado) del alumno y de los padres de familia o apoderado.</li>
                                                         <li>Copia de la cartilla de vacunación (solo nivel inicial).</li>
                                                         <li>RD de traslado.</li>
@@ -1154,7 +1154,7 @@
                                 <tr style="text-align:center;">
                                     <td>NIVEL</td>
                                     <td>CUOTA DE INGRESO</td>
-                                    <td>MATRICULA</td>
+                                    <td>MATRÍCULA</td>
                                     <td>PENSIONES</td>
                                     <td>N° CUOTAS PENSIÓN</td>
 

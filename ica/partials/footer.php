@@ -58,7 +58,9 @@
 </style>
 
 <footer id="footer">
-
+    <a href="#" class="text-white" style="position: absolute; right: 20px; z-index: 999;  font-size: 40px;">
+        <span style="color: var(--color2);"><i class="fas fa-chevron-circle-up"></i></span>
+    </a>
     <div class="container-fluid" id="dates">
         <div class="container">
             <div class="row">
@@ -122,15 +124,15 @@
                         <br>
                         <a href="/entrada/complex-security">
                             <div class="row d-flex justify-content-around">
-                                <div class="col-lg-4"><img src="./public/img/galeria/aniversarioarequipa.jpg" style="border-radius:5px;" class="img-fluid" alt=""></div>
-                                <div class="col-lg-7 my-auto"><span style="color:var(--color5);">¡FELIZ 482° ANIVERSARIO, AREQUIPA!</span></div>
+                                <div class="col-lg-4"><img src="./public/img/galeria/noticia1.jpg" style="border-radius:5px;" class="img-fluid" alt=""></div>
+                                <div class="col-lg-7 my-auto"><span style="color:var(--color5);">CHIQUI CIENCIAS</span></div>
                             </div>
                         </a>
                         <hr>
                         <a href="/entrada/examination-and-document-exchange-platfo">
                             <div class="row d-flex justify-content-around">
-                                <div class="col-lg-4"><img src="./public/img/galeria/cachimbo.jpg" style="border-radius:5px;" class="img-fluid" alt=""></div>
-                                <div class="col-lg-7 my-auto"><span style="color:var(--color5);">FELICIDADES CACHIMBO 2023</span></div>
+                                <div class="col-lg-4"><img src="./public/img/galeria/noticia2.jpg" style="border-radius:5px;" class="img-fluid" alt=""></div>
+                                <div class="col-lg-7 my-auto"><span style="color:var(--color5);">CONCURSO DE DIBUJO</span></div>
                             </div>
                         </a>
                         <hr>

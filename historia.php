@@ -749,7 +749,7 @@
             background-size: 100%;
             background-position: center;
             background-attachment: fixed;
-            margin-top: -7rem;
+            margin-top: -12rem;
 
         }
 

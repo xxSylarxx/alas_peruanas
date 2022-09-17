@@ -123,7 +123,7 @@
         }
 
         #slider .carousel-inner {
-            margin-top: -7rem;
+            margin-top: -12rem;
             position: relative;
             z-index: -1;
         }
