@@ -38,6 +38,7 @@ switch ($pagina) {
     case 'matricula.php':
         $active7 .= ' active';
         break;
+    
 }
 ?>
 
@@ -115,6 +116,9 @@ switch ($pagina) {
                             <!-- <li><a class="dropdown-item" href="#">PLAN CURRICULAR</a></li>
                             <li><a class="dropdown-item" href="#">JORNADA ESCOLAR</a></li> -->
                         </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="<?= $active4 ?>" href="#contacto">CONTACTO</a>
                     </li>
                 </ul>
             </div>

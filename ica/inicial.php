@@ -791,6 +791,7 @@
             height: 90%;
             top: 75%;
             left: -51px;
+            z-index:-99;
         }
 
 
@@ -924,6 +925,7 @@
                 height: 100%;
                 top: 100%;
                 left: -10px;
+                z-index:-99;
             }
 
             #bienvenidos-parrafo {

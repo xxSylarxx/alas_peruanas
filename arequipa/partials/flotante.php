@@ -10,7 +10,7 @@
         justify-content: end;
         position: fixed!important;
         left: 10px;
-        bottom: 530px;
+        bottom: 400px;
         z-index: 99 !important;
 
     }
@@ -43,15 +43,7 @@
     }
 
     @media screen and (max-width:1300px) {
-        .bgmusica {
-            opacity: .08;
-            filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
-            position: absolute;
-            height: 100%;
-            top: 100%;
-            left: -10px;
-            z-index: -99;
-        }
+
 
         .div-social {
 
@@ -70,13 +62,7 @@
     }
 
     @media screen and (max-width:500px) {
-        .bgmusica {
-            display: none;
-        }
 
-        #correocontacto {
-            font-size: 12px;
-        }
     }
 </style>
 

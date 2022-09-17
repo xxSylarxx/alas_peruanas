@@ -870,6 +870,10 @@
             color: var(--color10);
             font-weight: bold;
         }
+        /* scroll para llamar a una seccion con altura */
+        section[id] {
+            scroll-margin-top: 130px;
+        }
         @media screen and (max-width:1300px) {
             .bgmusica {
                 opacity: .08;

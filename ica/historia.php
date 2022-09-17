@@ -977,15 +977,9 @@
                             y Deportivos, teniendo en su haber los siguientes lauros:
                         </p>
                         <ul>
-                            <li>110 Gallardetes de I y II Puesto en los Desfiles
-                                Cívicos Escolares a Nivel Distrital, Provincial y
-                                Regional – 03 Trofeos y Diplomas de Honor de 1º Puesto
-                                de Concursos de Danzas Folklóricas (Mejor Coreografía,
-                                Expresión y Originalidad) 1º Puesto en el Concurso Provincial y
-                                Nacional de Redacción y Ortografía,1er puesto etapa Provincial en
-                                el Concurso de Oratoria en los V Juegos Florales Nacionales – 2do
-                                Puesto en el Área de Ciencia y Tecnología e Ingeniería en la Feria
-                                Provincial de CTA Nivel de Educación Secundaria de Ica.</li>
+                            <li>110 Gallardetes de I y II Puesto en los Desfiles Cívicos Escolares a Nivel Distrital, Provincial y Regional.</li>
+                            <li>03 Trofeos y Diplomas de Honor de 1º Puesto de Concursos de Danzas Folklóricas (Mejor Coreografía, Expresión y Originalidad).</li>
+                            <li>1º Puesto en el Concurso Provincial y Nacional de Redacción y Ortografía</li>
                         </ul>
 
                     </div>
@@ -1004,6 +998,7 @@
                     <div style="padding: 5rem;">
                         <br>
                         <ul>
+                            <li>1er puesto etapa Provincial en el Concurso de Oratoria en los V Juegos Florales Nacionales – 2do Puesto en el Área de Ciencia y Tecnología e Ingeniería en la Feria Provincial de CTA Nivel de Educación Secundaria de Ica.</li>
                             <li>Campeón Provincial de Futbol Damas – Sub- 14 en los VI Juegos Deportivos Escolares Nacionales 2010 “Ciro Alegría”.</li>
                             <li>Campeón Provincial y Regional en Declamación – 2010.</li>
                             <li>1º Puesto en CANTO MODERNO-Trofeo “RACIMO DE UVA” Nivel Secundaria.</li>
@@ -1029,8 +1024,8 @@
                             <li>1° Puesto en el Concurso de Canto – 2018, Organizado por el Ministerio de Cultura.</li>
                             <li>2° Puesto en el Concurso de Declamación a la Madre – 2018, Organizado por el Ministerio de Cultura.</li>
                             <li>Sub. Campeón de Atletimo y karate en Etapa Macroregional – en los Juegos Deportivos Escolares 2018.</li>
+                            <li>Campeón I Etapa Macroregional: en Atlestimo: Pentatlon: en los Juegos Deportivos Escolares Nacionales 2019.</li>
                         </ul>
-                        <p class="px-3">Campeón I Etapa Macroregional: en Atlestimo: Pentatlon: en los Juegos Deportivos Escolares Nacionales 2019.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
