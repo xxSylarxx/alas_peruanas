@@ -869,13 +869,10 @@
             font-weight: bold;
         }
 
-        /* .text-banner {
-            
-            z-index: 99;
-            position: absolute;
-
-        } */
-
+        /* scroll para llamar a una seccion con altura */
+        section[id] {
+            scroll-margin-top: 260px;
+        }
         @media screen and (max-width:1300px) {
             .bgmusica {
                 opacity: .08;
@@ -1002,7 +999,7 @@
                     <div class="card shadow ">
                         <div class="front ">
                             <span class="fs-1"><img src="./public/img/icons/libertad.png" width="50" alt=""></span>
-                            <h5 class="py-2">Razón</h5>
+                            <h5 class="py-2">Libertad</h5>
                         </div>
                         <div class="back">
                             <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span>
@@ -1016,7 +1013,7 @@
                     <div class="card shadow ">
                         <div class="front ">
                             <span class="fs-1"><img src="./public/img/icons/solidaridad.png" width="50" alt=""></span>
-                            <h5 class="py-2">Fe</h5>
+                            <h5 class="py-2">Solidaridad</h5>
                         </div>
                         <div class="back">
                             <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span>
@@ -1044,7 +1041,7 @@
                     <div class="card shadow ">
                         <div class="front ">
                             <span class="fs-1"><img src="./public/img/icons/respeto.png" width="50" alt=""></span>
-                            <h5 class="py-2">Disciplina</h5>
+                            <h5 class="py-2">Respeto</h5>
                         </div>
                         <div class="back">
                             <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span>
@@ -1053,7 +1050,7 @@
                 </div>
             </div>
 
-            <!-- <div class="col-lg p-0 ">
+            <div class="col-lg p-0 ">
                 <div class="flip mx-1">
                     <div class="card shadow ">
                         <div class="front ">
@@ -1065,7 +1062,7 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
 
         </div>
     </section>
@@ -1275,7 +1272,7 @@
 
     <section id="lema">
         <div class="container">
-            <h2>30 años al servicio de la educación</h2>
+            <h2>Razón, Fe, Responsabilidad, Disciplina</h2>
             <em>formando líderes con pensamiento crítico y creativo</em>
             <br>
             <h3 class="title"> <a href="admision.php" style="color: var(--color5);">ADMISIÓN 2023 </a> </h3>
