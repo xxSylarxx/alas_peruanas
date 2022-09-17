@@ -88,7 +88,7 @@ switch ($pagina) {
                             SERVICIOS
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">PSICOPEDAG0GICO</a></li>
+                            <li><a class="dropdown-item" href="psico.php">PSICOPEDAG0GICO</a></li>
                             <li><a class="dropdown-item" href="#">COECE</a></li>
                             <li><a class="dropdown-item" href="#">TUTORÍA</a></li>
                         </ul>
