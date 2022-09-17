@@ -58,7 +58,9 @@
 </style>
 
 <footer id="footer">
-
+    <a href="#" class="text-white" style="position: absolute; right: 20px; z-index: 999;  font-size: 40px;">
+        <span style="color: var(--color2);"><i class="fas fa-chevron-circle-up"></i></span>
+    </a>
     <!-- <div class="container-fluid" id="dates">
         <div class="container">
             <div class="row">

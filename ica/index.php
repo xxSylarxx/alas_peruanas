@@ -864,7 +864,7 @@
         }
 
         #lema-banner {
-            font-size: 2.5rem;
+            font-size: 2rem;
             color: var(--color10);
             font-weight: bold;
         }
@@ -873,6 +873,7 @@
         section[id] {
             scroll-margin-top: 260px;
         }
+
         @media screen and (max-width:1300px) {
             .bgmusica {
                 opacity: .08;
@@ -895,7 +896,7 @@
             }
         }
     </style>
-   
+
     <div class="redesS">
         <!-- <div class="red">
             <a class="yt" href="#" target="_blank">
@@ -933,7 +934,7 @@
                             <div class="text-banner">
                                 <img src="./public/img/icons/logo.png" alt="">
                                 <br>
-                                <p id="lema-banner">"Educamos para la vida"</p>
+                                <p id="lema-banner">"Razón, Fe, Responsabilidad, Disciplina"</p>
                                 <a href="./inicial.php"><span>NIVEL INICIAL</span></a>
                                 <br>
                                 <br>
@@ -951,7 +952,7 @@
                             <div class="text-banner">
                                 <img src="./public/img/icons/logo.png" alt="">
                                 <br>
-                                <p id="lema-banner">"Educamos para la vida"</p>
+                                <p id="lema-banner">"Razón, Fe, Responsabilidad, Disciplina"</p>
                                 <a href="./primaria.php"><span>NIVEL PRIMARIA</span></a>
                                 <br>
                                 <br>
@@ -966,7 +967,7 @@
                             <div class="text-banner">
                                 <img src="./public/img/icons/logo.png" alt="">
                                 <br>
-                                <p id="lema-banner">"Educamos para la vida"</p>
+                                <p id="lema-banner">"Razón, Fe, Responsabilidad, Disciplina"</p>
                                 <a href="./secundaria.php"><span>NIVEL SECUNDARIA</span></a>
                                 <br>
                                 <br>
@@ -1187,7 +1188,7 @@
                             <img src="./public/img/icons/colegio2.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3 ">
-                            <div class="contador_cantidad text-center" data-cantidad-total="30">0</div>
+                            <div class="contador_cantidad text-center" data-cantidad-total="23">0</div>
                             <div>
                                 <p id="contadorparrafo">años</p>
                             </div>
@@ -1294,18 +1295,20 @@
         <div class="container">
             <div class="row" style="padding-left:8%;padding-right:8%;">
                 <div class="col-md-4 px-3 my-3">
-                    <a href="view2.php?id=8">
+                    <a href="view.php?id=1">
                         <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
                             <span class="news">Noticias</span>
-                            <img src="./public/img/galeria/aniversarioarequipa.jpg" width="100%" height="250">
+                            <img src="./public/img/galeria/noticia1.jpg" width="100%" height="250">
 
                             <div class="card-body">
 
-                                <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color1);">¡Feliz 482° aniversario, Arequipa!</h5>
+                                <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color1);">CHIQUI CIENCIAS</h5>
 
                                 <div class="detalle">
 
-                                    Porque no se nace en vano al pie de un volcán, hoy estás de fiesta y son muchas las razones para sentirse orgulloso de ser parte de esta hermosa Ciudad Blanca
+                                    Nuestros estudiantes de nivel de inicial(3años) conociendo nuestro cuerpo humano, siempre demostrando sus cualidades desde los mas pequeños
+                                    colegio Alas Peruanas Ica
+                                    "Tu gran éxito inicia aquí".
                                 </div>
 
                             </div>
@@ -1313,7 +1316,7 @@
                             <div class="card-footer" style="background: transparent; font-size: 16px;color:black;">
                                 <i class="fas fa-calendar-alt" aria-hidden="true"></i>
 
-                                <span class="ms-2">15-08-2022</span>
+                                <span class="ms-2">09-09-2022</span>
 
                             </div>
 
@@ -1322,26 +1325,23 @@
                 </div>
 
                 <div class="col-md-4 px-3 my-3">
-                    <a href="view2.php?id=7">
+                    <a href="view.php?id=2">
                         <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
                             <span class="news">Noticias</span>
-                            <img src="./public/img/galeria/cachimbo.jpg" width="100%" height="250">
+                            <img src="./public/img/galeria/noticia2.jpg" width="100%" height="250">
 
                             <div class="card-body">
-                                <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color1);">FELICIDADES CACHIMBO 2023</h5>
+                                <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color1);">CONCURSO DE DIBUJO</h5>
 
                                 <div class="detalle">
-                                    Felicidades estimado alumno, ahora empiezas una nueva etapa, estamos
-                                    seguros que te ira bien en su carrera profesional.Alas Peruanas “Educación para la vida”
+                                    Premiando a los ganadores de nivel inicial del concurso interno llevado acabo en nuestras instalaciones en conmemoración a nuestro aniversario
+                                    colegio Alas Peruanas Ica
+                                    “Tu gran éxito inicia aquí”
                                 </div>
-
                             </div>
-
                             <div class="card-footer" style="background: transparent; font-size: 16px;color:black;">
                                 <i class="fas fa-calendar-alt" aria-hidden="true"></i>
-
-                                <span class="ms-2">10-08-2022</span>
-
+                                <span class="ms-2">05-09-2022</span>
                             </div>
 
                         </div>
@@ -1349,18 +1349,19 @@
                 </div>
 
                 <div class="col-md-4 px-3 my-3">
-                    <a href="view2.php?id=5">
+                    <a href="view.php?id=3">
                         <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
                             <span class="news">Noticias</span>
-                            <img src="./public/img/galeria/ajedrez.jpg" width="100%" height="250">
+                            <img src="./public/img/galeria/noticia3.jpg" width="100%" height="250">
 
                             <div class="card-body">
 
-                                <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color1);">CAMPEONATO NACIONAL DE AJEDREZ</h5>
+                                <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color1);">Rally de Comunicación</h5>
 
                                 <div class="detalle">
-
-                                    Felicitamos a nuestra alumna Del Carpio Encinas Fernanda Romina, que clasifico para el Campeonato Nacional de Ajedrez, evento que se realizara capital de Lima.
+                                    Nuestros estudiantes de nivel secundaria dejando en Alto a nuestra Institución, ocuparon los Primeros Puestos en el RALLY de COMUNICACION, "cada hombre es hijo de sus propias obras"
+                                    Colegio Alas Peruanas.
+                                    “Tu gran éxito inicia aquí”
                                 </div>
 
                             </div>
@@ -1368,7 +1369,7 @@
                             <div class="card-footer " style="background: transparent; font-size: 16px;color:black;">
                                 <i class="fas fa-calendar-alt" aria-hidden="true"></i>
 
-                                <span class="ms-2 ">10-07-2022</span>
+                                <span class="ms-2 ">02-09-2022</span>
 
                             </div>
 
@@ -1378,7 +1379,7 @@
 
 
             </div>
-
+        </div>
 
     </section>
 

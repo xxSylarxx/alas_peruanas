@@ -1231,7 +1231,7 @@
                             <img src="./public/img/icons/colegio2.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3 ">
-                            <div class="contador_cantidad text-center" data-cantidad-total="30">0</div>
+                            <div class="contador_cantidad text-center" data-cantidad-total="23">0</div>
                             <div>
                                 <p id="contadorparrafo">años</p>
                             </div>
