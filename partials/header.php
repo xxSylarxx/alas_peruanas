@@ -78,10 +78,10 @@ switch ($pagina) {
                         <a class="<?= $active3 ?>" href="./educativa.php">PROPUESTA EDUCATIVA</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="<?= $active4 ?>" href="./areas.php">PERFIL DEL EGRESADO</a>
+                        <a class="<?= $active4 ?>" href="#">PERFIL DEL EGRESADO</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="<?= $active5 ?>" href="./areas.php">TALLERES</a>
+                        <a class="<?= $active5 ?>" href="#">TALLERES</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="<?= $active6 ?> dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

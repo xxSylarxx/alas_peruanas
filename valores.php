@@ -990,7 +990,7 @@
             <div class="row d-flex justify-content-between">
                 <div id="bienvenidos-parrafo" class="col-lg-6 p-0">
                     <div style="padding: 3rem;">
-                        <img src="./public/img/icons/ludica.png" alt="">
+                        <img src="./public/img/icons/libertad2.png" alt="">
 
                         <h2>LIBERTAD</h2>
                         <br>
@@ -1021,7 +1021,7 @@
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">
-                        <img src="./public/img/icons/identidad.png" alt="">
+                        <img src="./public/img/icons/solidaridad.png" alt="">
                         <h2 style="color:black;">SOLIDARIDAD</h2>
                         <br>
                         <p class="card_text">Es un valor que se caracteriza por la 
@@ -1047,7 +1047,7 @@
             <div class="row d-flex justify-content-between">
                 <div id="bienvenidos-parrafo" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">
-                        <img src="./public/img/icons/protagonismo.png" alt="">
+                        <img src="./public/img/icons/responsabilidad2.png" alt="">
                         <h2>RESPONSABILIDAD</h2>
                         <br>
                         <p>Capacidad del ser humano de conocer
@@ -1078,7 +1078,7 @@
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">
-                        <img src="./public/img/icons/habilidades.png" alt="">
+                        <img src="./public/img/icons/respeto.png" alt="">
                         <h2 style="color:black;">RESPETO</h2>
                         <br>
                         <p>Respeto, es la aceptación y aprecio de sí
@@ -1100,7 +1100,7 @@
             <div class="row d-flex justify-content-between">
                 <div id="bienvenidos-parrafo" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">
-                        <img src="./public/img/icons/protagonismo.png" alt="">
+                        <img src="./public/img/icons/honestidad2.png" alt="">
                         <h2>HONESTIDAD</h2>
                         <br>
                         <p>Es la virtud que caracteriza a las personas por

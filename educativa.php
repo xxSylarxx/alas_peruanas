@@ -149,7 +149,7 @@
             background-color: rgba(255, 255, 255, .8);
             
         } */
-       
+
 
         #valores .flip {
             height: 200px;
@@ -768,10 +768,10 @@
             opacity: .08;
             filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
             position: absolute;
-            height: 90%;
-            top: 75%;
-            left: -51px;
-        }
+            height: 100%;
+            top: 130%;
+             left: 8%; 
+                    }
 
 
         .separador {
@@ -1073,7 +1073,10 @@
 
     <section id="metodologicos">
         <div class="container">
-            <h3>LINEAMIENTOS METODOLÓGICOS</h3>
+            <center>
+                <h3>LINEAMIENTOS METODOLÓGICOS</h3>
+            </center>
+
             <div class="row pt-5">
                 <div class="col-lg-4">
                     <span>1</span>
@@ -1411,7 +1414,19 @@
             </div>
         </div>
     </section>
+    <br>
+    <br>
     <section class="container" id="valores">
+        <center>
+            <h3>LINEAMIENTOS METODOLÓGICOS</h3>
+            <br>
+            <br>
+        </center>
+        <p>Los enfoques transversales se traducen en formas específicas de actuar que buscan generar
+            una buena convivencia, por lo tanto, son deseables para todos. Son valores y actitudes, que
+            tanto estudiantes como docentes y autoridades deben esforzarse por demostrar en la dinámica
+            diaria de la I.E.</p>
+            <br>
         <div class="row justify-content-center">
 
             <div class="col-lg p-0 ">
@@ -1419,7 +1434,7 @@
                     <div class="card shadow ">
                         <div class="front ">
                             <span class="fs-1"><img src="./public/img/icons/libertad.png" width="50" alt=""></span>
-                            <h5 class="py-2">Libertad</h5>
+                            <h5 class="py-2">Enfoque inclusivo de la atención a la diversidad</h5>
                         </div>
                         <div class="back">
                             <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span>
@@ -1433,7 +1448,7 @@
                     <div class="card shadow ">
                         <div class="front ">
                             <span class="fs-1"><img src="./public/img/icons/solidaridad.png" width="50" alt=""></span>
-                            <h5 class="py-2">Solidaridad</h5>
+                            <h5 class="py-2">Enfoque intercultural</h5>
                         </div>
                         <div class="back">
                             <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span>
@@ -1447,7 +1462,7 @@
                     <div class="card shadow ">
                         <div class="front ">
                             <span class="fs-1"><img src="./public/img/icons/responsabilidad.png" width="50" alt=""></span>
-                            <h5 class="py-2">Responsabilidad</h5>
+                            <h5 class="py-2">Enfoque de igualdad de género</h5>
                         </div>
                         <div class="back">
                             <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span>
@@ -1461,7 +1476,7 @@
                     <div class="card shadow ">
                         <div class="front ">
                             <span class="fs-1"><img src="./public/img/icons/respeto.png" width="50" alt=""></span>
-                            <h5 class="py-2">Respeto</h5>
+                            <h5 class="py-2">Enfoque ambiental</h5>
                         </div>
                         <div class="back">
                             <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span>
@@ -1475,7 +1490,20 @@
                     <div class="card shadow ">
                         <div class="front ">
                             <span class="fs-1"><img src="./public/img/icons/honestidad.png" width="50" alt=""></span>
-                            <h5 class="py-2">Honestidad</h5>
+                            <h5 class="py-2">Enfoque orientación al bien común</h5>
+                        </div>
+                        <div class="back">
+                            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg p-0 ">
+                <div class="flip mx-1">
+                    <div class="card shadow ">
+                        <div class="front ">
+                            <span class="fs-1"><img src="./public/img/icons/honestidad.png" width="50" alt=""></span>
+                            <h5 class="py-2">Enfoque búsqueda de la excelencia</h5>
                         </div>
                         <div class="back">
                             <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span>
@@ -1486,7 +1514,9 @@
 
         </div>
     </section>
-    <section id="importantes">
+    <br>
+    <br>
+    <!-- <section id="importantes">
         <div class="container">
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-3 d-flex justify-content-center contador">
@@ -1543,7 +1573,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <div class="container">
         <br>
         <br>
@@ -1600,7 +1630,7 @@
                 <div class="tab-pane fade" id="pills-messages" role="tabpanel" aria-labelledby="pills-messages-tab">
                     <div class="row ">
                         <div class="col-lg-5" style="position:relative;margin-top:-85px;">
-                            <img src="./public/img/img-page/arequipa/meet.jpg" class="img-fluid" alt="">
+                            <img src="./public/img/img-page/meet.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="col-lg-7">
                             <p>
@@ -1612,7 +1642,7 @@
                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                     <div class="row ">
                         <div class="col-lg-5" style="position:relative;margin-top:-85px;">
-                            <img src="./public/img/img-page/arequipa/otrasapp.jpg" class="img-fluid" alt="">
+                            <img src="./public/img/img-page/otrasapp.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="col-lg-7">
                             <p>
@@ -1633,7 +1663,7 @@
                 <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                     <div class="row ">
                         <div class="col-lg-5" style="position:relative;margin-top:-85px;">
-                            <img src="./public/img/img-page/arequipa/biblioteca.jpg" class="img-fluid" alt="">
+                            <img src="./public/img/img-page/biblioteca.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="col-lg-7">
                             <p>
