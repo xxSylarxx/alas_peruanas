@@ -248,12 +248,18 @@
             padding: 6rem;
 
         }
-
+        #bienvenidos-parrafo li{
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            text-align: justify;
+            color: white;
+        
+        }
         #bienvenidos-parrafo p,
         h1 {
 
             color: white;
-
+            
             padding-right: .5rem;
 
         }
@@ -265,11 +271,13 @@
             padding-right: .5rem;
 
         }
-
-        #bienvenidos-parrafo li {
-            color: white;
+        #bienvenidos-parrafo2 li{
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
             text-align: justify;
+          
         }
+
 
         /* #bienvenidos-parrafo2 {
             background: linear-gradient(rgba(0, 0, 0, 0.8) 100%, #ffff 10%, #ffff 50%),
@@ -966,7 +974,7 @@
                     <div style="padding: 3rem;">
 
                         <br>
-                        <p class="px-3 ">
+                        <p style="padding-left:1rem;">
                             La Institución Educativa Privada
                             “Alas Peruanas” de ICA cumplirá el día 24
                             de Agosto, XXIII años de vida Institucional,
