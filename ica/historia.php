@@ -1012,9 +1012,7 @@
                             <li>1º Puesto en CANTO MODERNO-Trofeo “RACIMO DE UVA” Nivel Secundaria.</li>
                             <li>Campeón de Fútbol Varones Sub – 14 FASE INTER REGIONAL, representó a Ica en la Etapa Nacional.</li>
                             <li>1º Puesto en BAILE MODERNO, a Nivel PROVINCIAL e INTER REGIONAL; represento a Ica en la Etapa Nacional.</li>
-
                         </ul>
-
                     </div>
                 </div>
 
