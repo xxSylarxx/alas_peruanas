@@ -896,7 +896,7 @@
                 </div>
                 <div class="separador mx-auto"></div>
                 <br><br>
-                <p>
+                <p style="line-height: 2;">
                     La formación holística de nuestra Institución nos obliga a llevar a cabo un plan tutorial
                     acorde con las necesidades contextuales, procurando el abordaje del tema en relación a la
                     adaptabilidad de nuestros estudiantes en los procesos educativos y en brindar el soporte
@@ -907,7 +907,7 @@
                     emocionales y motivando al desarrollo de actividades orientativas, en relación
                     a su edad y etapa de desarrollo; procurando actuar siempre de manera preventiva.
                 </p>
-                <p>
+                <p style="line-height: 2;">
                     Las necesidades identificadas en el diagnóstico de la Tutoría y Orientación
                     Educativa en el presente contexto por Covid-19 serán abordados a través de
                     espacios como el aula, la familia y la propia escuela, creando espacios virtuales

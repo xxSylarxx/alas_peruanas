@@ -845,6 +845,11 @@
             animation: aparecer 1.3s;
         }
 
+        .classLi {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+        }
+
         @media screen and (max-width:410px) {}
 
         @media screen and (max-width:1300px) {
@@ -900,11 +905,11 @@
                     <b>Tutoría individual:</b> El acompañamiento y orientación en nuestros estudiantes es permanente, considerando sus necesidades y estableciendo metas personales, que les permitan alcanzar su óptimo desarrollo durante la etapa escolar de los y las estudiantes; llevando a cabo las siguientes acciones:
                 </p>
                 <ul>
-                    <li>Entrevistas con las y los estudiantes, por lo menos una vez por bimestre.</li>
-                    <li>Entrevistas con los padres de familia y/o apoderados de los y las estudiantes.</li>
-                    <li>Reconocimiento de dificultades cognitivas, sociales y emocionales; trabajando en el plan de mejora de manera multidisciplinaria.</li>
-                    <li>Reconocimiento de fortalezas, para ser apoyo y soporte dentro del aula.</li>
-                    <li>Seguimiento permanente de los y las estudiantes: revisión de sus metas.</li>
+                    <li class="classLi">Entrevistas con las y los estudiantes, por lo menos una vez por bimestre.</li>
+                    <li class="classLi">Entrevistas con los padres de familia y/o apoderados de los y las estudiantes.</li>
+                    <li class="classLi">Reconocimiento de dificultades cognitivas, sociales y emocionales; trabajando en el plan de mejora de manera multidisciplinaria.</li>
+                    <li class="classLi">Reconocimiento de fortalezas, para ser apoyo y soporte dentro del aula.</li>
+                    <li class="classLi">Seguimiento permanente de los y las estudiantes: revisión de sus metas.</li>
                 </ul>
                 <br>
                 <p>
@@ -914,11 +919,11 @@
                     colaborativo; tomando en cuenta las siguientes acciones:
                 </p>
                 <ul>
-                    <li>Elaboración del plan tutorial del aula en función al diagnóstico del grupo.</li>
-                    <li>Desarrollo de temas que involucran las necesidades físicas, sociales y psicológicas de la y los estudiantes de un grado.</li>
-                    <li>Actividades lúdicas y de recreación para mejorar la convivencia en el aula y consolidar los grupos con objetivos comunes.</li>
-                    <li>Reconocer las características del grupo, para abordar estrategias que permitan optimizar su proceso de aprendizaje.</li>
-                    <li>Recibir talleres, charlas y conferencias de terceros, profesionales reconocidos que puedan brindar la orientación que cada aula necesita</li>
+                    <li class="classLi">Elaboración del plan tutorial del aula en función al diagnóstico del grupo.</li>
+                    <li class="classLi">Desarrollo de temas que involucran las necesidades físicas, sociales y psicológicas de la y los estudiantes de un grado.</li>
+                    <li class="classLi">Actividades lúdicas y de recreación para mejorar la convivencia en el aula y consolidar los grupos con objetivos comunes.</li>
+                    <li class="classLi">Reconocer las características del grupo, para abordar estrategias que permitan optimizar su proceso de aprendizaje.</li>
+                    <li class="classLi">Recibir talleres, charlas y conferencias de terceros, profesionales reconocidos que puedan brindar la orientación que cada aula necesita</li>
                 </ul>
             </div>
         </div>

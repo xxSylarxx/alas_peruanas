@@ -896,7 +896,7 @@
                 </div>
                 <div class="separador mx-auto"></div>
                 <br><br>
-                <p>
+                <p style="line-height: 2;">
                     Con la finalidad de garantizar una educación personalizada, reconociendo a
                     cada estudiante como un ser único y diferente, la Institución Educativa
                     cuente con el soporte del Departamento Psicopedagógico, integrado por un
