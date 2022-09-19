@@ -242,8 +242,8 @@
 
         #bienvenidos-parrafo {
             background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./public/img/img-page/portada_eventos.jpg');
-            background-size: 160%;
+                url('./public/img/img-page/portada_arte3.jpg');
+            background-size: 240%;
             background-repeat: no-repeat;
             padding: 6rem;
 
@@ -268,8 +268,7 @@
 
         }
 
-        #bienvenidos-parrafo
-        h2 {
+        #bienvenidos-parrafo h2 {
 
             color: white;
             padding-left: .5rem;
@@ -771,10 +770,10 @@
 
         #portada {
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-                url('./public/img/img-page/portada_somos2.jpg');
+                url('./public/img/img-page/deporte_karate.jpg');
             /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
             background-size: 100%;
-            background-position: center; 
+            background-position: top;
             background-attachment: fixed;
             margin-top: -12rem;
 
@@ -949,7 +948,7 @@
                 <div class="col-lg-12">
                     <h2 class="ml6">
                         <span class="text-wrapper">
-                            <span class="letters" style="font-size:50px;">Nosotros
+                            <span class="letters" style="font-size:50px;">Talleres
                             </span>
                         </span>
                         <!-- <div class="separador mx-start"></div> -->
@@ -969,21 +968,18 @@
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-6 mt-4 mb-4">
 
-                    <h1 style="text-align:start;color:var(--color3);">Quienes Somos</h1>
+                    <h1 style="text-align:start;color:var(--color3);">Talleres extracurriculares</h1>
                     <div class="separador mx-start"></div>
                     <img class="bgmusica" src="./public/img/icons/dios.png" alt="">
                 </div>
                 <div class="col-lg-5 mt-4 mb-4">
                     <div class="row ">
                         <div class="col-lg">
-                            <p>Somos una institución educativa 
-                                privada, que da servicio educativo a niños, 
-                                niñas y adolescentes, que, ante el contexto actual, 
-                                de cambios acelerados en la ciencia y la tecnología, hace posible 
-                                que nuestra propuesta en materia educativa sea una alternativa de 
-                                cambio y desarrollo. Que toda la comunidad educativa unida construimos 
-                                experiencias de aprendizaje, que nos sirve para crecer y como ciudadanos
-                                mejorar la calidad de vida.
+                            <p>Es parte de la propuesta formativa del Colegio, ofrecer
+                                talleres extracurriculares de carácter cultural, artísticos
+                                y/o deportivos, para complementar la formación integral de
+                                los estudiantes. Estos talleres se llevarán a cabo fuera del
+                                horario escolar establecido y no están incluidos dentro del costo educativo.
                             </p>
                         </div>
                     </div>
@@ -998,33 +994,59 @@
             <div class="row d-flex justify-content-between">
                 <div id="bienvenidos-parrafo" class="col-lg-6 p-0">
                     <div style="padding: 3rem;">
-                        <img src="./public/img/icons/mision.png" alt="">
+                        <img src="./public/img/icons/futbolyvoley.png" alt="">
 
-                        <h2>MISIÓN</h2>
+                        <h2>FUTBOL Y VOLEY</h2>
                         <br>
-                        <p>Ser una institución educativa líder en brindar servicios educativos de calidad, que forma personas líderes que sean competentes y competitivos, preparando estudiantes para asumir valores y principios con posibilidad de generar un proyecto de vida pertinente, a través de una educación integral, innovadora y de calidad capaces de dialogar y encontrar satisfacción en la vida plural y justa, y se vuelvan cada vez más autónomos en sus procesos de aprendizaje, comprometidos en contribuir a la conservación del medio ambiente y al desarrollo de la familia y de una sociedad solidaria en un marco de justicia y paz.
+                        <p>El fútbol sala y el voleibol requiere la intervención
+                            pedagógica que refuerce los aprendizajes de los y las
+                            estudiantes, considerando las competencias de educación física.
+                            El objetivo principal es complementar el desarrollo de los niños,
+                            niñas y adolescentes; asimismo, satisfacer las necesidades individuales
+                            de cada estudiante deportista. De este modo los deportes mencionados
+                            están orientados a la educación integral en condiciones de igualdad, al
+                            desarrollo armónico de la personalidad, a la consecución de las condiciones
+                            físicas y de una generación de hábito deportivo que posibilite la práctica
+                            continua y logre una forma de vida activa y saludable.
                         </p>
+                        <p>En el contexto actual, se brinda soporte socioemocional y
+                            afectivo a los y las estudiantes de la IEP Alas Peruanas,
+                            contrarrestando los efectos negativos ocasionados a la salud
+                            por efecto de la pandemia COVID-19 y el largo periodo de aislamiento
+                            social, además ofrece espacios formativos donde los y las estudiantes
+                            sin distinción de condiciones desarrollan la motricidad, capacidad de
+                            controlar los movimientos del cuerpo, desarrolla la espontaneidad, la
+                            creatividad, las habilidades motrices, la condición física y mental,
+                            el disfrute, habilidades sociales, respeto a la diversidad, práctica de
+                            valores y el juego limpio.</p>
 
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/somos1.jpg" width="100%" height="600" style="object-fit:cover;" alt="">
+                    <img src="./public/img/img-page/deporte_campo_futbol.jpg" width="100%" height="900" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/karate.jpg" width="100%" height="600" style="object-fit:cover;" alt="">
+                    <img src="./public/img/img-page/karate.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 3rem;">
-                        <img src="./public/img/icons/vison.png" alt="">
-                        <h2 style="color:black;">VISIÓN</h2>
+                        <img src="./public/img/icons/taekwondo.png" alt="">
+                        <h2>TAEKWONDO</h2>
                         <br>
-                        <p class="card_text">Ser reconocidos en la sociedad peruana como una institución que constituye una alternativa educacional de calidad por su propuesta curricular propia e innovadora, que utilice las nuevas tecnologías con procesos de enseñanza y aprendizajes híbridos, medios de comunicación, cultura de la lectura y corrientes pedagógicas actuales que garanticen una formación sólida en valores, ciudadanía, identidad personal, cuidando y preservando el medio ambiente con visión de desarrollo sostenible y apertura al mundo globalizado a través de proyectos productivos. A fin de colaborar en la construcción de una sociedad más justa y solidaria.</p>
-
-
+                        <p>Un ejercicio muy bueno para la mente aumenta el autocontrol y
+                            la confianza. Con la práctica mejoramos nuestro cuerpo y lo dominamos,
+                            lo que genera autoestima y seguridad en nuestros alumnos. Como en otras artes
+                            marciales, el taekwondo requiere concentración y aporta disciplina.
+                        </p>
+                        <p>En el desempeño escolar el Taekwondo fortalece su concentración y
+                            fomenta la disciplina, creando hábitos que las ayudarán en sus estudios
+                            y tareas. En el aspecto físico, el Taekwondo permite desarrollar al máximo
+                            sus capacidades y habilidades: fuerza, elasticidad, resistencia, integración
+                            y adaptación.</p>
                     </div>
                 </div>
 
@@ -1034,18 +1056,44 @@
             <div class="row d-flex justify-content-between">
                 <div id="bienvenidos-parrafo" class="col-lg-6 p-0">
                     <div style="padding: 3rem;">
-                        <img src="./public/img/icons/fines.png" alt="">
-                        <h2>FINES</h2>
+                        <img src="./public/img/icons/danza2.png" alt="">
+                        <h2>Danza</h2>
                         <br>
-                        <p>El fin de la Institución Educativa Privada “ALAS PERUANAS”, es asegurar la calidad del servicio educativo, sujeto a los cambios e innovaciones tecnológicas, axiológicas, filosóficas y normativas, a las nuevas concepciones sobre paradigmas, enfoques y tendencias educativas, contemplados en El Marco del Sistema Curricular Nacional, teniendo como fortaleza un equipo directivo competente con acceso a sus cargos mediante evaluación meritocrática, acorde al Marco del Buen Desempeño del Directivo, conscientes y capaces asumir su rol, con un enfoque de gestión en liderazgo pedagógico y hacia el logro de las metas de los resultados del aprendizaje.
+                        <p>La danza  es una actividad que favorece el ejercicio 
+                            cardiovascular en nuestros estudiantes. Es una práctica 
+                            que mejora el sentido del equilibrio y ayuda a mejorar la 
+                            coordinación, la concentración y la memoria. Los niños, niñas, 
+                            jóvenes y señoritas   que practican danza  de manera continua 
+                            tienden a tener más éxito a nivel académico.
                         </p>
-                        <p>Nuestra Institución Educativa, acoge el compromiso de emprender un cambio en nuestros modelos o paradigma pedagógicos de gestión y de enseñanza para el desarrollo de competencias, poniendo de manifiesto los principios, los valores religiosos, éticos y morales que rigen nuestra convivencia institucional, con un trabajo colaborativo y colegiado para elevar la calidad educativa avanzando hacia el futuro deseado.</p>
+                        
 
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/proceso_admision.jpg" width="100%" height="750" style="object-fit:cover;" alt="">
+                    <img src="./public/img/img-page/danzaprincipal.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-between">
+                <div class="col-lg-6 p-0">
+                    <img src="./public/img/img-page/art_1.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                </div>
+                <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
+                    <div style="padding: 3rem;">
+                        <img src="./public/img/icons/musica2.png" alt="">
+                        <h2>Música</h2>
+                        <br>
+                        <p>La música mejora la capacidad intelectual y la 
+                            memoria en nuestros estudiantes por esta razón, 
+                            se cree que los niños que están acostumbrados a 
+                            convivir con la música disfrutarán de una mayor capacidad 
+                            intelectual que el resto. La música es capaz de estimular 
+                            la zona del cerebro encargada de la lectura, el cálculo y el desarrollo emocional.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -1108,123 +1156,6 @@
             </div>
         </div>
     </section>
-    <div class="container">
-        <br>
-        <br>
-        <br>
-        <h3 style="color:var(--color3);">Herramientas </h3>
-        <div class="separador mx-start"></div>
-        <br>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-lg-5">
-            </div>
-            <div class="col-lg-7">
-                <ul class="nav nav-pills mb-4 flex-column flex-sm-row shadow-sm bg-light" id="pills-tab" role="tablist">
-                    <li class="nav-item flex-sm-fill" role="presentation">
-                        <button class="nav-link w-100 active py-3" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><b>Cubicol</b></button>
-                    </li>
-                    <li class="nav-item flex-sm-fill" role="presentation">
-                        <button class="nav-link w-100 py-3" id="pills-messages-tab" data-bs-toggle="pill" data-bs-target="#pills-messages" type="button" role="tab" aria-controls="pills-messages" aria-selected="true"><b>Google Meet</b></button>
-                    </li>
-
-                    <li class="nav-item flex-sm-fill" role="presentation">
-                        <button class="nav-link w-100 py-3" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><b>Otras Aplicaciones </b></button>
-                    </li>
-
-                    <li class="nav-item flex-sm-fill" role="presentation">
-                        <button class="nav-link w-100 py-3" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><b>Biblioteca</b></button>
-                    </li>
-                </ul>
-            </div>
-
-
-            <div class="tab-content " id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                    <div class="row ">
-                        <div class="col-lg-5" style="position:relative;margin-top:-85px;">
-                            <video src="./public/videos/VIDEO_CUBICOL.mp4" width="100%" autoplay="" muted="" loop=""></video>
-                            <!-- <img src="./public/img/img-page/arequipa/diadelpadre.jpeg" class="img-fluid" alt=""> -->
-                        </div>
-                        <div class="col-lg-7">
-                            <p><strong>¡Padres siempre comunicados gracias a la notificación virtual inmediata de atención!</strong></p>
-
-                            <p>
-                                A través de nuestra plataforma Cubicol, todos los padres de
-                                familia son informados inmediatamente después de cualquier
-                                atención realizada a sus hijos en nuestro servicio de Enfermería.
-                                De esta manera, ellos pueden conocer el tipo de atención realizada,
-                                motivo y recomendaciones a tener en cuenta, Reduce tiempos al publicar y
-                                gestionar información relevante. Y gestiona la publicación fácil y
-                                rápida de tareas, agendas, noticias, notas, mensajes y mucho más.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-messages" role="tabpanel" aria-labelledby="pills-messages-tab">
-                    <div class="row ">
-                        <div class="col-lg-5" style="position:relative;margin-top:-85px;">
-                            <img src="./public/img/img-page/meet.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-lg-7">
-                            <p>
-                                Es una aplicación de software para videoconferencias, propiedad de Google. Permite interactuar con los estudiantes en tiempo real, vía virtual.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                    <div class="row ">
-                        <div class="col-lg-5" style="position:relative;margin-top:-85px;">
-                            <img src="./public/img/img-page/otrasapp.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-lg-7">
-                            <p>
-                                De acuerdo a la naturaleza de cada curso, acorde al grado
-                                de instrucción de los estudiantes, y dentro del escenario
-                                previsto para la gestión de Educación a Distancia por nuestra
-                                Institución, los Docentes pueden emplear otras plataformas y/o
-                                aplicaciones, además de las mencionadas, para mejorar la experiencia
-                                de Educación a Distancia y lograr mejores resultados en la gestión de
-                                aprendizajes. Es importante señalar que el uso de recursos de este tipo no
-                                es una condición de trabajo, sino, como corresponde propiamente a los objetivos
-                                de la Institución, un recurso con el que se cuenta para garantizar el nivel
-                                apropiado del servicio educativo.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                    <div class="row ">
-                        <div class="col-lg-5" style="position:relative;margin-top:-85px;">
-                            <img src="./public/img/img-page/biblioteca.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-lg-7">
-                            <p>
-                                Nuestra Institución maneja un Banco de Libros,
-                                con material destinado al apoyo del Plan Lector.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- <div class="container">
-        <div class="row">
-            <h3 style="color:var(--color1);">Medios Tecnológicos</h3>
-        </div>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-lg-4"><video src="./public/videos/VIDEO_CUBICOL.mp4" class="shadow rounded" width="100%" autoplay="" muted="" loop=""></video></div>
-            <div class="col-lg-4"><img src="./public/img/img-page/arequipa/meet.jpg" class="img-fluid shadow rounded" alt=""></div>
-            <div class="col-lg-4"><img src="./public/img/img-page/arequipa/otrasapp.jpg" class="img-fluid shadow rounded" alt=""></div>
-        </div>
-    </div> -->
-    <br>
-    <br>
 </body>
 
 <?php include_once  './partials/footer2.php'; ?>

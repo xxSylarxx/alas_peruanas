@@ -12,31 +12,24 @@ switch ($pagina) {
         $active1 .= ' active';
         break;
     case 'historia.php':
-    case 'infraestructura.php':
-    case 'equipo.php':
+    case 'somos.php':
+    case 'valores.php':
         $active2 .= ' active';
         break;
-    case 'inicial.php':
-    case 'primaria.php':
-    case 'secundaria.php':
+    case 'educativa.php':
         $active3 .= ' active';
         break;
-    case 'areas.php':
+    case 'perfil.php':
         $active4 .= ' active';
         break;
-    case 'arte.php':
-    case 'deporte.php':
-    case 'eventos.php':
-    case 'enfermeria.php':
+    case 'talleres.php':
         $active5 .= ' active';
         break;
-    case 'noticias.php':
+    case 'psico.php':
+    case 'coece.php':
+    case 'tutoria.php':
 
         $active6 .= ' active';
-        break;
-    case 'admision.php':
-    case 'matricula.php':
-        $active7 .= ' active';
         break;
 }
 ?>
@@ -78,10 +71,10 @@ switch ($pagina) {
                         <a class="<?= $active3 ?>" href="./educativa.php">PROPUESTA EDUCATIVA</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="<?= $active4 ?>" href="#">PERFIL DEL EGRESADO</a>
+                        <a class="<?= $active4 ?>" href="./perfil.php">PERFIL DEL EGRESADO</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="<?= $active5 ?>" href="#">TALLERES</a>
+                        <a class="<?= $active5 ?>" href="./talleres.php">TALLERES</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="<?= $active6 ?> dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

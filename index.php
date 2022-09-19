@@ -1409,7 +1409,7 @@
                             <img src="./public/img/icons/profesor.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-2 ">
-                            <div class="contador_cantidad text-center" data-cantidad-total="30">0</div>
+                            <div class="contador_cantidad text-center" data-cantidad-total="64">0</div>
                             <div>
                                 <p id="contadorparrafo">docentes</p>
                             </div>
@@ -1422,7 +1422,7 @@
                             <img src="./public/img/icons/escritorios.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3">
-                            <div class="contador_cantidad text-center" data-cantidad-total="261">0</div>
+                            <div class="contador_cantidad text-center" data-cantidad-total="661">0</div>
                             <div>
                                 <p id="contadorparrafo">estudiantes</p>
                             </div>

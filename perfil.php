@@ -149,22 +149,14 @@
             background-color: rgba(255, 255, 255, .8);
             
         } */
-        #valores {
-            margin-top: -100px;
-        }
 
 
         #valores .flip {
             height: 200px;
             padding: 0.6em;
-
-
-
-
         }
 
         #valores .card {
-
             position: relative;
             width: 100%;
             height: 100%;
@@ -176,14 +168,16 @@
             background-color: white;
         }
 
-        #valores .flip:nth-child(1):hover .card {
-            transform: rotateY(180deg);
-
+        #valores .card:hover {
+            transform: scale(1.08);
         }
+
+        /* #valores .flip:nth-child(5):hover .card {
+            transform: rotateY(180deg);
+        } */
 
         #valores .front,
         #valores .back {
-
             position: absolute;
             width: 100%;
             height: 100%;
@@ -196,10 +190,7 @@
         }
 
         #valores .front {
-
             color: var(--color3);
-
-
         }
 
         #valores .back {
@@ -210,14 +201,10 @@
             background-color: var(--color4);
             box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgba(255, 255, 255, 1) 0px 0px 0px 3px;
             padding: 0.5em;
-
-
         }
 
         #valores .back h4 {
             text-align: center;
-
-
         }
 
         #valores .back span {
@@ -225,8 +212,6 @@
             margin-right: 2px;
             color: black;
             text-align: justify;
-
-
         }
 
 
@@ -235,16 +220,11 @@
             border: 2px solid var(--color1);
         }
 
-        /* 
-        #bienvenidos {
-            margin-top: 33px;
-        } */
 
         #bienvenidos-parrafo {
             background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./public/img/img-page/portada_eventos.jpg');
-            background-size: 160%;
-            background-repeat: no-repeat;
+                url('./public/img/img-page/arequipa/fachadaf.jpg');
+            background-size: 140%;
             padding: 6rem;
 
         }
@@ -262,14 +242,13 @@
 
         #bienvenidos-parrafo2 p {
             color: black;
-            text-align: justify;
-            /* padding-left: .5rem;
-            padding-right: 10rem; */
+            text-align: start;
+            padding-left: .5rem;
+            padding-right: 10rem;
 
         }
 
-        #bienvenidos-parrafo
-        h2 {
+        #bienvenidos-parrafo p {
 
             color: white;
             padding-left: .5rem;
@@ -771,10 +750,10 @@
 
         #portada {
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-                url('./public/img/img-page/portada_somos2.jpg');
+                url('./public/img/img-page/secundaria.jpg');
             /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
             background-size: 100%;
-            background-position: center; 
+            /* background-position: center; */
             background-attachment: fixed;
             margin-top: -12rem;
 
@@ -789,9 +768,9 @@
             opacity: .08;
             filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
             position: absolute;
-            height: 90%;
-            top: 75%;
-            left: -51px;
+            height: 100%;
+            top: 130%;
+            left: 8%;
         }
 
 
@@ -913,6 +892,109 @@
             animation: aparecer 1.3s;
         }
 
+        /* para ocultar los iconos por defecto*/
+
+        .accordion-button:not(.collapsed)::after {
+
+            content: "";
+
+            background-image: url("");
+
+        }
+
+        .accordion-button::after {
+
+            width: 0px;
+
+            height: 0px;
+
+            content: "";
+
+            background-image: url("");
+
+            background-size: 0px;
+        }
+
+        /* color y tamaño en modo activo */
+
+        .accordion-button:not(.collapsed) div.boton-icono {
+
+            color: var(--color5);
+
+            font-size: 20px;
+
+            -webkit-transform: rotate(90deg);
+
+            transform: rotate(90deg);
+
+        }
+
+        /* color y tamaño */
+
+        .accordion-button div.boton-icono {
+
+            color: var(--color1);
+
+            font-size: 20px;
+
+            transition: -webkit-transform 0.2s ease-in-out;
+
+            transition: transform 0.2s ease-in-out;
+
+            transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+
+        }
+
+        .accordion-button {
+
+            font-weight: bold;
+
+            color: var(--color1);
+
+            font-size: 17.5px;
+        }
+
+        .accordion-button:hover {
+
+            color: var(--color1);
+
+        }
+
+        .accordion-flush .accordion-item {
+
+            border-bottom: 0;
+        }
+
+        .accordion-button:not(.collapsed) {
+
+            color: var(--color5);
+            background-color: var(--color1) !important;
+        }
+
+        .accordion-button {
+            background-color: var(--color8) !important;
+            border-radius: 50px;
+            /* border-bottom: 2px solid var(--color1); */
+        }
+
+        .accordion-button:focus {
+            border-color: var(--color1) !important;
+            box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+
+        }
+
+        .accordion-item {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        #metodologicos span {
+            font-weight: 900;
+            font-size: 5rem;
+            display: flex;
+            justify-content: center;
+            color: var(--color1);
+        }
 
 
 
@@ -949,7 +1031,7 @@
                 <div class="col-lg-12">
                     <h2 class="ml6">
                         <span class="text-wrapper">
-                            <span class="letters" style="font-size:50px;">Nosotros
+                            <span class="letters" style="font-size:50px;">Perfiles
                             </span>
                         </span>
                         <!-- <div class="separador mx-start"></div> -->
@@ -969,22 +1051,14 @@
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-6 mt-4 mb-4">
 
-                    <h1 style="text-align:start;color:var(--color3);">Quienes Somos</h1>
+                    <h1 style="text-align:start;color:var(--color3);">Perfil del Egresado</h1>
                     <div class="separador mx-start"></div>
                     <img class="bgmusica" src="./public/img/icons/dios.png" alt="">
                 </div>
                 <div class="col-lg-5 mt-4 mb-4">
                     <div class="row ">
                         <div class="col-lg">
-                            <p>Somos una institución educativa 
-                                privada, que da servicio educativo a niños, 
-                                niñas y adolescentes, que, ante el contexto actual, 
-                                de cambios acelerados en la ciencia y la tecnología, hace posible 
-                                que nuestra propuesta en materia educativa sea una alternativa de 
-                                cambio y desarrollo. Que toda la comunidad educativa unida construimos 
-                                experiencias de aprendizaje, que nos sirve para crecer y como ciudadanos
-                                mejorar la calidad de vida.
-                            </p>
+                            <p>El perfil de egreso es la visión común e integral de lo que deben lograr los estudiantes al término de la educación básica. El perfil de egreso describe los aprendizajes comunes que todos los estudiantes deben alcanzar como producto de su formación básica para desempeñar un papel activo en la sociedad y seguir aprendiendo a lo largo de la vida. Estos perfiles son:</p>
                         </div>
                     </div>
                 </div>
@@ -993,64 +1067,64 @@
 
     </section>
 
-    <section id="historia2">
-        <div class="container-fluid">
+    <section>
+        <div class="container">
             <div class="row d-flex justify-content-between">
-                <div id="bienvenidos-parrafo" class="col-lg-6 p-0">
-                    <div style="padding: 3rem;">
-                        <img src="./public/img/icons/mision.png" alt="">
+                <div class="col-md-12  my-auto text-justify px-4">
+                    <section class="d-flex list  ">
+                        <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
+                        <span class="ms-3">Afirma su identidad.</span>
+                    </section>
+                    <section class="d-flex list  ">
+                        <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
+                        <span class="ms-3 my-auto">Ejerce su ciudadanía</span>
+                    </section>
+                    <section class="d-flex list ">
+                        <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
+                        <span class="ms-3">Muestra respeto y tolerancia por las creencias, cosmovisiones y expresiones religiosas diversas.</span>
+                    </section>
+                    <section class="d-flex list ">
+                        <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
+                        <span class="ms-3">Se desenvuelven con iniciativa a través de su motricidad.</span>
+                    </section>
+                    <section class="d-flex list">
+                        <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
+                        <span class="ms-3">Aprecian artísticamente y crean producciones.</span>
+                    </section>
+                    <section class="d-flex list ">
+                        <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
+                        <span class="ms-3">Se comunica en su lengua materna, en castellano como segunda lengua y en inglés como lengua extranjera.</span>
+                    </section>
+                    <section class="d-flex list ">
+                        <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
+                        <span class="ms-3">Indagan y comprenden el mundo físico que los rodea.</span>
+                    </section>
+                    <section class="d-flex list">
+                        <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
+                        <span class="ms-3">Interpretan la realidad y toman decisiones a partir de conocimientos matemáticos.</span>
+                    </section>
+                    <section class="d-flex list ">
+                        <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
+                        <span class="ms-3">Gestionan proyectos de emprendimiento económico social.</span>
+                    </section>
+                    <section class="d-flex list">
+                        <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
+                        <span class="ms-3">Aprovecha reflexiva y responsablemente las tecnologías de la información de la comunicación (TIC)</span>
+                    </section>
+                    <section class="d-flex list">
+                        <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
+                        <span class="ms-3">Desarrollo procesos autónomos de aprendizaje.</span>
+                    </section>
 
-                        <h2>MISIÓN</h2>
-                        <br>
-                        <p>Ser una institución educativa líder en brindar servicios educativos de calidad, que forma personas líderes que sean competentes y competitivos, preparando estudiantes para asumir valores y principios con posibilidad de generar un proyecto de vida pertinente, a través de una educación integral, innovadora y de calidad capaces de dialogar y encontrar satisfacción en la vida plural y justa, y se vuelvan cada vez más autónomos en sus procesos de aprendizaje, comprometidos en contribuir a la conservación del medio ambiente y al desarrollo de la familia y de una sociedad solidaria en un marco de justicia y paz.
-                        </p>
-
-                    </div>
-                </div>
-                <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/somos1.jpg" width="100%" height="600" style="object-fit:cover;" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row d-flex justify-content-between">
-                <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/karate.jpg" width="100%" height="600" style="object-fit:cover;" alt="">
-                </div>
-                <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
-                    <div style="padding: 3rem;">
-                        <img src="./public/img/icons/vison.png" alt="">
-                        <h2 style="color:black;">VISIÓN</h2>
-                        <br>
-                        <p class="card_text">Ser reconocidos en la sociedad peruana como una institución que constituye una alternativa educacional de calidad por su propuesta curricular propia e innovadora, que utilice las nuevas tecnologías con procesos de enseñanza y aprendizajes híbridos, medios de comunicación, cultura de la lectura y corrientes pedagógicas actuales que garanticen una formación sólida en valores, ciudadanía, identidad personal, cuidando y preservando el medio ambiente con visión de desarrollo sostenible y apertura al mundo globalizado a través de proyectos productivos. A fin de colaborar en la construcción de una sociedad más justa y solidaria.</p>
-
-
-                    </div>
                 </div>
 
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row d-flex justify-content-between">
-                <div id="bienvenidos-parrafo" class="col-lg-6 p-0">
-                    <div style="padding: 3rem;">
-                        <img src="./public/img/icons/fines.png" alt="">
-                        <h2>FINES</h2>
-                        <br>
-                        <p>El fin de la Institución Educativa Privada “ALAS PERUANAS”, es asegurar la calidad del servicio educativo, sujeto a los cambios e innovaciones tecnológicas, axiológicas, filosóficas y normativas, a las nuevas concepciones sobre paradigmas, enfoques y tendencias educativas, contemplados en El Marco del Sistema Curricular Nacional, teniendo como fortaleza un equipo directivo competente con acceso a sus cargos mediante evaluación meritocrática, acorde al Marco del Buen Desempeño del Directivo, conscientes y capaces asumir su rol, con un enfoque de gestión en liderazgo pedagógico y hacia el logro de las metas de los resultados del aprendizaje.
-                        </p>
-                        <p>Nuestra Institución Educativa, acoge el compromiso de emprender un cambio en nuestros modelos o paradigma pedagógicos de gestión y de enseñanza para el desarrollo de competencias, poniendo de manifiesto los principios, los valores religiosos, éticos y morales que rigen nuestra convivencia institucional, con un trabajo colaborativo y colegiado para elevar la calidad educativa avanzando hacia el futuro deseado.</p>
 
-                    </div>
-                </div>
-                <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/proceso_admision.jpg" width="100%" height="750" style="object-fit:cover;" alt="">
-                </div>
             </div>
         </div>
     </section>
-
-    <section id="importantes">
+    <br>
+    <br>
+    <!-- <section id="importantes">
         <div class="container">
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-3 d-flex justify-content-center contador">
@@ -1072,7 +1146,7 @@
                             <img src="./public/img/icons/profesor.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-2 ">
-                            <div class="contador_cantidad text-center" data-cantidad-total="64">0</div>
+                            <div class="contador_cantidad text-center" data-cantidad-total="30">0</div>
                             <div>
                                 <p id="contadorparrafo">docentes</p>
                             </div>
@@ -1085,7 +1159,7 @@
                             <img src="./public/img/icons/escritorios.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3">
-                            <div class="contador_cantidad text-center" data-cantidad-total="661">0</div>
+                            <div class="contador_cantidad text-center" data-cantidad-total="261">0</div>
                             <div>
                                 <p id="contadorparrafo">estudiantes</p>
                             </div>
@@ -1107,122 +1181,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <div class="container">
-        <br>
-        <br>
-        <br>
-        <h3 style="color:var(--color3);">Herramientas </h3>
-        <div class="separador mx-start"></div>
-        <br>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-lg-5">
-            </div>
-            <div class="col-lg-7">
-                <ul class="nav nav-pills mb-4 flex-column flex-sm-row shadow-sm bg-light" id="pills-tab" role="tablist">
-                    <li class="nav-item flex-sm-fill" role="presentation">
-                        <button class="nav-link w-100 active py-3" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><b>Cubicol</b></button>
-                    </li>
-                    <li class="nav-item flex-sm-fill" role="presentation">
-                        <button class="nav-link w-100 py-3" id="pills-messages-tab" data-bs-toggle="pill" data-bs-target="#pills-messages" type="button" role="tab" aria-controls="pills-messages" aria-selected="true"><b>Google Meet</b></button>
-                    </li>
+    </section> -->
 
-                    <li class="nav-item flex-sm-fill" role="presentation">
-                        <button class="nav-link w-100 py-3" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><b>Otras Aplicaciones </b></button>
-                    </li>
-
-                    <li class="nav-item flex-sm-fill" role="presentation">
-                        <button class="nav-link w-100 py-3" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><b>Biblioteca</b></button>
-                    </li>
-                </ul>
-            </div>
-
-
-            <div class="tab-content " id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                    <div class="row ">
-                        <div class="col-lg-5" style="position:relative;margin-top:-85px;">
-                            <video src="./public/videos/VIDEO_CUBICOL.mp4" width="100%" autoplay="" muted="" loop=""></video>
-                            <!-- <img src="./public/img/img-page/arequipa/diadelpadre.jpeg" class="img-fluid" alt=""> -->
-                        </div>
-                        <div class="col-lg-7">
-                            <p><strong>¡Padres siempre comunicados gracias a la notificación virtual inmediata de atención!</strong></p>
-
-                            <p>
-                                A través de nuestra plataforma Cubicol, todos los padres de
-                                familia son informados inmediatamente después de cualquier
-                                atención realizada a sus hijos en nuestro servicio de Enfermería.
-                                De esta manera, ellos pueden conocer el tipo de atención realizada,
-                                motivo y recomendaciones a tener en cuenta, Reduce tiempos al publicar y
-                                gestionar información relevante. Y gestiona la publicación fácil y
-                                rápida de tareas, agendas, noticias, notas, mensajes y mucho más.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-messages" role="tabpanel" aria-labelledby="pills-messages-tab">
-                    <div class="row ">
-                        <div class="col-lg-5" style="position:relative;margin-top:-85px;">
-                            <img src="./public/img/img-page/meet.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-lg-7">
-                            <p>
-                                Es una aplicación de software para videoconferencias, propiedad de Google. Permite interactuar con los estudiantes en tiempo real, vía virtual.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                    <div class="row ">
-                        <div class="col-lg-5" style="position:relative;margin-top:-85px;">
-                            <img src="./public/img/img-page/otrasapp.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-lg-7">
-                            <p>
-                                De acuerdo a la naturaleza de cada curso, acorde al grado
-                                de instrucción de los estudiantes, y dentro del escenario
-                                previsto para la gestión de Educación a Distancia por nuestra
-                                Institución, los Docentes pueden emplear otras plataformas y/o
-                                aplicaciones, además de las mencionadas, para mejorar la experiencia
-                                de Educación a Distancia y lograr mejores resultados en la gestión de
-                                aprendizajes. Es importante señalar que el uso de recursos de este tipo no
-                                es una condición de trabajo, sino, como corresponde propiamente a los objetivos
-                                de la Institución, un recurso con el que se cuenta para garantizar el nivel
-                                apropiado del servicio educativo.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                    <div class="row ">
-                        <div class="col-lg-5" style="position:relative;margin-top:-85px;">
-                            <img src="./public/img/img-page/biblioteca.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-lg-7">
-                            <p>
-                                Nuestra Institución maneja un Banco de Libros,
-                                con material destinado al apoyo del Plan Lector.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- <div class="container">
-        <div class="row">
-            <h3 style="color:var(--color1);">Medios Tecnológicos</h3>
-        </div>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-lg-4"><video src="./public/videos/VIDEO_CUBICOL.mp4" class="shadow rounded" width="100%" autoplay="" muted="" loop=""></video></div>
-            <div class="col-lg-4"><img src="./public/img/img-page/arequipa/meet.jpg" class="img-fluid shadow rounded" alt=""></div>
-            <div class="col-lg-4"><img src="./public/img/img-page/arequipa/otrasapp.jpg" class="img-fluid shadow rounded" alt=""></div>
-        </div>
-    </div> -->
     <br>
     <br>
 </body>
@@ -1346,8 +1306,5 @@
             delay: 1000
         });
 </script>
-
-
-
 
 </html>
