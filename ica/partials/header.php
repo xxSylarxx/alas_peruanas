@@ -38,7 +38,10 @@ switch ($pagina) {
     case 'matricula.php':
         $active7 .= ' active';
         break;
+    case 'index.php#contacto':
     
+        $active8 .= ' active';
+        break;
 }
 ?>
 
@@ -47,8 +50,6 @@ switch ($pagina) {
 
 <!-- <div id="head-top"></div> -->
 <header class="" id="header">
-  
-
     <nav class="navbar navbar-expand-lg navbar-light  py-3">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="index.php">
@@ -117,8 +118,9 @@ switch ($pagina) {
                             <li><a class="dropdown-item" href="#">JORNADA ESCOLAR</a></li> -->
                         </ul>
                     </li>
+
                     <li class="nav-item ">
-                        <a class="<?= $active4 ?>" href="#contacto">CONTACTO</a>
+                        <a class="nav-link" href="./index.php#contacto">CONTACTO</a>
                     </li>
                 </ul>
             </div>
@@ -126,7 +128,7 @@ switch ($pagina) {
     </nav>
 
 </header>
-<?php include_once  './partials/flotante.php'; ?>
+
 <!-- <script>
     var height = document.getElementById('header').clientHeight;
     document.getElementById('head-top').style.height = height + "px";

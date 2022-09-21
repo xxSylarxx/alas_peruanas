@@ -996,9 +996,10 @@
                         </div>
                         <div class="back">
                             <p>
-                                A partir del distanciamiento físico de 1 m, se debe calcular el aforo
-                                máximo de cada espacio y organizar el mobiliario para que las y los estudiantes,
-                                docentes y personal administrativo desarrollen sus actividades.
+                                A partir del distanciamiento físico de 1 m, 
+                                se  calcula el aforo máximo de cada espacio y  organiza 
+                                el mobiliario para que las y los estudiantes, docentes y 
+                                personal administrativo desarrollen sus actividades.
                             </p>
                         </div>
                     </div>

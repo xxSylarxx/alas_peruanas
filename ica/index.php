@@ -896,23 +896,13 @@
             }
         }
     </style>
-
+    <?php include_once  './partials/flotante.php'; ?>
     <div class="redesS">
-        <!-- <div class="red">
-            <a class="yt" href="#" target="_blank">
-                <span><i class="fab fa-youtube"></i></span>
-            </a>
-        </div> -->
         <div class="red">
             <a class="fb" href="https://www.facebook.com/Colegio-Alas-Peruanas-AQP-100289138340360/?ref=pages_you_manage" target="_blank">
                 <span><i class="fab fa-facebook-f"></i></span>
             </a>
         </div>
-        <!-- <div class="red">
-            <a class="tw" href="#" target="_blank">
-                <span><i class="fab fa-twitter"></i></span>
-            </a>
-        </div> -->
         <div class="red">
             <a class="ig" href="https://www.instagram.com/colegio_alas_peruanas/" target="_blank">
                 <span><i class="fab fa-instagram"></i></span>

@@ -261,7 +261,7 @@
 
             position: relative;
             z-index: 1;
-            width: 15rem;
+
             height: 3rem;
 
         }
@@ -1001,22 +1001,7 @@
         </div>
         <img src="./public/img/icons/logo.png" id="loadEscudo" height="78">
     </div>
-  
-    <div class="redesS">
-
-        <div class="red">
-            <a class="fb" href="https://www.facebook.com/Colegio-Alas-Peruanas-AQP-100289138340360/?ref=pages_you_manage" target="_blank">
-                <span><i class="fab fa-facebook-f"></i></span>
-            </a>
-        </div>
-
-        <div class="red">
-            <a class="ig" href="https://www.instagram.com/colegio_alas_peruanas/" target="_blank">
-                <span><i class="fab fa-instagram"></i></span>
-            </a>
-        </div>
-    </div>
-
+    <?php include_once  './partials/flotante.php'; ?>
     <section id="slider">
         <div class="container-fluid content-banner px-0">
             <div id="carouselBanner" class="carousel slide pointer-event" data-bs-ride="carousel">
@@ -1120,7 +1105,7 @@
                             <br>
                             <div class="d-flex justify-content-center">
                                 <div class="main_div">
-                                    <a href="./historia.php"><button>Conoce Nuestra Historia</button></a>
+                                    <a href="./historia.php"><button>Ver Más</button></a>
                                 </div>
                             </div>
                         </div>
@@ -1167,6 +1152,15 @@
                                         habilidades y conocimientos necesarios para desenvolverse en ambos idiomas
                                         de manera fluida.
                                     </p>
+                                    <br>
+                                    <div class="row">
+                                        <center>
+                                            <a href="./valores.php"><button class="btn" type="submit">
+                                                Ver Más
+                                            </button></a>
+                                        </center>
+
+                                    </div>
                                 </div>
                             </div>
 
@@ -1195,13 +1189,21 @@
                                         solidaria es aquella brinda apoyo a otra solo por empatía, al
                                         reconocer que el otro tiene una necesidad que en esos momentos
                                         no puede cubrir.
-
                                     </p>
+                                    <br>
+                                    <div class="row">
+                                        <center>
+                                            <a href="./valores.php"><button class="btn" type="submit">
+                                                Ver Más
+                                            </button></a>
+                                        </center>
+
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="col-md-5 p-0">
-                                <img src="./public/img/img-page/inicialf2.jpg" style="object-fit:cover;vertical-align:middle;" width="100%" height="500">
+                                <img src="./public/img/img-page/portada_somos.jpg" style="object-fit:cover;vertical-align:middle;" width="100%" height="500">
 
 
                             </div>
@@ -1223,11 +1225,20 @@
                                         de sus actos y decisiones desde su libertad cumpliendo una labor
                                         o tarea de la mejor forma posible.
                                     </p>
+                                    <br>
+                                    <div class="row">
+                                        <center>
+                                            <a href="./valores.php"><button class="btn" type="submit">
+                                                Ver Más
+                                            </button></a>
+                                        </center>
+
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="col-md-5 p-0">
-                                <img src="./public/img/img-page/inicialf2.jpg" style="object-fit:cover;vertical-align:middle;" width="100%" height="500">
+                                <img src="./public/img/img-page/portada_somos2.jpg" style="object-fit:cover;vertical-align:middle;" width="100%" height="500">
 
 
                             </div>
@@ -1250,13 +1261,20 @@
                                         relación de equidad y justicia generando una convivencia
                                         pacífica.
                                     </p>
+                                    <br>
+                                    <div class="row">
+                                        <center>
+                                            <a href="./valores.php"><button class="btn" type="submit">
+                                                Ver Más
+                                            </button></a>
+                                        </center>
+
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="col-md-5 p-0">
-                                <img src="./public/img/img-page/inicialf2.jpg" style="object-fit:cover;vertical-align:middle;" width="100%" height="500">
-
-
+                                <img src="./public/img/img-page/portada_valores.jpg" style="object-fit:cover;vertical-align:middle;" width="100%" height="500">
                             </div>
 
                         </div>
@@ -1274,13 +1292,20 @@
                                     <p>
                                         Es la virtud que caracteriza a las personas por el respeto a las buenas costumbres, a los principios morales y a los bienes ajenos. Este valor es de suma importancia para mantener una buena convivencia.
                                     </p>
+                                    <br>
+                                    <div class="row">
+                                        <center>
+                                            <a href="./valores.php"><button class="btn" type="submit">
+                                                Ver Más
+                                            </button></a>
+                                        </center>
+
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="col-md-5 p-0">
-                                <img src="./public/img/img-page/inicialf2.jpg" style="object-fit:cover;vertical-align:middle;" width="100%" height="500">
-
-
+                                <img src="./public/img/img-page/karate.jpg" style="object-fit:cover;vertical-align:middle;" width="100%" height="500">
                             </div>
 
                         </div>

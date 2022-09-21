@@ -871,34 +871,6 @@
         }
     </style>
 
-
-    <!--  <section id="valores" class="animate__animated animate__zoomIn">
-        <div class="container-fluid p-5">
-            <div class="row d-flex ">
-                <div class="col-lg d-flex justify-content-center mx-3">
-                    <img src="./public/img/icons/libertad.png" class="img-fluid" width="50" height="50" alt="">
-                    <h5 class="my-auto mx-3">Libertad</h5>
-                </div>
-
-                <div class="col-lg d-flex justify-content-center mx-3"><img src="./public/img/icons/solidaridad.png" class="img-fluid" width="50" height="50" alt="">
-                    <h5 class="my-auto mx-3">Solidaridad</h5>
-                </div>
-
-                <div class="col-lg d-flex justify-content-center mx-3"><img src="./public/img/icons/responsabilidad.png" class="img-fluid" width="50" height="50" alt="">
-                    <h5 class="my-auto mx-3">Responsabilidad</h5>
-                </div>
-
-                <div class="col-lg d-flex justify-content-center mx-3"><img src="./public/img/icons/respeto.png" class="img-fluid" width="50" height="50" alt="">
-                    <h5 class="my-auto mx-3">Respeto</h5>
-                </div>
-
-                <div class="col-lg d-flex justify-content-center mx-3"><img src="./public/img/icons/honestidad.png" class="img-fluid" width="50" height="50" alt="">
-                    <h5 class="my-auto mx-3">Honestidad</h5>
-                </div>
-            </div>
-        </div>
-
-    </section> -->
     <section id="portada">
         <div class="container">
             <div class="row">
@@ -974,7 +946,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/arequipa/bienvenidos6.jpg" width="100%" height="100%" alt="">
+                    <img src="./public/img/img-page/arequipa/nosotrosv222.jpg" width="100%" height="600" style="object-fit: cover;" alt="">
                 </div>
             </div>
         </div>
@@ -1009,7 +981,7 @@
                         <p class="px-3">En el año 2021 segundo puesto en Juegos Florales en Instrumentación Solista en los Juegos Florales a nivel Ugel Arequipa Norte.</p>
                         <p class="px-3">Actualmente sus instalaciones están equipadas con tecnología moderna, se cuenta con centro de computación, robótica, laboratorio de
                             física y química, biblioteca, los salones están equipados con computadoras y cañones multimedia y
-                            se además un circuito cerrado de cámaras de vigilancia.</p>
+                            además un circuito cerrado de cámaras de vigilancia.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">

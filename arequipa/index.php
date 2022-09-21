@@ -896,17 +896,7 @@
             }
         }
     </style>
-    <!-- <div id="preload">
-
-        <div id="circulo">
-
-            <div class="loadmove">
-
-            </div>
-
-        </div>
-        <img src="./public/img/icons/logo.png" id="loadEscudo" height="78">
-    </div> -->
+  <?php include_once  './partials/flotante.php'; ?>
     <div class="redesS">
         <!-- <div class="red">
             <a class="yt" href="#" target="_blank">
@@ -944,7 +934,7 @@
                             <div class="text-banner">
                                 <img src="./public/img/icons/logo.png" alt="">
                                 <br>
-                                <p id="lema-banner">"Educamos para la vida"</p>
+                                <p id="lema-banner">"Educación para la vida"</p>
                                 <a href="./inicial.php"><span>NIVEL INICIAL</span></a>
                                 <br>
                                 <br>
@@ -962,7 +952,7 @@
                             <div class="text-banner">
                                 <img src="./public/img/icons/logo.png" alt="">
                                 <br>
-                                <p id="lema-banner">"Educamos para la vida"</p>
+                                <p id="lema-banner">"Educación para la vida"</p>
                                 <a href="./primaria.php"><span>NIVEL PRIMARIA</span></a>
                                 <br>
                                 <br>
@@ -977,7 +967,7 @@
                             <div class="text-banner">
                                 <img src="./public/img/icons/logo.png" alt="">
                                 <br>
-                                <p id="lema-banner">"Educamos para la vida"</p>
+                                <p id="lema-banner">"Educación para la vida"</p>
                                 <a href="./secundaria.php"><span>NIVEL SECUNDARIA</span></a>
                                 <br>
                                 <br>
@@ -1286,7 +1276,7 @@
     <section id="lema">
         <div class="container">
             <h2>30 años al servicio de la educación</h2>
-            <em>formando líderes con pensamiento crítico y creativo</em>
+            <em>Formando líderes con pensamiento crítico y creativo</em>
             <br>
             <h3 class="title"> <a href="admision.php" style="color: var(--color5);">ADMISIÓN 2023 </a> </h3>
         </div>
@@ -1307,7 +1297,7 @@
         <div class="container">
             <div class="row" style="padding-left:8%;padding-right:8%;">
                 <div class="col-md-4 px-3 my-3">
-                    <a href="view2.php?id=8">
+                    <a href="view.php?id=3">
                         <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
                             <span class="news">Noticias</span>
                             <img src="./public/img/galeria/aniversarioarequipa.jpg" width="100%" height="250">
@@ -1335,7 +1325,7 @@
                 </div>
 
                 <div class="col-md-4 px-3 my-3">
-                    <a href="view2.php?id=7">
+                    <a href="view.php?id=2">
                         <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
                             <span class="news">Noticias</span>
                             <img src="./public/img/galeria/cachimbo.jpg" width="100%" height="250">
@@ -1362,7 +1352,7 @@
                 </div>
 
                 <div class="col-md-4 px-3 my-3">
-                    <a href="view2.php?id=5">
+                    <a href="view.php?id=1">
                         <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
                             <span class="news">Noticias</span>
                             <img src="./public/img/galeria/ajedrez.jpg" width="100%" height="250">
@@ -1408,7 +1398,7 @@
                             <span class="me-4"> <i class="fas fa-phone-alt fa-lg" style="color: var(--color1);"></i> </span>
                             <div class="col-lg">
                                 <h5>Teléfonos</h5>
-                                <p class="mt-3 text">054 237216 - 994344681</p>
+                                <p class="mt-3 text">054 237216 – 997700345</p>
                             </div>
                         </div>
                         <div class="d-flex " style="margin:0px 0px 0px 3px;">
@@ -1419,25 +1409,7 @@
                                 <a id="correocontacto" href="mailto:iepalasperuanasaqp@iepap.edu.pe" class="mt-3 text">iepalasperuanasaqp@iepap.edu.pe</a>
                             </div>
                         </div>
-
-                        <!-- <div class="d-flex email">
-                        <span class="me-4"> <i class="fas fa-envelope fa-lg" style="color: var(--color1);"></i> </span>
-                        <div>
-                            <h5>Email</h5>
-                            <a href=" mailto:southerntechnologicalinstitute@gmail.com" class="mt-3" style="color: var(--color5);">southerntechnologicalinstitute@gmail.com</a>
-                        </div>
-                    </div> -->
                     </div>
-                    <!-- <div class="d-flex addres">
-                        <span class="me-4"> <i class="fas fa-envelope fa-lg" style="color: var(--color1);"></i> </span>
-                        <div>
-                            <h5>Email</h5>
-                            <a href="mailto:admision-alasperuanas_aqp@iepap.edu.pe" class="mt-3 text" style="color: var(--color3);font-family: 'helvetica', sans-serif;
-                                    text-align: justify;">admision-alasperuanas_aqp@iepap.edu.pe</a><br>
-                            <a href="mailto:iepalasperuanasaqp@iepap.edu.pe" class="mt-3 text" style="color: var(--color3);font-family: 'helvetica', sans-serif;
-                                    text-align: justify;">iepalasperuanasaqp@iepap.edu.pe</a>
-                        </div>
-                    </div> -->
                     <div class="d-flex addres">
                         <span class="me-4"> <i class="fas fa-map-marker-alt fa-lg" style="color: var(--color1);"></i> </span>
                         <div>

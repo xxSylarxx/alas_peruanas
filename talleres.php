@@ -241,7 +241,7 @@
         } */
 
         #bienvenidos-parrafo {
-            background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
+            background: linear-gradient(rgba(136, 28, 34, 1) 100%, #ffff 10%, #ffff 50%),
                 url('./public/img/img-page/portada_arte3.jpg');
             background-size: 240%;
             background-repeat: no-repeat;
@@ -291,25 +291,7 @@
             margin-bottom: 20px;
 
         }
-
-        /*  #bienvenidos-parrafo2 {
-            background: linear-gradient(rgba(0, 0, 0, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./public/img/img-page/arequipa/fachada1.jpg');
-            background-size: 120%;
-            padding: 6rem;
-
-        } */
-
-        /* #historia {
-            background: linear-gradient(rgba(129, 17,19, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./public/img/img-page/arequipa/fachada1.jpg');
-            background-size: 100%;
-            padding: 2rem;
-
-        } */
-
-
-        .main_div {
+       .main_div {
 
             position: relative;
             z-index: 1;
@@ -770,7 +752,7 @@
 
         #portada {
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-                url('./public/img/img-page/deporte_karate.jpg');
+                url('./public/img/img-page/portada_deportes.jpg');
             /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
             background-size: 100%;
             background-position: top;
@@ -788,9 +770,9 @@
             opacity: .08;
             filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
             position: absolute;
-            height: 90%;
-            top: 75%;
-            left: -51px;
+            height: 43%;
+            top: 80%;
+            left: 155px;
         }
 
 
@@ -911,6 +893,10 @@
         .animar {
             animation: aparecer 1.3s;
         }
+        #bienvenidos-interno{
+            padding-top: 6rem;
+            padding-bottom: 5rem;
+        }
 
 
 
@@ -927,7 +913,7 @@
             }
 
             #bienvenidos-parrafo {
-                background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
+                background: linear-gradient(rgba(136, 28, 34, 1) 100%, #ffff 10%, #ffff 50%),
                     url('./public/img/img-page/arequipa/fachadaf.jpg');
                 background-size: 160%;
                 padding: 6rem;
@@ -962,12 +948,10 @@
         </div>
     </section>
     <section id="bienvenidos-interno">
-        <br>
-        <br>
+        
         <div class="container">
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-6 mt-4 mb-4">
-
                     <h1 style="text-align:start;color:var(--color3);">Talleres extracurriculares</h1>
                     <div class="separador mx-start"></div>
                     <img class="bgmusica" src="./public/img/icons/dios.png" alt="">
@@ -1023,14 +1007,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/deporte_campo_futbol.jpg" width="100%" height="900" style="object-fit:cover;" alt="">
+                    <img src="./public/img/img-page/futbolv2.jpg" width="100%" height="750" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/karate.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img src="./public/img/img-page/taek.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 3rem;">
@@ -1078,7 +1062,7 @@
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/art_1.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img src="./public/img/img-page/musicav22.jpeg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 3rem;">

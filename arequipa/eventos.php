@@ -922,24 +922,22 @@
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/arequipa/diadelcolegio.jpeg" width="100%" height="100%" style="object-fit:cover;" alt="">
+                    <img src="./public/img/img-page/arequipa/diadelcolegiov2.jpg" width="100%" height="100%" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">
                         <img src="./public/img/icons/colegio.png" alt="">
                         <h2 style="color:white;">DÍA DEL COLEGIO</h2>
                         <br>
-                        <p>Cada 23 de setiembre celebramos el aniversario de
-                            nuestro Colegio Alas Peruanas. Un día en el
-                            que toda la Comunidad celebra el Día del
-                            \Colegio en una especial ceremonia y
-                            espectáculo artístico, para luego disfrutar
-                            de Nuestra Fiesta Familiar es el evento donde
-                            contamos con la mayor participación de los miembros
-                            de la Comunidad Alas Peruanas, incluyendo familiares
-                            y público arequipeño. Un día donde la comunidad disfruta
-                            de buena música, comida, presentaciones artísticas, nuestra
-                            tradicional, Bingo, y la infaltable Tómbola.
+                        <p>Cada 23 de setiembre celebramos el aniversario de 
+                            nuestro Colegio Alas Peruanas. Un día en el que 
+                            toda la Comunidad celebra el Día del Colegio en una 
+                            especial ceremonia y espectáculo artístico, para luego 
+                            disfrutar de Nuestra Fiesta Familiar es el evento donde 
+                            contamos con la participación de los miembros de la Comunidad 
+                            Alas Peruanas, incluyendo familiares y público arequipeño. Un
+                            día donde la comunidad disfruta de buena música, comida, presentaciones 
+                            artísticas, eL tradicional Bingo, y la infaltable Tómbola.
                         </p>
 
                     </div>

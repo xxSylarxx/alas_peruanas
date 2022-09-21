@@ -241,7 +241,7 @@
         } */
 
         #bienvenidos-parrafo {
-            background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
+            background: linear-gradient(rgba(136, 28, 34, 1) 100%, #ffff 10%, #ffff 50%),
                 url('./public/img/img-page/portada_eventos.jpg');
             background-size: 160%;
             background-repeat: no-repeat;
@@ -293,21 +293,7 @@
 
         }
 
-        /*  #bienvenidos-parrafo2 {
-            background: linear-gradient(rgba(0, 0, 0, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./public/img/img-page/arequipa/fachada1.jpg');
-            background-size: 120%;
-            padding: 6rem;
-
-        } */
-
-        /* #historia {
-            background: linear-gradient(rgba(129, 17,19, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./public/img/img-page/arequipa/fachada1.jpg');
-            background-size: 100%;
-            padding: 2rem;
-
-        } */
+      
 
 
         .main_div {
@@ -789,9 +775,10 @@
             opacity: .08;
             filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
             position: absolute;
-            height: 90%;
-            top: 75%;
-            left: -51px;
+            height: 50%;
+            top: 80%;
+            left: 115px;
+            z-index:-99;
         }
 
 
@@ -912,6 +899,10 @@
         .animar {
             animation: aparecer 1.3s;
         }
+        #bienvenidos-interno{
+            padding-top: 6rem;
+            padding-bottom: 5rem;
+        }
 
 
 
@@ -928,7 +919,7 @@
             }
 
             #bienvenidos-parrafo {
-                background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
+                background: linear-gradient(rgba(136, 28, 34, 1) 100%, #ffff 10%, #ffff 50%),
                     url('./public/img/img-page/arequipa/fachadaf.jpg');
                 background-size: 160%;
                 padding: 6rem;
@@ -963,8 +954,6 @@
         </div>
     </section>
     <section id="bienvenidos-interno">
-        <br>
-        <br>
         <div class="container">
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-6 mt-4 mb-4">
@@ -1008,14 +997,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/somos1.jpg" width="100%" height="600" style="object-fit:cover;" alt="">
+                    <img src="./public/img/img-page/mision.jpg" width="100%" height="600" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/karate.jpg" width="100%" height="600" style="object-fit:cover;" alt="">
+                    <img src="./public/img/img-page/vision.jpg" width="100%" height="600" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 3rem;">
@@ -1044,7 +1033,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/proceso_admision.jpg" width="100%" height="750" style="object-fit:cover;" alt="">
+                    <img src="./public/img/img-page/edicion199.jpg" width="100%" height="670" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>

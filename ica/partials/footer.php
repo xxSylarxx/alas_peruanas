@@ -74,12 +74,12 @@
 
                         <div class="redes">
                             <div class="red">
-                                <a class="yt" href="#" target="_blank">
+                                <a class="yt" href="https://www.youtube.com/channel/UCIc7wdy6dQBJ9DCu4SFJh7g" target="_blank">
                                     <span><i class="fab fa-youtube"></i></span>
                                 </a>
                             </div>
                             <div class="red">
-                                <a class="fb" href="https://www.facebook.com/Colegio-Alas-Peruanas-AQP-100289138340360/?ref=pages_you_manage" target="_blank">
+                                <a class="fb" href="https://www.facebook.com/IEPALASPERUANAS.OFICIAL.ICA/?ref=pages_you_manage" target="_blank">
                                     <span><i class="fab fa-facebook-f"></i></span>
                                 </a>
                             </div>
@@ -99,22 +99,22 @@
                 <div class="col-12 col-md-3 col-lg-3 date-info">
                     <h5>INSTITUCIONAL</h5>
                     <div class="d-flex flex-column text">
-                        <a href="#">Nosotros</a>
-                        <a href="#">Infraestructura</a>
-                        <a href="#">Reseña Histórica</a>
-                        <a href="#">Noticias</a>
+                        <a href="./historia.php">Nosotros</a>
+                        <a href="./infraestructura.php">Infraestructura</a>
+                        <a href="./historia.php">Reseña Histórica</a>
+                        <a href="./noticias.php">Noticias</a>
                         <!-- <a href="#">Reseña Historica</a> -->
                         <!-- <a href="#">Propuesta Educativa</a> -->
-                        <a href="#">Contácto</a>
+                        <a href="./index.php#contacto">Contacto</a>
                         <!-- <a href="#">Blog</a> -->
                     </div>
                 </div>
                 <div class="col-12 col-md-3 col-lg-2 date-info">
                     <h5>NIVELES</h5>
                     <div class="d-flex flex-column text">
-                        <a href="#">Inicial</a>
-                        <a href="#">Primaria</a>
-                        <a href="#">Secundaria</a>
+                        <a href="./inicial.php">Inicial</a>
+                        <a href="./primaria.php">Primaria</a>
+                        <a href="./secundaria.php">Secundaria</a>
 
                     </div>
                 </div>

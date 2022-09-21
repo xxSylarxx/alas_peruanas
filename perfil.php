@@ -768,8 +768,8 @@
             opacity: .08;
             filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
             position: absolute;
-            height: 100%;
-            top: 130%;
+            height: 70%;
+            top: 90%;
             left: 8%;
         }
 
@@ -1073,19 +1073,19 @@
                 <div class="col-md-12  my-auto text-justify px-4">
                     <section class="d-flex list  ">
                         <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
-                        <span class="ms-3">Afirma su identidad.</span>
+                        <span class="ms-3" style="font-family: 'Poppins', sans-serif;">Afirma su identidad.</span>
                     </section>
                     <section class="d-flex list  ">
                         <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
-                        <span class="ms-3 my-auto">Ejerce su ciudadanía</span>
+                        <span class="ms-3 my-auto" style="font-family: 'Poppins', sans-serif;">Ejerce su ciudadanía</span>
                     </section>
                     <section class="d-flex list ">
                         <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
-                        <span class="ms-3">Muestra respeto y tolerancia por las creencias, cosmovisiones y expresiones religiosas diversas.</span>
+                        <span class="ms-3" style="font-family: 'Poppins', sans-serif;">Muestra respeto y tolerancia por las creencias, cosmovisiones y expresiones religiosas diversas.</span>
                     </section>
                     <section class="d-flex list ">
                         <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
-                        <span class="ms-3">Se desenvuelven con iniciativa a través de su motricidad.</span>
+                        <span class="ms-3" style="font-family: 'Poppins', sans-serif;">Se desenvuelven con iniciativa a través de su motricidad.</span>
                     </section>
                     <section class="d-flex list">
                         <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
@@ -1093,27 +1093,27 @@
                     </section>
                     <section class="d-flex list ">
                         <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
-                        <span class="ms-3">Se comunica en su lengua materna, en castellano como segunda lengua y en inglés como lengua extranjera.</span>
+                        <span class="ms-3" style="font-family: 'Poppins', sans-serif;">Se comunica en su lengua materna, en castellano como segunda lengua y en inglés como lengua extranjera.</span>
                     </section>
                     <section class="d-flex list ">
                         <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
-                        <span class="ms-3">Indagan y comprenden el mundo físico que los rodea.</span>
+                        <span class="ms-3" style="font-family: 'Poppins', sans-serif;">Indagan y comprenden el mundo físico que los rodea.</span>
                     </section>
                     <section class="d-flex list">
                         <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
-                        <span class="ms-3">Interpretan la realidad y toman decisiones a partir de conocimientos matemáticos.</span>
+                        <span class="ms-3" style="font-family: 'Poppins', sans-serif;">Interpretan la realidad y toman decisiones a partir de conocimientos matemáticos.</span>
                     </section>
                     <section class="d-flex list ">
                         <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
-                        <span class="ms-3">Gestionan proyectos de emprendimiento económico social.</span>
+                        <span class="ms-3" style="font-family: 'Poppins', sans-serif;">Gestionan proyectos de emprendimiento económico social.</span>
                     </section>
                     <section class="d-flex list">
                         <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
-                        <span class="ms-3">Aprovecha reflexiva y responsablemente las tecnologías de la información de la comunicación (TIC)</span>
+                        <span class="ms-3" style="font-family: 'Poppins', sans-serif;">Aprovecha reflexiva y responsablemente las tecnologías de la información de la comunicación (TIC)</span>
                     </section>
                     <section class="d-flex list">
                         <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
-                        <span class="ms-3">Desarrollo procesos autónomos de aprendizaje.</span>
+                        <span class="ms-3" style="font-family: 'Poppins', sans-serif;">Desarrollo procesos autónomos de aprendizaje.</span>
                     </section>
 
                 </div>

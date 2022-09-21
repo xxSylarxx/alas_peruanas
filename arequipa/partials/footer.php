@@ -99,22 +99,22 @@
                 <div class="col-12 col-md-3 col-lg-3 date-info">
                     <h5>INSTITUCIONAL</h5>
                     <div class="d-flex flex-column text">
-                        <a href="#">Nosotros</a>
-                        <a href="#">Infraestructura</a>
-                        <a href="#">Reseña Histórica</a>
-                        <a href="#">Noticias</a>
+                        <a href="./historia.php">Nosotros</a>
+                        <a href="./infraestructura.php">Infraestructura</a>
+                        <a href="./historia.php">Reseña Histórica</a>
+                        <a href="./noticias.php">Noticias</a>
                         <!-- <a href="#">Reseña Historica</a> -->
                         <!-- <a href="#">Propuesta Educativa</a> -->
-                        <a href="#">Contácto</a>
+                        <a href="index.php#contacto">Contacto</a>
                         <!-- <a href="#">Blog</a> -->
                     </div>
                 </div>
                 <div class="col-12 col-md-3 col-lg-2 date-info">
                     <h5>NIVELES</h5>
                     <div class="d-flex flex-column text">
-                        <a href="#">Inicial</a>
-                        <a href="#">Primaria</a>
-                        <a href="#">Secundaria</a>
+                        <a href="./inicial.php">Inicial</a>
+                        <a href="./primaria.php">Primaria</a>
+                        <a href="./secundaria.php">Secundaria</a>
 
                     </div>
                 </div>
@@ -122,14 +122,14 @@
                     <div>
                         <h5 style="color:var(--color5);">MÁS NOTICIAS</h5>
                         <br>
-                        <a href="/entrada/complex-security">
+                        <a href="view.php?id=3">
                             <div class="row d-flex justify-content-around">
                                 <div class="col-lg-4"><img src="./public/img/galeria/aniversarioarequipa.jpg" style="border-radius:5px;" class="img-fluid" alt=""></div>
                                 <div class="col-lg-7 my-auto"><span style="color:var(--color5);">¡FELIZ 482° ANIVERSARIO, AREQUIPA!</span></div>
                             </div>
                         </a>
                         <hr>
-                        <a href="/entrada/examination-and-document-exchange-platfo">
+                        <a href="view.php?id=2">
                             <div class="row d-flex justify-content-around">
                                 <div class="col-lg-4"><img src="./public/img/galeria/cachimbo.jpg" style="border-radius:5px;" class="img-fluid" alt=""></div>
                                 <div class="col-lg-7 my-auto"><span style="color:var(--color5);">FELICIDADES CACHIMBO 2023</span></div>

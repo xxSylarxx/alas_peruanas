@@ -248,18 +248,20 @@
             padding: 6rem;
 
         }
-        #bienvenidos-parrafo li{
+
+        #bienvenidos-parrafo li {
             font-family: 'Poppins', sans-serif;
             font-size: 16px;
             text-align: justify;
             color: white;
-        
+
         }
+
         #bienvenidos-parrafo p,
         h1 {
 
             color: white;
-            
+
             padding-right: .5rem;
 
         }
@@ -271,11 +273,12 @@
             padding-right: .5rem;
 
         }
-        #bienvenidos-parrafo2 li{
+
+        #bienvenidos-parrafo2 li {
             font-size: 16px;
             font-family: 'Poppins', sans-serif;
             text-align: justify;
-          
+
         }
 
 
@@ -970,24 +973,27 @@
     <section id="historia2">
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
-                <div id="bienvenidos-parrafo" class="col-lg-6 p-0">
-                    <div style="padding: 3rem;">
+                <div id="bienvenidos-parrafo" class="col-lg-6 p-0 ">
+                    <div style="padding: 3rem;justify-content:center;" class="my-auto" >
 
-                        <br>
-                        <p style="padding-left:1rem;">
+                       <br>
+                        <p style="padding-left:1rem;line-height: 30px;">
                             La Institución Educativa Privada
                             “Alas Peruanas” de ICA cumplirá el día 24
                             de Agosto, XXIII años de vida Institucional,
                             es una Institución LIDER y se ubica a la vanguardia
-                            de la Excelencia Educativa en nuestra ciudad iqueña,
-                            habiendo tenido hasta la fecha grandes éxitos y triunfos
+                            de la Excelencia Educativa en nuestra ciudad iqueña.
+                        </p>
+                        <p style="padding-left:1rem;line-height: 30px;"> Habiendo tenido hasta la fecha grandes éxitos y triunfos
                             en los aspectos Académicos, Cívicos, Culturales Artísticos
                             y Deportivos, teniendo en su haber los siguientes lauros:
                         </p>
                         <ul>
-                            <li>110 Gallardetes de I y II Puesto en los Desfiles Cívicos Escolares a Nivel Distrital, Provincial y Regional.</li>
-                            <li>03 Trofeos y Diplomas de Honor de 1º Puesto de Concursos de Danzas Folklóricas (Mejor Coreografía, Expresión y Originalidad).</li>
-                            <li>1º Puesto en el Concurso Provincial y Nacional de Redacción y Ortografía</li>
+                            <li><p style="padding-left:1rem;line-height: 30px;">110 Gallardetes de I y II Puesto en los Desfiles Cívicos Escolares a
+                                Nivel Distrital, Provincial y Regional.</p></li>
+                            <li><p style="padding-left:1rem;line-height: 30px;">03 Trofeos y Diplomas de Honor de 1º Puesto de Concursos de Danzas 
+                            Folklóricas (Mejor Coreografía, Expresión y Originalidad).</p></li>
+                            <li><p style="padding-left:1rem;line-height: 30px;">1º Puesto en el Concurso Provincial y Nacional de Redacción y Ortografía</p></li>
                         </ul>
 
                     </div>
@@ -1006,12 +1012,17 @@
                     <div style="padding: 5rem;">
                         <br>
                         <ul>
-                            <li>1er puesto etapa Provincial en el Concurso de Oratoria en los V Juegos Florales Nacionales – 2do Puesto en el Área de Ciencia y Tecnología e Ingeniería en la Feria Provincial de CTA Nivel de Educación Secundaria de Ica.</li>
-                            <li>Campeón Provincial de Futbol Damas – Sub- 14 en los VI Juegos Deportivos Escolares Nacionales 2010 “Ciro Alegría”.</li>
-                            <li>Campeón Provincial y Regional en Declamación – 2010.</li>
-                            <li>1º Puesto en CANTO MODERNO-Trofeo “RACIMO DE UVA” Nivel Secundaria.</li>
-                            <li>Campeón de Fútbol Varones Sub – 14 FASE INTER REGIONAL, representó a Ica en la Etapa Nacional.</li>
-                            <li>1º Puesto en BAILE MODERNO, a Nivel PROVINCIAL e INTER REGIONAL; represento a Ica en la Etapa Nacional.</li>
+                            <li><p style="line-height:30px">1er puesto etapa Provincial en el Concurso de Oratoria en los V Juegos Florales Nacionales – 2do Puesto en el Área 
+                            de Ciencia y Tecnología e Ingeniería en la Feria Provincial de CTA 
+                            Nivel de Educación Secundaria de Ica.</p></li>
+                            <li><p style="line-height:30px">Campeón Provincial de Futbol Damas – Sub- 14 en los VI 
+                            Juegos Deportivos Escolares Nacionales 2010 “Ciro Alegría”.</p></li>
+                            <li><p style="line-height:30px">Campeón Provincial y Regional en Declamación – 2010.</p></li>
+                            <li><p style="line-height:30px">1º Puesto en CANTO MODERNO-Trofeo “RACIMO DE UVA” Nivel Secundaria.</p></li>
+                            <li><p style="line-height:30px">Campeón de Fútbol Varones Sub – 14 FASE INTER REGIONAL, representó a Ica en 
+                            la Etapa Nacional.</p></li>
+                            <li><p style="line-height:30px">1º Puesto en BAILE MODERNO, a Nivel PROVINCIAL e INTER REGIONAL; represento a 
+                            Ica en la Etapa Nacional.</p></li>
                         </ul>
                     </div>
                 </div>
@@ -1025,12 +1036,12 @@
                         <!--  <h1 class="px-3 text-white">Arequipa</h1> -->
                         <br>
                         <ul>
-                            <li>Campeón Departamental en 800m. planos posta 5x80m en los Juegos Escolares Deportivos Nacional 2014.</li>
-                            <li>Campeón Regional en 80 m. Planos y Postas 5x80m. en los Juegos Escolares Deportivos Nacional 2017.</li>
-                            <li>1° Puesto en el Concurso de Canto – 2018, Organizado por el Ministerio de Cultura.</li>
-                            <li>2° Puesto en el Concurso de Declamación a la Madre – 2018, Organizado por el Ministerio de Cultura.</li>
-                            <li>Sub. Campeón de Atletimo y karate en Etapa Macroregional – en los Juegos Deportivos Escolares 2018.</li>
-                            <li>Campeón I Etapa Macroregional: en Atlestimo: Pentatlon: en los Juegos Deportivos Escolares Nacionales 2019.</li>
+                            <li><p style="line-height:30px">Campeón Departamental en 800m. planos posta 5x80m en los Juegos Escolares Deportivos Nacional 2014.</p></li>
+                            <li><p style="line-height:30px">Campeón Regional en 80 m. Planos y Postas 5x80m. en los Juegos Escolares Deportivos Nacional 2017.</p></li>
+                            <li><p style="line-height:30px">1° Puesto en el Concurso de Canto – 2018, Organizado por el Ministerio de Cultura.</p></li>
+                            <li><p style="line-height:30px">2° Puesto en el Concurso de Declamación a la Madre – 2018, Organizado por el Ministerio de Cultura.</p></li>
+                            <li><p style="line-height:30px">Sub. Campeón de Atletimo y karate en Etapa Macroregional – en los Juegos Deportivos Escolares 2018.</p></li>
+                            <li><p style="line-height:30px">Campeón I Etapa Macroregional: en Atlestimo: Pentatlon: en los Juegos Deportivos Escolares Nacionales 2019.</p></li>
                         </ul>
                     </div>
                 </div>
@@ -1039,88 +1050,7 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="container-fluid">
-            <div class="row d-flex justify-content-between">
-                <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/arequipa/bienvenidos5.jpg" width="100%" height="100%" alt="">
-                </div>
-                <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
-                    <div style="padding: 5rem;">
-                        
-                        <br>
-                        <p class="px-3">Tercer puesto como mejor danza en el Corso de la Amistad de la Ciudad de Arequipa 2019.</p>
-                        <p class="px-3">En el año 2020 Tercer Puesto en canto solista en los Juegos Florales a nivel Ugel Arequipa Norte.</p>
-                        <p class="px-3">En el año 2021 segundo puesto en Juegos Florales en Instrumentación Solista en los Juegos Florales a nivel Ugel Arequipa Norte.</p>
-                        <p class="px-3">Actualmente sus instalaciones están equipadas con tecnología moderna, se cuenta con centro de computación, robótica, laboratorio de
-                            física y química, biblioteca, los salones están equipados con computadoras y cañones multimedia y
-                            se además un circuito cerrado de cámaras de vigilancia.</p>
-
-
-                    </div>
-                </div>
-
-            </div>
-        </div> -->
-
-    </section>
-    <!--  <section id="importantes">
-        <div class="container">
-            <div class="row d-flex justify-content-around">
-                <div class="col-lg-3 d-flex contador">
-                    <div class="row d-flex">
-                        <div class="col-lg-3 ">
-                            <img src="./public/img/icons/colegio2.png" alt="" height="50">
-                        </div>
-                        <div class="col-lg-6 mx-3 ">
-                            <div class="contador_cantidad text-center" data-cantidad-total="30">0</div>
-                            <div>
-                                <p id="contadorparrafo">años</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-flex contador">
-                    <div class="row d-flex">
-                        <div class="col-lg-3 ">
-                            <img src="./public/img/icons/profesor.png" alt="" height="50">
-                        </div>
-                        <div class="col-lg-6 mx-2 ">
-                            <div class="contador_cantidad text-center" data-cantidad-total="30">0</div>
-                            <div>
-                                <p id="contadorparrafo">docentes</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-flex contador">
-                    <div class="row d-flex">
-                        <div class="col-lg-3 ">
-                            <img src="./public/img/icons/escritorios.png" alt="" height="50">
-                        </div>
-                        <div class="col-lg-6 mx-3">
-                            <div class="contador_cantidad text-center" data-cantidad-total="261">0</div>
-                            <div>
-                                <p id="contadorparrafo">estudiantes</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-flex contador">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/terreno.png" alt="" height="60"></div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="contador_cantidad text-center" data-cantidad-total="2135">1900</div>
-                            <div>
-                                <p id="contadorparrafo">m² área</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+      </section>
 </body>
 
 <?php include_once  './partials/footer.php'; ?>

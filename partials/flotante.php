@@ -31,7 +31,7 @@
     }
 
     .div-social>.opcion1 {
-        background-color: rgba(239, 60, 73, .5);
+        background-color: var(--color1);
         border-bottom: 1px solid #fff;
         border-radius: 10px 0px 10px 0px;
     }

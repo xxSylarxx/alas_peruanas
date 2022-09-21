@@ -923,7 +923,7 @@
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/ica/portada_eventos.jpg" width="100%" height="100%" style="object-fit:cover;" alt="">
+                    <img src="./public/img/img-page/ica/portada_somos.jpg" width="100%" height="100%" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">

@@ -233,7 +233,7 @@
         }
 
         #bienvenidos-parrafo {
-            background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
+            background: linear-gradient(rgba(136, 28, 34, 1) 100%, #ffff 10%, #ffff 50%),
                 url('./public/img/img-page/fachada2_ica.jpg');
             background-size: 140%;
             padding: 6rem;
@@ -777,14 +777,13 @@
         }
 
         .bgmusica {
-            opacity: .08;
-            filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
-            position: absolute;
-            height: 90%;
-            top: 75%;
-            left: -51px;
-        }
-
+                opacity: .08;
+                filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
+                position: absolute;
+                height: 45%;
+                top: 80%;
+                left: 155px;
+            }
 
         .separador {
             background-color: var(--color2);
@@ -913,13 +912,13 @@
                 opacity: .08;
                 filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
                 position: absolute;
-                height: 100%;
-                top: 100%;
-                left: -10px;
+                height: 50%;
+                top: 80%;
+                left: 155px;
             }
 
             #bienvenidos-parrafo {
-                background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
+                background: linear-gradient(rgba(136, 28, 34, 1) 100%, #ffff 10%, #ffff 50%),
                     url('./public/img/img-page/fachada2_ica.jpg');
                 background-size: 200%;
                 padding: 6rem;
@@ -955,9 +954,8 @@
         </div>
     </section>
     <section id="bienvenidos-interno">
-        <br>
-        <br>
-        <div class="container">
+        
+        <div class="container" style="padding-top:4rem;padding-bottom:4rem;">
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-6 mt-4 mb-4">
 
@@ -1010,14 +1008,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/portada_secundaria.jpg" width="100%" height="590" style="object-fit:cover;" alt="">
+                    <img src="./public/img/img-page/inicialf2.jpg" width="100%" height="510" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/portada_somos.jpg" width="100%" height="750" style="object-fit:cover;" alt="">
+                    <img src="./public/img/img-page/portada_somos.jpg" width="100%" height="650" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">
@@ -1123,167 +1121,6 @@
             </div>
         </div>
     </section>
-
-    <section id="importantes">
-        <div class="container">
-            <div class="row d-flex justify-content-around">
-                <div class="col-lg-3 d-flex justify-content-center contador">
-                    <div class="row d-flex">
-                        <div class="col-lg-3 ">
-                            <img src="./public/img/icons/colegio2.png" alt="" height="50">
-                        </div>
-                        <div class="col-lg-6 mx-3 ">
-                            <div class="contador_cantidad text-center" data-cantidad-total="30">0</div>
-                            <div>
-                                <p id="contadorparrafo">años</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-flex justify-content-center contador">
-                    <div class="row d-flex">
-                        <div class="col-lg-3 ">
-                            <img src="./public/img/icons/profesor.png" alt="" height="50">
-                        </div>
-                        <div class="col-lg-6 mx-2 ">
-                            <div class="contador_cantidad text-center" data-cantidad-total="30">0</div>
-                            <div>
-                                <p id="contadorparrafo">docentes</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-flex justify-content-center contador">
-                    <div class="row d-flex">
-                        <div class="col-lg-3 ">
-                            <img src="./public/img/icons/escritorios.png" alt="" height="50">
-                        </div>
-                        <div class="col-lg-6 mx-3">
-                            <div class="contador_cantidad text-center" data-cantidad-total="261">0</div>
-                            <div>
-                                <p id="contadorparrafo">estudiantes</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-flex justify-content-center contador">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/terreno.png" alt="" height="60"></div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="contador_cantidad text-center" data-cantidad-total="2135">1900</div>
-                            <div>
-                                <p id="contadorparrafo">m² área</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-   <!--  <div class="container">
-        <br>
-        <br>
-        <br>
-        <h3 style="color:var(--color3);">Herramientas </h3>
-        <div class="separador mx-start"></div>
-        <br>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-lg-5">
-            </div>
-            <div class="col-lg-7">
-                <ul class="nav nav-pills mb-4 flex-column flex-sm-row shadow-sm bg-light" id="pills-tab" role="tablist">
-                    <li class="nav-item flex-sm-fill" role="presentation">
-                        <button class="nav-link w-100 active py-3" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><b>Cubicol</b></button>
-                    </li>
-                    <li class="nav-item flex-sm-fill" role="presentation">
-                        <button class="nav-link w-100 py-3" id="pills-messages-tab" data-bs-toggle="pill" data-bs-target="#pills-messages" type="button" role="tab" aria-controls="pills-messages" aria-selected="true"><b>Google Meet</b></button>
-                    </li>
-
-                    <li class="nav-item flex-sm-fill" role="presentation">
-                        <button class="nav-link w-100 py-3" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><b>Otras Aplicaciones </b></button>
-                    </li>
-
-                    <li class="nav-item flex-sm-fill" role="presentation">
-                        <button class="nav-link w-100 py-3" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><b>Biblioteca</b></button>
-                    </li>
-                </ul>
-            </div>
-
-
-            <div class="tab-content " id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                    <div class="row ">
-                        <div class="col-lg-5" style="position:relative;margin-top:-85px;">
-                            <video src="./public/videos/VIDEO_CUBICOL.mp4" width="100%" autoplay="" muted="" loop=""></video>
-                        </div>
-                        <div class="col-lg-7">
-                            <p><strong>¡Padres siempre comunicados gracias a la notificación virtual inmediata de atención!</strong></p>
-
-                            <p>
-                                A través de nuestra plataforma Cubicol, todos los padres de
-                                familia son informados inmediatamente después de cualquier
-                                atención realizada a sus hijos en nuestro servicio de Enfermería.
-                                De esta manera, ellos pueden conocer el tipo de atención realizada,
-                                motivo y recomendaciones a tener en cuenta, Reduce tiempos al publicar y
-                                gestionar información relevante. Y gestiona la publicación fácil y
-                                rápida de tareas, agendas, noticias, notas, mensajes y mucho más.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-messages" role="tabpanel" aria-labelledby="pills-messages-tab">
-                    <div class="row ">
-                        <div class="col-lg-5" style="position:relative;margin-top:-85px;">
-                            <img src="./public/img/img-page/arequipa/meet.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-lg-7">
-                            <p>
-                                Es una aplicación de software para videoconferencias, propiedad de Google. Permite interactuar con los estudiantes en tiempo real, vía virtual.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                    <div class="row ">
-                        <div class="col-lg-5" style="position:relative;margin-top:-85px;">
-                            <img src="./public/img/img-page/arequipa/otrasapp.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-lg-7">
-                            <p>
-                                De acuerdo a la naturaleza de cada curso, acorde al grado
-                                de instrucción de los estudiantes, y dentro del escenario
-                                previsto para la gestión de Educación a Distancia por nuestra
-                                Institución, los Docentes pueden emplear otras plataformas y/o
-                                aplicaciones, además de las mencionadas, para mejorar la experiencia
-                                de Educación a Distancia y lograr mejores resultados en la gestión de
-                                aprendizajes. Es importante señalar que el uso de recursos de este tipo no
-                                es una condición de trabajo, sino, como corresponde propiamente a los objetivos
-                                de la Institución, un recurso con el que se cuenta para garantizar el nivel
-                                apropiado del servicio educativo.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                    <div class="row ">
-                        <div class="col-lg-5" style="position:relative;margin-top:-85px;">
-                            <img src="./public/img/img-page/arequipa/biblioteca.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-lg-7">
-                            <p>
-                                Nuestra Institución maneja un Banco de Libros,
-                                con material destinado al apoyo del Plan Lector.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
 </body>
 
 <?php include_once  './partials/footer2.php'; ?>
