@@ -155,7 +155,9 @@
             height: 200px;
             padding: 0.6em;
         }
-
+        #valores h5 {
+            font-size: 16px!important;
+        }
         #valores .card {
             position: relative;
             width: 100%;
@@ -750,7 +752,7 @@
 
         #portada {
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-                url('./public/img/img-page/portada_nostrossss.jpg');
+                url('./public/img/img-page/portada_propuesta_principal.jpg');
             /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
             background-size: 100%;
             /* background-position: center; */
@@ -768,9 +770,9 @@
             opacity: .08;
             filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
             position: absolute;
-            height: 100%;
+            height: 90%;
             top: 130%;
-             left: 8%; 
+             left: 13%; 
                     }
 
 
@@ -990,10 +992,14 @@
 
         #metodologicos span {
             font-weight: 900;
-            font-size: 5rem;
+            font-size: 3.5rem;
             display: flex;
             justify-content: center;
             color: var(--color1);
+        }
+        #metodologicos .container {
+            padding-left: 8%;
+            padding-right: 8%;
         }
 
 
@@ -1502,7 +1508,7 @@
                 <div class="flip mx-1">
                     <div class="card shadow ">
                         <div class="front ">
-                            <span class="fs-1"><img src="./public/img/icons/honestidad.png" width="50" alt=""></span>
+                            <span class="fs-1"><img src="./public/img/icons/excelenciaaa.png" width="50" alt=""></span>
                             <h5 class="py-2">Enfoque búsqueda de la excelencia</h5>
                         </div>
                         <div class="back">

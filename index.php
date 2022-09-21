@@ -608,9 +608,9 @@
             transition: transform .6s;
         }
 
-        #lema h3:hover {
+        /* #lema h3:hover {
             transform: scale(1.10);
-        }
+        } */
 
         #contact h5 {
             font-weight: bold;
@@ -1156,8 +1156,8 @@
                                     <div class="row">
                                         <center>
                                             <a href="./valores.php"><button class="btn" type="submit">
-                                                Ver Más
-                                            </button></a>
+                                                    Ver Más
+                                                </button></a>
                                         </center>
 
                                     </div>
@@ -1194,8 +1194,8 @@
                                     <div class="row">
                                         <center>
                                             <a href="./valores.php"><button class="btn" type="submit">
-                                                Ver Más
-                                            </button></a>
+                                                    Ver Más
+                                                </button></a>
                                         </center>
 
                                     </div>
@@ -1229,8 +1229,8 @@
                                     <div class="row">
                                         <center>
                                             <a href="./valores.php"><button class="btn" type="submit">
-                                                Ver Más
-                                            </button></a>
+                                                    Ver Más
+                                                </button></a>
                                         </center>
 
                                     </div>
@@ -1238,7 +1238,7 @@
                             </div>
 
                             <div class="col-md-5 p-0">
-                                <img src="./public/img/img-page/portada_somos2.jpg" style="object-fit:cover;vertical-align:middle;" width="100%" height="500">
+                                <img src="./public/img/img-page/responsabilidadf.jpg" style="object-fit:cover;vertical-align:middle;" width="100%" height="500">
 
 
                             </div>
@@ -1265,8 +1265,8 @@
                                     <div class="row">
                                         <center>
                                             <a href="./valores.php"><button class="btn" type="submit">
-                                                Ver Más
-                                            </button></a>
+                                                    Ver Más
+                                                </button></a>
                                         </center>
 
                                     </div>
@@ -1296,8 +1296,8 @@
                                     <div class="row">
                                         <center>
                                             <a href="./valores.php"><button class="btn" type="submit">
-                                                Ver Más
-                                            </button></a>
+                                                    Ver Más
+                                                </button></a>
                                         </center>
 
                                     </div>
@@ -1305,7 +1305,7 @@
                             </div>
 
                             <div class="col-md-5 p-0">
-                                <img src="./public/img/img-page/karate.jpg" style="object-fit:cover;vertical-align:middle;" width="100%" height="500">
+                                <img src="./public/img/img-page/honestidadvf.jpeg" style="object-fit:cover;vertical-align:middle;" width="100%" height="500">
                             </div>
 
                         </div>
@@ -1356,13 +1356,13 @@
                 <div class="col-md mt-4">
                     <div class="card h-100">
                         <figure class="m-0">
-                            <img src="./public/img/img-page/portada_inicial.jpg" alt="inicial">
+                            <img src="./public/img/img-page/portada_principal_pedagogica.jpg" alt="inicial">
                             <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
-                                <a href="#" class="btn">Leer más</a>
+                                <a href="./educativa.php" class="btn">Leer más</a>
                             </div>
                         </figure>
                         <div class="card-body">
-                            <a href="#" class="card-title">PROPUESTA PEDAGÓGICA</a>
+                            <a href="./educativa.php" class="card-title">PROPUESTA PEDAGÓGICA</a>
                             <div class="line"></div>
                             <br>
                             <p class="">El enfoque adoptado por la institución educativa está en coherencia
@@ -1375,13 +1375,13 @@
                 <div class="col-md mt-4">
                     <div class="card h-100">
                         <figure class="m-0">
-                            <img src="./public/img/img-page/portada_primaria.jpg" alt="primaria">
+                            <img src="./public/img/img-page/karate.jpg" alt="primaria">
                             <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
-                                <a href="./primaria.php" class="btn">Leer más</a>
+                                <a href="./talleres.php" class="btn">Leer más</a>
                             </div>
                         </figure>
                         <div class="card-body">
-                            <a href="#" class="card-title text-center">TALLERES</a>
+                            <a href="./talleres.php" class="card-title text-center">TALLERES</a>
                             <div class="line"></div>
                             <br>
                             <p>Los enfoques transversales se traducen en formas específicas de actuar que buscan generar una buena convivencia, por lo tanto, son deseables para todos. Son valores y actitudes, que tanto estudiantes como docentes y autoridades deben esforzarse por demostrar en la dinámica diaria de la I.E.</p>
@@ -1391,17 +1391,17 @@
                 <div class="col-md mt-4">
                     <div class="card h-100">
                         <figure class="m-0">
-                            <img src="./public/img/img-page/secundaria.jpg" alt="secundaria">
+                            <img src="./public/img/img-page/secundariaf1.jpg" alt="secundaria">
                             <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
-                                <a href="#" class="btn">Leer más</a>
+                                <a href="./perfil.php" class="btn">Leer más</a>
                             </div>
                         </figure>
                         <div class="card-body">
-                            <a href="#" class="card-title">SERVICIOS</a>
+                            <a href="./perfil.php" class="card-title">PERFIL DEL EGRESADO</a>
                             <div class="line"></div>
                             <br>
-                            <p>Los medios tecnológicos empleados en los diferentes servicios educativos son los siguientes:
-                                Plataforma Cubicol, Google Meet, etc.
+                            <p>
+                                El perfil de egreso es la visión común e integral de lo que deben lograr los estudiantes al término de la educación básica.
                             </p>
                         </div>
                     </div>
@@ -1421,9 +1421,9 @@
                             <img src="./public/img/icons/colegio2.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3 ">
-                            <div class="contador_cantidad text-center" data-cantidad-total="30">0</div>
+                            <div class="contador_cantidad text-center" data-cantidad-total="2">0</div>
                             <div>
-                                <p id="contadorparrafo">años</p>
+                                <p id="contadorparrafo">sedes</p>
                             </div>
                         </div>
                     </div>
@@ -1457,12 +1457,18 @@
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row">
                         <div class="col-lg-4">
-                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/terreno.png" alt="" height="60"></div>
+                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/universidad.png" alt="" height="60"></div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="contador_cantidad text-center" data-cantidad-total="2135">1900</div>
+                        <div class="col-lg-6 mx-1">
+                            <div class="d-flex">
+                                <div class="contador_cantidad text-center d-flex" data-cantidad-total="80">
+                                    0
+                                </div>
+                                <div class="my-auto" style="font-size:30px;">&nbsp;%</div>
+                            </div>
+
                             <div>
-                                <p id="contadorparrafo">m² área</p>
+                                <p id="contadorparrafo">cachimbos</p>
                             </div>
                         </div>
                     </div>
@@ -1473,10 +1479,10 @@
 
     <section id="lema">
         <div class="container">
-            <h2>"ECUCAMOS PARA LA VIDA"</h2>
-            <em>Formando líderes con pensamiento crítico y creativo</em>
+
+            <h2>Formando líderes con pensamiento crítico y creativo</h2>
             <br>
-            <h3 class="title"> <a href="admision.php" style="color: var(--color5);">ADMISIÓN 2023 </a> </h3>
+            <h3> <span style="color: var(--color5);">ADMISIÓN 2023 </span> </h3>
         </div>
     </section>
 
@@ -1507,7 +1513,7 @@
                     <a href="./ica/noticias.php" target="_blank">
                         <div class="card border-0" id="card-1">
                             <div class="crop">
-                                <img src="./public/img/img-page/fachadaf.jpg" class="w-100">
+                                <img src="./public/img/img-page/fachada2_ica.jpg" class="w-100">
                             </div>
                             <div class="w-100 h-100 bg-trans px-4">
                                 <br><br><br>

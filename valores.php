@@ -762,10 +762,10 @@
 
         #portada {
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-                url('./public/img/img-page/portada_valores.jpg');
+                url('./public/img/img-page/nosotros_portada.jpg');
             /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
             background-size: 100%;
-            /* background-position: center; */
+            background-position: center;
             background-attachment: fixed;
             margin-top: -12rem;
 
@@ -1065,7 +1065,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/portada_somos2.jpg" width="100%" height="700" style="object-fit:cover;" alt="">
+                    <img src="./public/img/img-page/responsabilidadf.jpg" width="100%" height="700" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>

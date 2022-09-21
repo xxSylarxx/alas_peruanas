@@ -268,8 +268,7 @@
 
         }
 
-        #bienvenidos-parrafo
-        h2 {
+        #bienvenidos-parrafo h2 {
 
             color: white;
             padding-left: .5rem;
@@ -293,7 +292,7 @@
 
         }
 
-      
+
 
 
         .main_div {
@@ -757,10 +756,10 @@
 
         #portada {
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-                url('./public/img/img-page/portada_somos2.jpg');
+                url('./public/img/img-page/nosotros_portada.jpg');
             /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
             background-size: 100%;
-            background-position: center; 
+            background-position: center;
             background-attachment: fixed;
             margin-top: -12rem;
 
@@ -778,7 +777,7 @@
             height: 50%;
             top: 80%;
             left: 115px;
-            z-index:-99;
+            z-index: -99;
         }
 
 
@@ -899,7 +898,8 @@
         .animar {
             animation: aparecer 1.3s;
         }
-        #bienvenidos-interno{
+
+        #bienvenidos-interno {
             padding-top: 6rem;
             padding-bottom: 5rem;
         }
@@ -965,12 +965,12 @@
                 <div class="col-lg-5 mt-4 mb-4">
                     <div class="row ">
                         <div class="col-lg">
-                            <p>Somos una institución educativa 
-                                privada, que da servicio educativo a niños, 
-                                niñas y adolescentes, que, ante el contexto actual, 
-                                de cambios acelerados en la ciencia y la tecnología, hace posible 
-                                que nuestra propuesta en materia educativa sea una alternativa de 
-                                cambio y desarrollo. Que toda la comunidad educativa unida construimos 
+                            <p>Somos una institución educativa
+                                privada, que da servicio educativo a niños,
+                                niñas y adolescentes, que, ante el contexto actual,
+                                de cambios acelerados en la ciencia y la tecnología, hace posible
+                                que nuestra propuesta en materia educativa sea una alternativa de
+                                cambio y desarrollo. Que toda la comunidad educativa unida construimos
                                 experiencias de aprendizaje, que nos sirve para crecer y como ciudadanos
                                 mejorar la calidad de vida.
                             </p>
@@ -1048,9 +1048,9 @@
                             <img src="./public/img/icons/colegio2.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3 ">
-                            <div class="contador_cantidad text-center" data-cantidad-total="30">0</div>
+                            <div class="contador_cantidad text-center" data-cantidad-total="2">0</div>
                             <div>
-                                <p id="contadorparrafo">años</p>
+                                <p id="contadorparrafo">sedes</p>
                             </div>
                         </div>
                     </div>
@@ -1084,12 +1084,18 @@
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row">
                         <div class="col-lg-4">
-                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/terreno.png" alt="" height="60"></div>
+                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/universidad.png" alt="" height="60"></div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="contador_cantidad text-center" data-cantidad-total="2135">1900</div>
+                        <div class="col-lg-6 mx-1">
+                            <div class="d-flex">
+                                <div class="contador_cantidad text-center d-flex" data-cantidad-total="80">
+                                    0
+                                </div>
+                                <div class="my-auto" style="font-size:30px;">&nbsp;%</div>
+                            </div>
+
                             <div>
-                                <p id="contadorparrafo">m² área</p>
+                                <p id="contadorparrafo">cachimbos</p>
                             </div>
                         </div>
                     </div>

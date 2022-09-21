@@ -742,12 +742,12 @@
 
         #portada {
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-                url('./public/img/img-page/portada_secundaria.jpg');
+                url('./public/img/img-page/robotica.jpg');
             /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
                 url('./public/img/img-page/arequipa/portada_historica3.jpg'); */
             /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
             background-size: 100%;
-            background-position: center;
+            background-position: top;
             background-attachment: fixed;
             margin-top: -12rem;
 

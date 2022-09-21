@@ -742,7 +742,7 @@
 
         #portada {
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-                url('./public/img/img-page/bienvenidos.jpg');
+                url('./public/img/img-page/nosotros_portada.jpg');
             /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
                 url('./public/img/img-page/arequipa/portada_historica3.jpg'); */
             /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */

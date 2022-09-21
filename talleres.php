@@ -1091,9 +1091,9 @@
                             <img src="./public/img/icons/colegio2.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3 ">
-                            <div class="contador_cantidad text-center" data-cantidad-total="30">0</div>
+                            <div class="contador_cantidad text-center" data-cantidad-total="2">0</div>
                             <div>
-                                <p id="contadorparrafo">años</p>
+                                <p id="contadorparrafo">sedes</p>
                             </div>
                         </div>
                     </div>
@@ -1127,12 +1127,18 @@
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row">
                         <div class="col-lg-4">
-                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/terreno.png" alt="" height="60"></div>
+                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/universidad.png" alt="" height="60"></div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="contador_cantidad text-center" data-cantidad-total="2135">1900</div>
+                        <div class="col-lg-6 mx-1">
+                            <div class="d-flex">
+                                <div class="contador_cantidad text-center d-flex" data-cantidad-total="80">
+                                    0
+                                </div>
+                                <div class="my-auto" style="font-size:30px;">&nbsp;%</div>
+                            </div>
+
                             <div>
-                                <p id="contadorparrafo">m² área</p>
+                                <p id="contadorparrafo">cachimbos</p>
                             </div>
                         </div>
                     </div>
