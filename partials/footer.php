@@ -97,14 +97,11 @@
                 <div class="col-12 col-md-3 col-lg-3 date-info">
                     <h5>INSTITUCIONAL</h5>
                     <div class="d-flex flex-column text">
-                        <a href="#">Nosotros</a>
-                        <a href="#">Infraestructura</a>
-                        <a href="#">Reseña Histórica</a>
-                        <a href="#">Noticias</a>
-                        <!-- <a href="#">Reseña Historica</a> -->
-                        <!-- <a href="#">Propuesta Educativa</a> -->
-                        <a href="#">Contácto</a>
-                        <!-- <a href="#">Blog</a> -->
+                        <a href="../somos.php">Quiénes Somos</a>
+                        <a href="../valores.php">Valores</a>
+                        <a href="../educativa.php">Propuesta Educativa</a>
+                        <a href="../talleres.php">Talleres</a>
+                        <a href="../perfil.php">Perfil del Egresado</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 col-lg-2 date-info">

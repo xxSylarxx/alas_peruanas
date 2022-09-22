@@ -291,7 +291,8 @@
             margin-bottom: 20px;
 
         }
-       .main_div {
+
+        .main_div {
 
             position: relative;
             z-index: 1;
@@ -770,10 +771,12 @@
             opacity: .08;
             filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
             position: absolute;
-            height: 43%;
-            top: 80%;
-            left: 155px;
+            height: 40%;
+            top: 98%;
+            left: 115px;
+            z-index: -99;
         }
+
 
 
         .separador {
@@ -893,9 +896,10 @@
         .animar {
             animation: aparecer 1.3s;
         }
-        #bienvenidos-interno{
-            padding-top: 6rem;
-            padding-bottom: 5rem;
+
+        #bienvenidos-interno {
+            padding-top: 8rem;
+            padding-bottom: 7rem;
         }
 
 
@@ -948,17 +952,22 @@
         </div>
     </section>
     <section id="bienvenidos-interno">
-        
+
         <div class="container">
+            <h2 style="text-align:center;color:var(--color1);padding:0;">TALLERES EXTRACURRICULARES</h2>
+            <div class="separador mx-auto"></div>
+
+            <br>
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-6 mt-4 mb-4">
-                    <h1 style="text-align:start;color:var(--color3);">Talleres extracurriculares</h1>
-                    <div class="separador mx-start"></div>
                     <img class="bgmusica" src="./public/img/icons/dios.png" alt="">
                 </div>
                 <div class="col-lg-5 mt-4 mb-4">
                     <div class="row ">
                         <div class="col-lg">
+                            <br>
+                            <br>
+                          
                             <p>Es parte de la propuesta formativa del Colegio, ofrecer
                                 talleres extracurriculares de carácter cultural, artísticos
                                 y/o deportivos, para complementar la formación integral de
@@ -1043,14 +1052,14 @@
                         <img src="./public/img/icons/danza2.png" alt="">
                         <h2>Danza</h2>
                         <br>
-                        <p>La danza  es una actividad que favorece el ejercicio 
-                            cardiovascular en nuestros estudiantes. Es una práctica 
-                            que mejora el sentido del equilibrio y ayuda a mejorar la 
-                            coordinación, la concentración y la memoria. Los niños, niñas, 
-                            jóvenes y señoritas   que practican danza  de manera continua 
+                        <p>La danza es una actividad que favorece el ejercicio
+                            cardiovascular en nuestros estudiantes. Es una práctica
+                            que mejora el sentido del equilibrio y ayuda a mejorar la
+                            coordinación, la concentración y la memoria. Los niños, niñas,
+                            jóvenes y señoritas que practican danza de manera continua
                             tienden a tener más éxito a nivel académico.
                         </p>
-                        
+
 
                     </div>
                 </div>
@@ -1069,11 +1078,11 @@
                         <img src="./public/img/icons/musica2.png" alt="">
                         <h2>Música</h2>
                         <br>
-                        <p>La música mejora la capacidad intelectual y la 
-                            memoria en nuestros estudiantes por esta razón, 
-                            se cree que los niños que están acostumbrados a 
-                            convivir con la música disfrutarán de una mayor capacidad 
-                            intelectual que el resto. La música es capaz de estimular 
+                        <p>La música mejora la capacidad intelectual y la
+                            memoria en nuestros estudiantes por esta razón,
+                            se cree que los niños que están acostumbrados a
+                            convivir con la música disfrutarán de una mayor capacidad
+                            intelectual que el resto. La música es capaz de estimular
                             la zona del cerebro encargada de la lectura, el cálculo y el desarrollo emocional.</p>
                     </div>
                 </div>

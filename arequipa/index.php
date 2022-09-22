@@ -23,8 +23,8 @@
 <body id='cuerpo'>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./public/js/bootstrap.min.js"></script>
-    
-     <script>
+
+    <script>
         window.addEventListener("scroll", function() {
             var header = document.querySelector("header");
 
@@ -46,7 +46,7 @@
 
         }, 1900);
     </script>
-    
+
 
 
     <?php include_once  './partials/header.php'; ?>
@@ -870,10 +870,12 @@
             color: var(--color10);
             font-weight: bold;
         }
+
         /* scroll para llamar a una seccion con altura */
         section[id] {
             scroll-margin-top: 130px;
         }
+
         @media screen and (max-width:1300px) {
             .bgmusica {
                 opacity: .08;
@@ -896,7 +898,7 @@
             }
         }
     </style>
-  <?php include_once  './partials/flotante.php'; ?>
+    <?php include_once  './partials/flotante.php'; ?>
     <div class="redesS">
         <!-- <div class="red">
             <a class="yt" href="#" target="_blank">
@@ -1323,6 +1325,34 @@
                         </div>
                     </a>
                 </div>
+                <div class="col-md-4 px-3 my-3">
+                    <a href="view.php?id=4">
+                        <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                            <span class="news">Noticias</span>
+                            <img src="./public/img/galeria/cachimba2023.jpeg" width="100%" height="250">
+
+                            <div class="card-body">
+
+                                <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color1);">FELICIDADES CACHIMBO 2023</h5>
+
+                                <div class="detalle">
+
+                                    Felicidades estimado alumna, ahora empiezas una nueva etapa, estamos
+                                    seguros que te ira bien en su carrera profesional.Alas Peruanas “Educación para la vida”.
+                                </div>
+
+                            </div>
+
+                            <div class="card-footer" style="background: transparent; font-size: 16px;color:black;">
+                                <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+
+                                <span class="ms-2">10-08-2022</span>
+
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
 
                 <div class="col-md-4 px-3 my-3">
                     <a href="view.php?id=2">
@@ -1350,35 +1380,6 @@
                         </div>
                     </a>
                 </div>
-
-                <div class="col-md-4 px-3 my-3">
-                    <a href="view.php?id=1">
-                        <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
-                            <span class="news">Noticias</span>
-                            <img src="./public/img/galeria/ajedrez.jpg" width="100%" height="250">
-
-                            <div class="card-body">
-
-                                <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color1);">CAMPEONATO NACIONAL DE AJEDREZ</h5>
-
-                                <div class="detalle">
-
-                                    Felicitamos a nuestra alumna Del Carpio Encinas Fernanda Romina, que clasifico para el Campeonato Nacional de Ajedrez, evento que se realizara capital de Lima.
-                                </div>
-
-                            </div>
-
-                            <div class="card-footer " style="background: transparent; font-size: 16px;color:black;">
-                                <i class="fas fa-calendar-alt" aria-hidden="true"></i>
-
-                                <span class="ms-2 ">10-07-2022</span>
-
-                            </div>
-
-                        </div>
-                    </a>
-                </div>
-
 
             </div>
 

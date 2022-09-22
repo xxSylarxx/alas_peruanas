@@ -23,7 +23,7 @@
     .topcontrol2 {
         position: fixed;
         bottom: 70px;
-        right: 5px;
+        right: 18px;
         opacity: 0.8;
         cursor: pointer;
         z-index: 100;
@@ -32,7 +32,7 @@
         height: 50px;
         padding-top: 4px;
         padding-left: 8px;
-        border: 2px solid white;
+        /* border: 2px solid white; */
         border-radius: 50%;
         transition: all 3 ease-in-out;
     }
@@ -43,7 +43,37 @@
 
     .topcontrol2 i {
         color: white;
+        margin-top: 2px;
+        margin-left: 2px;
     }
+
+    .topcontrol3 {
+        position: fixed;
+        bottom: 134px;
+        right: 18px;
+        opacity: 0.8;
+        cursor: pointer;
+        z-index: 100;
+        background-color: rgb(31, 202, 216,1);
+        width: 50px;
+        height: 50px;
+        padding-top: 4px;
+        padding-left: 8px;
+        /* border: 2px solid white; */
+        border-radius: 50%;
+        transition: all 3 ease-in-out;
+    }
+    .topcontrol3 img {
+        height: 32px;
+        width: 30px;
+        margin-top: 5px;
+        margin-left: 2px;
+    }
+    .topcontrol3:hover {
+        transform: scale(1.08);
+    }
+
+
 
     @media (max-width: 500px) {
         .topcontrol {
@@ -58,6 +88,7 @@
 </style>
 
 <footer id="footer">
+
     <a href="#" class="text-white" style="position: absolute; right: 20px; z-index: 999;  font-size: 40px;">
         <span style="color: var(--color2);"><i class="fas fa-chevron-circle-up"></i></span>
     </a>
@@ -73,21 +104,21 @@
                         </center>
 
                         <div class="redes">
-                            <div class="red">
+                            <!-- <div class="red">
                                 <a class="yt" href="#" target="_blank">
                                     <span><i class="fab fa-youtube"></i></span>
                                 </a>
-                            </div>
+                            </div> -->
                             <div class="red">
                                 <a class="fb" href="https://www.facebook.com/Colegio-Alas-Peruanas-AQP-100289138340360/?ref=pages_you_manage" target="_blank">
                                     <span><i class="fab fa-facebook-f"></i></span>
                                 </a>
                             </div>
-                            <div class="red">
+                            <!-- <div class="red">
                                 <a class="tw" href="#" target="_blank">
                                     <span><i class="fab fa-twitter"></i></i></span>
                                 </a>
-                            </div>
+                            </div> -->
                             <div class="red">
                                 <a class="ig" href="https://www.instagram.com/colegio_alas_peruanas/" target="_blank">
                                     <span><i class="fab fa-instagram"></i></span>
@@ -99,23 +130,18 @@
                 <div class="col-12 col-md-3 col-lg-3 date-info">
                     <h5>INSTITUCIONAL</h5>
                     <div class="d-flex flex-column text">
-                        <a href="./historia.php">Nosotros</a>
-                        <a href="./infraestructura.php">Infraestructura</a>
-                        <a href="./historia.php">Reseña Histórica</a>
-                        <a href="./noticias.php">Noticias</a>
-                        <!-- <a href="#">Reseña Historica</a> -->
-                        <!-- <a href="#">Propuesta Educativa</a> -->
-                        <a href="index.php#contacto">Contacto</a>
-                        <!-- <a href="#">Blog</a> -->
+                        <a href="../somos.php">Quiénes Somos</a>
+                        <a href="../valores.php">Valores</a>
+                        <a href="../educativa.php">Propuesta Educativa</a>
+                        <a href="../talleres.php">Talleres</a>
+                        <a href="../perfil.php">Perfil del Egresado</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 col-lg-2 date-info">
-                    <h5>NIVELES</h5>
+                    <h5>SEDES</h5>
                     <div class="d-flex flex-column text">
-                        <a href="./inicial.php">Inicial</a>
-                        <a href="./primaria.php">Primaria</a>
-                        <a href="./secundaria.php">Secundaria</a>
-
+                        <a href="./index.php">Arequipa</a>
+                        <a href="../ica/index.php">Ica</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 col-lg-3 date-info">
@@ -164,12 +190,19 @@
             </span>
         </div>
     </a> -->
-    <!-- <div class="topcontrol2">
-        <a href="https://api.whatsapp.com/send?phone=51997740838" target="_blank">
+    <div class="topcontrol2">
+        <a href="https://wa.me/+51997700345" target="_blank">
             <span>
                 <i class="fab fa-whatsapp fa-2x"></i>
             </span>
         </a>
-    </div> -->
+    </div>
+    <div class="topcontrol3">
+        <a href="https://iepalasperuanasaqp.cubicol.pe/principal/login" target="_blank">
+        
+            <img src="./public/img/icons/cubo.png" alt="">
+           
+        </a>
+    </div>
 
 </footer>

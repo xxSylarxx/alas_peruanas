@@ -835,7 +835,7 @@
         }
 
         .div-banner {
-            padding-left: 2rem;
+            padding-left: 4rem;
             display: flex;
             justify-content: start;
             align-items: flex-end;
@@ -860,7 +860,7 @@
 
         .text-banner img {
             width: 100px;
-            margin-left: 30%;
+            margin-left: 40%;
             margin-bottom: 10px;
         }
 
@@ -1001,7 +1001,7 @@
         </div>
         <img src="./public/img/icons/logo.png" id="loadEscudo" height="78">
     </div>
-    <?php include_once  './partials/flotante.php'; ?>
+ 
     <section id="slider">
         <div class="container-fluid content-banner px-0">
             <div id="carouselBanner" class="carousel slide pointer-event" data-bs-ride="carousel">
@@ -1011,24 +1011,22 @@
                 </div> -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./public/img/banner/banner2_alas_peruanas.jpg" class="d-block w-100">
+                        <img src="./public/img/banner/banner_principal_alas_peruanas.jpg" class="d-block w-100">
                         <div class="div-banner container">
                             <div class="text-banner">
                                 <img src="./public/img/icons/logo.png" alt="">
                                 <br>
-                                <p id="lema-banner">"Educamos para la vida"</p>
-                                <a href="./inicial.php"><span>NIVEL INICIAL</span></a>
+                                <p id="lema-banner">Colegios Alas Peruanas</p>
+                                <a href="./inicial.php"><span>ADMISIÓN 2023</span></a>
                                 <br>
                                 <br>
-                                <p>
-                                    Establecemos las bases de la formación<br>
-                                    de una personalidad integra y protagónica.
+                                <p>Formando líderes con pensamiento <br> crítico y creativo
 
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <!-- <div class="carousel-item">
                         <img src="./public/img/banner/banner_alas_peruanas.jpg" class="d-block w-100">
                         <div class="div-banner container">
                             <div class="text-banner">
@@ -1042,8 +1040,8 @@
                                     científico,la creatividad y el trabajo en equipo.</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="carousel-item ">
+                    </div> -->
+                    <!-- <div class="carousel-item ">
                         <img src="./public/img/banner/banner3_alas_peruanas.jpg" class="d-block w-100">
                         <div class="div-banner container">
                             <div class="text-banner">
@@ -1056,20 +1054,20 @@
                                 <p>Promovemos el desarrollo de capacidades <br> y actitudes investigativas en las diversas áreas.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true">
                         <i class="fas fa-chevron-left"></i>
                         <span class="visually-hidden">Previous</span>
                 </button>
-                </span>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
+                </span> -->
+                <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true">
                         <i class="fas fa-chevron-right"></i>
                     </span>
                     <span class="visually-hidden">Next</span>
-                </button>
+                </button> -->
             </div>
         </div>
     </section>

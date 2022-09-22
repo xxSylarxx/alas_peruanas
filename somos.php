@@ -755,7 +755,7 @@
         }
 
         #portada {
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1)),
                 url('./public/img/img-page/nosotros_portada.jpg');
             /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
             background-size: 100%;
@@ -774,8 +774,8 @@
             opacity: .08;
             filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
             position: absolute;
-            height: 50%;
-            top: 80%;
+            height: 40%;
+            top: 95%;
             left: 115px;
             z-index: -99;
         }
@@ -900,8 +900,8 @@
         }
 
         #bienvenidos-interno {
-            padding-top: 6rem;
-            padding-bottom: 5rem;
+            padding-top: 7rem;
+            padding-bottom: 6rem;
         }
 
 
@@ -953,13 +953,16 @@
             </div>
         </div>
     </section>
+
     <section id="bienvenidos-interno">
         <div class="container">
+            <center>
+                <h2 style="text-align:center;color:var(--color1);">QUIÉNES SOMOS</h2>
+                <div class="separador mx-auto"></div>
+            </center>
+            <br>
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-6 mt-4 mb-4">
-
-                    <h1 style="text-align:start;color:var(--color3);">Quienes Somos</h1>
-                    <div class="separador mx-start"></div>
                     <img class="bgmusica" src="./public/img/icons/dios.png" alt="">
                 </div>
                 <div class="col-lg-5 mt-4 mb-4">

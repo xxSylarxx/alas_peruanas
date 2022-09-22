@@ -1021,10 +1021,9 @@
                         </div>
                         <div class="back">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Unde tempore hic porro rerum eligendi debitis, nobis est provident
-                                facere deserunt. Sint dicta libero quaerat consequatur sunt enim totam.
-                                Libero, non?
+                            El objetivo principal es complementar el desarrollo de los niños, 
+                            niñas y adolescentes; asimismo, satisfacer las necesidades individuales 
+                            de cada estudiante deportista.
                             </p>
                         </div>
                     </div>
@@ -1059,10 +1058,7 @@
                         </div>
                         <div class="back">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Unde tempore hic porro rerum eligendi debitis, nobis est provident
-                                facere deserunt. Sint dicta libero quaerat consequatur sunt enim totam.
-                                Libero, non?
+                            El objetivo principal es complementar el desarrollo de los niños, niñas y adolescentes; asimismo, satisfacer las necesidades individuales de cada estudiante deportista.
                             </p>
                         </div>
                     </div>
@@ -1078,10 +1074,7 @@
                         </div>
                         <div class="back">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Unde tempore hic porro rerum eligendi debitis, nobis est provident
-                                facere deserunt. Sint dicta libero quaerat consequatur sunt enim totam.
-                                Libero, non?
+                                 Un ejercicio muy bueno para la mente aumenta el autocontrol y la confianza.
                             </p>
                         </div>
                     </div>
@@ -1146,7 +1139,7 @@
                             <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/terreno.png" alt="" height="60"></div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="contador_cantidad text-center" data-cantidad-total="2135">1900</div>
+                            <div class="contador_cantidad text-center" data-cantidad-total="1520">1200</div>
                             <div>
                                 <p id="contadorparrafo">m² área</p>
                             </div>

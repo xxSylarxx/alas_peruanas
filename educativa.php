@@ -155,9 +155,13 @@
             height: 200px;
             padding: 0.6em;
         }
+
         #valores h5 {
-            font-size: 16px!important;
+            padding-right: 2rem;
+            padding-left: 2rem;
+            font-size: 15px !important;
         }
+
         #valores .card {
             position: relative;
             width: 100%;
@@ -223,22 +227,8 @@
         }
 
 
-        #bienvenidos-parrafo {
-            background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./public/img/img-page/arequipa/fachadaf.jpg');
-            background-size: 140%;
-            padding: 6rem;
 
-        }
 
-        #bienvenidos-parrafo p,
-        h1 {
-
-            color: white;
-
-            padding-right: .5rem;
-
-        }
 
 
 
@@ -250,13 +240,6 @@
 
         }
 
-        #bienvenidos-parrafo p {
-
-            color: white;
-            padding-left: .5rem;
-            padding-right: 10rem;
-
-        }
 
         #bienvenidos-parrafo img {
 
@@ -751,7 +734,7 @@
         }
 
         #portada {
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)),
                 url('./public/img/img-page/portada_propuesta_principal.jpg');
             /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
             background-size: 100%;
@@ -770,10 +753,10 @@
             opacity: .08;
             filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
             position: absolute;
-            height: 90%;
-            top: 130%;
-             left: 13%; 
-                    }
+            height: 100%;
+            top: 120%;
+            left: 8%;
+        }
 
 
         .separador {
@@ -997,6 +980,7 @@
             justify-content: center;
             color: var(--color1);
         }
+
         #metodologicos .container {
             padding-left: 8%;
             padding-right: 8%;
@@ -1011,17 +995,10 @@
                 filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
                 position: absolute;
                 height: 100%;
-                top: 100%;
-                left: -10px;
+                top: 200%;
+                left: 10%;
             }
 
-            #bienvenidos-parrafo {
-                background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
-                    url('./public/img/img-page/arequipa/fachadaf.jpg');
-                background-size: 160%;
-                padding: 6rem;
-
-            }
         }
 
         @media screen and (max-width:500px) {
@@ -1033,11 +1010,12 @@
 
     <section id="portada">
         <div class="container">
+            <img class="bgmusica" src="./public/img/icons/dios.png" alt="">
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="ml6">
                         <span class="text-wrapper">
-                            <span class="letters" style="font-size:50px;">Propuesta
+                            <span class="letters" style="font-size:50px;">Propuesta Educativa
                             </span>
                         </span>
                         <!-- <div class="separador mx-start"></div> -->
@@ -1050,39 +1028,36 @@
             </div>
         </div>
     </section>
-    <section id="bienvenidos-interno">
+    <section id="historia2">
+        <br>
         <br>
         <br>
         <div class="container">
-            <div class="row d-flex justify-content-around">
-                <div class="col-lg-6 mt-4 mb-4">
-
-                    <h1 style="text-align:start;color:var(--color3);">Propuesta Educativa</h1>
-                    <div class="separador mx-start"></div>
-                    <img class="bgmusica" src="./public/img/icons/dios.png" alt="">
-                </div>
-                <div class="col-lg-5 mt-4 mb-4">
-                    <div class="row ">
-                        <div class="col-lg">
-                            <p>El enfoque adoptado por la institución
-                                educativa está en coherencia al modelo de persona y
-                                sociedad en el marco del perfil de egreso del actual
-                                currículo nacional de educación básica y basado en nuestro
-                                Proyecto Educativo Institucional.</p>
-                        </div>
+            <div class="row d-flex justify-content-between">
+                <div id="bienvenidos-parrafo" class="col-lg-12 p-0">
+                    <div class="my-auto" style="padding: 3rem;">
+                        <center>
+                            <h2 style="text-align:center;color:var(--color1);">LINEAMIENTOS METODOLÓGICOS</h2>
+                        </center>
+                        <br>
+                        <p>El enfoque adoptado por la institución
+                            educativa está en coherencia al modelo de persona y
+                            sociedad en el marco del perfil de egreso del actual
+                            currículo nacional de educación básica y basado en nuestro
+                            Proyecto Educativo Institucional.</p>
                     </div>
                 </div>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
 
     </section>
 
+
     <section id="metodologicos">
         <div class="container">
-            <center>
-                <h3>LINEAMIENTOS METODOLÓGICOS</h3>
-            </center>
-
             <div class="row pt-5">
                 <div class="col-lg-4">
                     <span>1</span>
@@ -1424,7 +1399,7 @@
     <br>
     <section class="container" id="valores">
         <center>
-            <h3>LINEAMIENTOS METODOLÓGICOS</h3>
+            <h3>ENFOQUES TRANSVERSALES</h3>
             <br>
             <br>
         </center>
@@ -1432,7 +1407,7 @@
             una buena convivencia, por lo tanto, son deseables para todos. Son valores y actitudes, que
             tanto estudiantes como docentes y autoridades deben esforzarse por demostrar en la dinámica
             diaria de la I.E.</p>
-            <br>
+        <br>
         <div class="row justify-content-center">
 
             <div class="col-lg p-0 ">
@@ -1522,64 +1497,7 @@
     </section>
     <br>
     <br>
-    <!-- <section id="importantes">
-        <div class="container">
-            <div class="row d-flex justify-content-around">
-                <div class="col-lg-3 d-flex justify-content-center contador">
-                    <div class="row d-flex">
-                        <div class="col-lg-3 ">
-                            <img src="./public/img/icons/colegio2.png" alt="" height="50">
-                        </div>
-                        <div class="col-lg-6 mx-3 ">
-                            <div class="contador_cantidad text-center" data-cantidad-total="30">0</div>
-                            <div>
-                                <p id="contadorparrafo">años</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-flex justify-content-center contador">
-                    <div class="row d-flex">
-                        <div class="col-lg-3 ">
-                            <img src="./public/img/icons/profesor.png" alt="" height="50">
-                        </div>
-                        <div class="col-lg-6 mx-2 ">
-                            <div class="contador_cantidad text-center" data-cantidad-total="30">0</div>
-                            <div>
-                                <p id="contadorparrafo">docentes</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-flex justify-content-center contador">
-                    <div class="row d-flex">
-                        <div class="col-lg-3 ">
-                            <img src="./public/img/icons/escritorios.png" alt="" height="50">
-                        </div>
-                        <div class="col-lg-6 mx-3">
-                            <div class="contador_cantidad text-center" data-cantidad-total="261">0</div>
-                            <div>
-                                <p id="contadorparrafo">estudiantes</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-flex justify-content-center contador">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/terreno.png" alt="" height="60"></div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="contador_cantidad text-center" data-cantidad-total="2135">1900</div>
-                            <div>
-                                <p id="contadorparrafo">m² área</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+
     <div class="container">
         <br>
         <br>

@@ -899,12 +899,22 @@
     <?php include_once  './partials/flotante.php'; ?>
     <div class="redesS">
         <div class="red">
-            <a class="fb" href="https://www.facebook.com/Colegio-Alas-Peruanas-AQP-100289138340360/?ref=pages_you_manage" target="_blank">
+            <a class="yt" href="https://www.youtube.com/channel/UCIc7wdy6dQBJ9DCu4SFJh7g" target="_blank">
+                <span><i class="fab fa-youtube"></i></span>
+            </a>
+        </div>
+        <div class="red">
+            <a class="fb" href="https://www.facebook.com/IEPALASPERUANAS.OFICIAL.ICA/?ref=pages_you_manage" target="_blank">
                 <span><i class="fab fa-facebook-f"></i></span>
             </a>
         </div>
         <div class="red">
-            <a class="ig" href="https://www.instagram.com/colegio_alas_peruanas/" target="_blank">
+            <a class="tw" href="https://twitter.com/alas_peruanas_" target="_blank">
+                <span><i class="fab fa-twitter"></i></span>
+            </a>
+        </div> 
+        <div class="red">
+            <a class="ig" href="https://z-p15.www.instagram.com/iepalasperuanas_ica/?hl=es-la" target="_blank">
                 <span><i class="fab fa-instagram"></i></span>
             </a>
         </div>
@@ -1217,7 +1227,7 @@
                             <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/terreno.png" alt="" height="60"></div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="contador_cantidad text-center" data-cantidad-total="2135">1900</div>
+                            <div class="contador_cantidad text-center" data-cantidad-total="1520">1200</div>
                             <div>
                                 <p id="contadorparrafo">m² área</p>
                             </div>
@@ -1264,7 +1274,7 @@
     <section id="lema">
         <div class="container">
             <h2>Razón, Fe, Responsabilidad, Disciplina</h2>
-            <em>formando líderes con pensamiento crítico y creativo</em>
+            <em>Formando líderes con pensamiento crítico y creativo</em>
             <br>
             <h3 class="title"> <a href="admision.php" style="color: var(--color5);">ADMISIÓN 2023 </a> </h3>
         </div>
@@ -1386,7 +1396,7 @@
                             <span class="me-4"> <i class="fas fa-phone-alt fa-lg" style="color: var(--color1);"></i> </span>
                             <div class="col-lg">
                                 <h5>Teléfonos</h5>
-                                <p class="mt-3 text">054 237216 - 994344681</p>
+                                <p class="mt-3 text">944 594 646 - 993764570</p>
                             </div>
                         </div>
                         <div class="d-flex " style="margin:0px 0px 0px 3px;">
@@ -1420,7 +1430,7 @@
                         <span class="me-4"> <i class="fas fa-map-marker-alt fa-lg" style="color: var(--color1);"></i> </span>
                         <div>
                             <h5>Dirección</h5>
-                            <p class="mt-3 text">Urb. Aproviord B-6 ASVEA – AREQUIPA (entre av. Los incas y Parque Lambramani)</p>
+                            <p class="mt-3 text">Calle Urubamba N: 205 Ica</p>
                         </div>
                     </div>
                     <div class="d-flex addres">
@@ -1463,7 +1473,7 @@
                     </div>
                     <div class="redes">
                         <div class="red">
-                            <a class="yt" href="#" target="_blank">
+                            <a class="yt" href="https://www.youtube.com/channel/UCIc7wdy6dQBJ9DCu4SFJh7g" target="_blank">
                                 <span><i class="fab fa-youtube"></i></span>
                             </a>
                         </div>
@@ -1473,12 +1483,12 @@
                             </a>
                         </div>
                         <div class="red">
-                            <a class="tw" href="#" target="_blank">
+                            <a class="tw" href="https://twitter.com/alas_peruanas_" target="_blank">
                                 <span><i class="fab fa-twitter"></i></span>
                             </a>
                         </div>
                         <div class="red">
-                            <a class="ig" href="https://www.instagram.com/colegio_alas_peruanas/" target="_blank">
+                            <a class="ig" href="https://www.instagram.com/iepalasperuanas_ica/" target="_blank">
                                 <span><i class="fab fa-instagram"></i></span>
                             </a>
                         </div>
@@ -1490,7 +1500,9 @@
     </section>
     <section id="gps">
         <div class="container-fluid mt-5 p-0">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19287.976251023552!2d-71.53499748355216!3d-16.413698288783923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b0280a1a649%3A0x26d710e3351b4c46!2sColegio%20Alas%20Peruanas%2C%20Arequipa%2004002!5e0!3m2!1ses-419!2spe!4v1660755941242!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1935.0956471119393!2d-75.727769!3d-14.0658785!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2bd61b93d21%3A0x571e8e35a72db156!2sColegio%20Privado%20Alas%20Peruanas!5e0!3m2!1ses!2spe!4v1663879429048!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
         </div>
     </section>
 

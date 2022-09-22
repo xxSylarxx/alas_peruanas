@@ -749,7 +749,7 @@
         }
 
         #portada {
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)),
                 url('./public/img/img-page/vision.jpg');
             /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
             background-size: 100%;
@@ -769,8 +769,9 @@
             filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
             position: absolute;
             height: 40%;
-            top: 96%;
-            left: 25%;
+            top: 95%;
+            left: 115px;
+            z-index: -99;
         }
 
 
@@ -1051,11 +1052,12 @@
     <section id="bienvenidos-interno">
         
         <div class="container">
+        <h2 style="text-align:center;color:var(--color1);padding:0;">PERFIL DEL EGRESADO</h2>
+            <div class="separador mx-auto"></div>
+
+            <br>
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-6 mt-4 mb-4">
-
-                    <h1 style="text-align:start;color:var(--color3);">Perfil del Egresado</h1>
-                    <div class="separador mx-start"></div>
                     <img class="bgmusica" src="./public/img/icons/dios.png" alt="">
                 </div>
                 <div class="col-lg-5 mt-4 mb-4">

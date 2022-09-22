@@ -761,7 +761,7 @@
         }
 
         #portada {
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1)),
                 url('./public/img/img-page/nosotros_portada.jpg');
             /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
             background-size: 100%;
@@ -777,13 +777,14 @@
         }
 
         .bgmusica {
-                opacity: .08;
-                filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
-                position: absolute;
-                height: 45%;
-                top: 80%;
-                left: 155px;
-            }
+            opacity: .08;
+            filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
+            position: absolute;
+            height: 40%;
+            top: 95%;
+            left: 115px;
+            z-index: -99;
+        }
 
         .separador {
             background-color: var(--color2);
@@ -902,7 +903,10 @@
         .animar {
             animation: aparecer 1.3s;
         }
-
+        #bienvenidos-interno{
+            padding-top: 7rem;
+            padding-bottom: 6rem;
+        }
 
 
 
@@ -934,7 +938,7 @@
     </style>
 
 
-<section id="portada">
+    <section id="portada">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -954,13 +958,13 @@
         </div>
     </section>
     <section id="bienvenidos-interno">
-        
-        <div class="container" style="padding-top:4rem;padding-bottom:4rem;">
+        <div class="container">
+            <h2 style="text-align:center;color:var(--color1);padding:0;">VALORES</h2>
+            <div class="separador mx-auto"></div>
+
+            <br>
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-6 mt-4 mb-4">
-
-                    <h1 style="text-align:start;color:var(--color3);">Valores</h1>
-                    <div class="separador mx-start"></div>
                     <img class="bgmusica" src="./public/img/icons/dios.png" alt="">
                 </div>
                 <div class="col-lg-5 mt-4 mb-4">
@@ -980,7 +984,6 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <section id="historia2">
@@ -1022,10 +1025,10 @@
                         <img src="./public/img/icons/solidaridad.png" alt="">
                         <h2 style="color:black;">SOLIDARIDAD</h2>
                         <br>
-                        <p class="card_text">Es un valor que se caracteriza por la 
-                            colaboración entre los alumnos y alumnas de forma desinteresada, 
+                        <p class="card_text">Es un valor que se caracteriza por la
+                            colaboración entre los alumnos y alumnas de forma desinteresada,
                             es decir, sin esperar nada a cambio y sin ningún interés de por medio.
-                            Una persona solidaria es aquella brinda apoyo a otra solo por empatía, 
+                            Una persona solidaria es aquella brinda apoyo a otra solo por empatía,
                             al reconocer que el otro tiene una necesidad que en esos momentos no puede cubrir.
                         </p>
                         <p style="font-weight:bold;">ACTITUDES:</p>
@@ -1116,7 +1119,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/karate.jpg" width="100%" height="680" style="object-fit:cover;" alt="">
+                    <img src="./public/img/img-page/honestidadvf.jpeg" width="100%" height="680" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>

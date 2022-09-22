@@ -1021,10 +1021,9 @@
                         </div>
                         <div class="back">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Unde tempore hic porro rerum eligendi debitis, nobis est provident
-                                facere deserunt. Sint dicta libero quaerat consequatur sunt enim totam.
-                                Libero, non?
+                                El objetivo principal es complementar el desarrollo de los niños,
+                                niñas y adolescentes; asimismo, satisfacer las necesidades individuales
+                                de cada estudiante deportista.
                             </p>
                         </div>
                     </div>
@@ -1059,10 +1058,9 @@
                         </div>
                         <div class="back">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Unde tempore hic porro rerum eligendi debitis, nobis est provident
-                                facere deserunt. Sint dicta libero quaerat consequatur sunt enim totam.
-                                Libero, non?
+                                El objetivo principal es complementar el desarrollo de los niños,
+                                niñas y adolescentes; asimismo, satisfacer las necesidades individuales
+                                de cada estudiante deportista.
                             </p>
                         </div>
                     </div>
@@ -1074,14 +1072,11 @@
                     <div class="card shadow ">
                         <div class="front ">
                             <span class="fs-1"><img src="./public/img/icons/deporte_karate.png" width="50" alt=""></span>
-                            <h5 class="py-2">Karate</h5>
+                            <h5 class="py-2">Taekwondo</h5>
                         </div>
                         <div class="back">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Unde tempore hic porro rerum eligendi debitis, nobis est provident
-                                facere deserunt. Sint dicta libero quaerat consequatur sunt enim totam.
-                                Libero, non?
+                                Un ejercicio muy bueno para la mente aumenta el autocontrol y la confianza.
                             </p>
                         </div>
                     </div>
@@ -1094,7 +1089,9 @@
     <br>
     <br>
     <br>
-    <center><//?php include_once  './cards-exp2.php'; ?></center>
+    <center>
+        </ /?php include_once './cards-exp2.php' ; ?>
+    </center>
 
     <!-- <section>
         <div class="container">

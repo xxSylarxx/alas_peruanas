@@ -978,7 +978,32 @@
                         </div>
                     </a>
                 </div>
+                <div class="col-md-4 px-3 my-3">
+                    <a href="view.php?id=4">
+                        <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">
+                            <span class="news">Noticias</span>
+                            <img src="./public/img/galeria/cachimba2023.jpeg" width="100%" height="250">
 
+                            <div class="card-body">
+                                <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color1);">FELICIDADES CACHIMBO 2023</h5>
+
+                                <div class="detalle">
+                                    Felicidades estimado alumna, ahora empiezas una nueva etapa, estamos
+                                    seguros que te ira bien en su carrera profesional.Alas Peruanas “Educación para la vida”
+                                </div>
+
+                            </div>
+
+                            <div class="card-footer" style="background: transparent; font-size: 16px;color:black;">
+                                <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+
+                                <span class="ms-2">10-08-2022</span>
+
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
                 <div class="col-md-4 px-3 my-3">
                     <a href="view.php?id=2">
                         <div class="card shadow-sm h-100" style="background: rgb(248, 248, 248);">

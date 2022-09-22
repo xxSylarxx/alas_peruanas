@@ -94,7 +94,7 @@ switch ($pagina) {
 </header>
 <br>
 <br>
-
+<?php include_once  './partials/flotante.php'; ?>
 <!-- <script>
     var height = document.getElementById('header').clientHeight;
     document.getElementById('head-top').style.height = height + "px";

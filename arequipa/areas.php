@@ -1169,7 +1169,7 @@
         <div class="container">
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-6 mt-4 mb-4">
-                    <center><img src="./public/img/img-page/arequipa/ciencia_2.jpg" width="95%" alt=""></center>
+                    <center><img src="./public/img/img-page/arequipa/areas_ciencia.jpg" width="95%" alt=""></center>
                 </div>
                 <div class="col-lg-6 my-auto">
                     <h2 style="text-align:start;color:var(--color1);">Ciencia y Tecnología</h2>

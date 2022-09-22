@@ -1098,7 +1098,7 @@
                             <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/terreno.png" alt="" height="60"></div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="contador_cantidad text-center" data-cantidad-total="2135">1900</div>
+                            <div class="contador_cantidad text-center" data-cantidad-total="1520">1200</div>
                             <div>
                                 <p id="contadorparrafo">m² área</p>
                             </div>
