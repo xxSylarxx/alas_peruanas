@@ -243,7 +243,7 @@
         #bienvenidos-parrafo {
             background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
                 url('./public/img/img-page/arequipa/fachadaf.jpg');
-            background-size: 140%;
+            background-size: 160%;
             padding: 6rem;
 
         }

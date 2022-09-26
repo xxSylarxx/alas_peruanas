@@ -822,7 +822,7 @@
             filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
             position: absolute;
             height: 80%;
-            top: 120%;
+            top: 110%;
             left: -130px;
         }
 
@@ -834,6 +834,7 @@
 
         }
 
+        /* texto del banner */
         .div-banner {
             padding-left: 4rem;
             display: flex;
@@ -958,29 +959,14 @@
                 opacity: .08;
                 filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
                 position: absolute;
-                height: 100%;
-                top: 100%;
+                height: 40%;
+                top: 120%;
                 left: -10px;
                 z-index: -99;
             }
-
-            .div-social {
-
-                padding-top: 2rem;
-                color: var(--color1);
-                /* display: flex; */
-                flex-direction: column;
-                margin-top: 2rem;
-                justify-content: center;
-                position: absolute;
-                left: 10px;
-                bottom: 350px;
-                z-index: 99999;
-
-            }
         }
 
-        @media screen and (max-width:500px) {
+        @media screen and (max-width:700px) {
             .bgmusica {
                 display: none;
             }
@@ -988,8 +974,83 @@
             #correocontacto {
                 font-size: 12px;
             }
+
+            .div-banner {
+                padding-left: 1rem;
+                display: flex;
+                justify-content: start;
+                align-items: flex-end;
+                height: 100%;
+                margin-top: -300px;
+                padding-bottom: 3rem;
+                display: none;
+
+            }
+
+            .text-banner span {
+                font-family: "monserratblack", sans-serif !important;
+                font-weight: 900;
+                font-size: 30px;
+                color: var(--color1);
+            }
+
+            .text-banner p {
+                font-family: "monserratsemibold", sans-serif !important;
+                font-size: 1rem;
+                color: var(--color3);
+            }
+
+            .text-banner img {
+                width: 20px;
+                margin-left: 40%;
+                margin-bottom: 10px;
+            }
+
+            #carousel-noticias .carousel-item p {
+                line-height: 1;
+                font-size: 10px;
+            }
+
+            #pilares .col-md-5 {
+                display: none;
+            }
+
+            #lema {
+                background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
+                    url('./public/img/img-page/fachadaf.jpg');
+                background-size: 300%;
+
+                background-repeat: no-repeat;
+
+
+            }
+
+            #pilares {
+                background: linear-gradient(to top,
+                        rgba(136, 28, 34, 0.7) 55%,
+                        #ffff 10%,
+                        #ffff 50%),
+                    url("./public/img/img-page/fachadaf.jpg");
+                background-size: 300% !important;
+                /* background-position: center; */
+                padding-top: 4rem;
+                padding-bottom: 1rem;
+                margin-top: -10px;
+                background-repeat: no-repeat;
+                border-color: white !important;
+            }
+
+            .carousel-control-next {
+                margin-right: -25px !important;
+            }
+
+            .carousel-control-prev {
+                margin-left: -25px !important;
+            }
+
         }
     </style>
+
     <div id="preload">
 
         <div id="circulo">
@@ -1001,14 +1062,10 @@
         </div>
         <img src="./public/img/icons/logo.png" id="loadEscudo" height="78">
     </div>
- 
+
     <section id="slider">
         <div class="container-fluid content-banner px-0">
             <div id="carouselBanner" class="carousel slide pointer-event" data-bs-ride="carousel">
-                <!-- <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1" class=""></button>
-                </div> -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./public/img/banner/banner_principal_alas_peruanas.jpg" class="d-block w-100">
@@ -1026,48 +1083,9 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="carousel-item">
-                        <img src="./public/img/banner/banner_alas_peruanas.jpg" class="d-block w-100">
-                        <div class="div-banner container">
-                            <div class="text-banner">
-                                <img src="./public/img/icons/logo.png" alt="">
-                                <br>
-                                <p id="lema-banner">"Educamos para la vida"</p>
-                                <a href="./primaria.php"><span>NIVEL PRIMARIA</span></a>
-                                <br>
-                                <br>
-                                <p>Desarrollamos en nuestros estudiantes el conocimiento <br>
-                                    científico,la creatividad y el trabajo en equipo.</p>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="carousel-item ">
-                        <img src="./public/img/banner/banner3_alas_peruanas.jpg" class="d-block w-100">
-                        <div class="div-banner container">
-                            <div class="text-banner">
-                                <img src="./public/img/icons/logo.png" alt="">
-                                <br>
-                                <p id="lema-banner">"Educamos para la vida"</p>
-                                <a href="./secundaria.php"><span>NIVEL SECUNDARIA</span></a>
-                                <br>
-                                <br>
-                                <p>Promovemos el desarrollo de capacidades <br> y actitudes investigativas en las diversas áreas.</p>
-                            </div>
-                        </div>
-                    </div> -->
+
                 </div>
-                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true">
-                        <i class="fas fa-chevron-left"></i>
-                        <span class="visually-hidden">Previous</span>
-                </button>
-                </span> -->
-                <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true">
-                        <i class="fas fa-chevron-right"></i>
-                    </span>
-                    <span class="visually-hidden">Next</span>
-                </button> -->
+
             </div>
         </div>
     </section>
@@ -1415,7 +1433,7 @@
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center ">
                             <img src="./public/img/icons/colegio2.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3 ">
@@ -1428,7 +1446,7 @@
                 </div>
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center">
                             <img src="./public/img/icons/profesor.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-2 ">
@@ -1441,7 +1459,7 @@
                 </div>
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center">
                             <img src="./public/img/icons/escritorios.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3">
@@ -1458,7 +1476,7 @@
                             <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/universidad.png" alt="" height="60"></div>
                         </div>
                         <div class="col-lg-6 mx-1">
-                            <div class="d-flex">
+                            <div class="d-flex justify-content-center">
                                 <div class="contador_cantidad text-center d-flex" data-cantidad-total="80">
                                     0
                                 </div>
@@ -1493,7 +1511,7 @@
             <br>
 
             <div class="row d-flex justify-content-around">
-                <div class="col-md-5 my-auto">
+                <div class="col-md-5 my-auto pt-4">
                     <a href="./arequipa/noticias.php" target="_blank">
                         <div class="card border-0" id="card-1">
                             <div class="crop">
@@ -1507,7 +1525,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-5 my-auto">
+                <div class="col-md-5 my-auto pt-4">
                     <a href="./ica/noticias.php" target="_blank">
                         <div class="card border-0" id="card-1">
                             <div class="crop">

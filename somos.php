@@ -253,8 +253,15 @@
         h1 {
 
             color: white;
-
             padding-right: .5rem;
+
+        }
+
+        #bienvenidos-parrafo h2 {
+
+            color: white;
+            padding-left: .5rem;
+            padding-right: 10rem;
 
         }
 
@@ -268,13 +275,7 @@
 
         }
 
-        #bienvenidos-parrafo h2 {
 
-            color: white;
-            padding-left: .5rem;
-            padding-right: 10rem;
-
-        }
 
         #bienvenidos-parrafo img {
 
@@ -931,6 +932,36 @@
             .bgmusica {
                 display: none;
             }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1)),
+                    url('./public/img/img-page/nosotros_portada.jpg');
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: bottom;
+                /*  background-attachment: fixed; */
+
+            }
+
+            #portada h2 {
+                margin-top: 18rem;
+
+            }
+
+            #portada span {
+                display: none;
+
+            }
+
+            #img-parrafo {
+                height: 200px;
+                width: 100%;
+            }
+
+            #bienvenidos-parrafo2 p {
+
+                padding: 0;
+            }
         }
     </style>
 
@@ -1000,14 +1031,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/mision.jpg" width="100%" height="600" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/mision.jpg" width="100%" height="600" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/vision.jpg" width="100%" height="600" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/vision.jpg" width="100%" height="600" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 3rem;">
@@ -1036,7 +1067,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/edicion199.jpg" width="100%" height="670" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/edicion199.jpg" width="100%" height="670" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
@@ -1047,7 +1078,7 @@
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center ">
                             <img src="./public/img/icons/colegio2.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3 ">
@@ -1060,7 +1091,7 @@
                 </div>
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center">
                             <img src="./public/img/icons/profesor.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-2 ">
@@ -1073,7 +1104,7 @@
                 </div>
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center">
                             <img src="./public/img/icons/escritorios.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3">
@@ -1090,7 +1121,7 @@
                             <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/universidad.png" alt="" height="60"></div>
                         </div>
                         <div class="col-lg-6 mx-1">
-                            <div class="d-flex">
+                            <div class="d-flex justify-content-center">
                                 <div class="contador_cantidad text-center d-flex" data-cantidad-total="80">
                                     0
                                 </div>

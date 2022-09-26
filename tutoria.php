@@ -850,7 +850,53 @@
             font-size: 16px;
         }
 
-        @media screen and (max-width:410px) {}
+        @media screen and (max-width:700px) {
+            .bgmusica {
+                display: none;
+            }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/robotica.jpg');
+                    background-size: 100%;
+                background-repeat: no-repeat;
+                background-position:bottom;
+                /*  background-attachment: fixed; */
+
+            }
+
+            #portada h2 {
+                margin-top: 18rem;
+
+            }
+
+            #portada span {
+                display: none;
+
+            }
+
+            #img-parrafo {
+                height: 200px;
+                width: 100%;
+                object-fit: cover;
+                object-position: 80% 20%;
+            }
+
+            #bienvenidos-parrafo>div {
+
+                padding: 2rem !important;
+            }
+
+            #bienvenidos-parrafo2>div {
+
+                padding: 2rem !important;
+            }
+
+            #bienvenidos-parrafo2 p {
+
+                padding: 0;
+            }
+        }
 
         @media screen and (max-width:1300px) {
             .bgmusica {
@@ -925,7 +971,7 @@
                     <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
                     <span class="ms-3" style="font-family: 'Poppins', sans-serif;font-size: 16px;">Seguimiento permanente de los y las estudiantes: revisión de sus metas.</span>
                 </section>
-              
+
                 <br>
                 <p>
                     <b>Tutoría grupal:</b> Vista como acciones que se enfocan al análisis y resolución de
@@ -940,25 +986,25 @@
                 </section>
                 <section class="d-flex list  ">
                     <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
-                    <span class="ms-3" style="font-family: 'Poppins', sans-serif;font-size: 16px;">Desarrollo de temas que involucran las necesidades 
+                    <span class="ms-3" style="font-family: 'Poppins', sans-serif;font-size: 16px;">Desarrollo de temas que involucran las necesidades
                         físicas, sociales y psicológicas de la y los estudiantes de un grado.</span>
                 </section>
                 <section class="d-flex list  ">
                     <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
-                    <span class="ms-3" style="font-family: 'Poppins', sans-serif;font-size: 16px;">Actividades lúdicas y de recreación para mejorar la 
+                    <span class="ms-3" style="font-family: 'Poppins', sans-serif;font-size: 16px;">Actividades lúdicas y de recreación para mejorar la
                         convivencia en el aula y consolidar los grupos con objetivos comunes.</span>
                 </section>
                 <section class="d-flex list  ">
                     <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
-                    <span class="ms-3" style="font-family: 'Poppins', sans-serif;font-size: 16px;">Reconocer las características del grupo, 
+                    <span class="ms-3" style="font-family: 'Poppins', sans-serif;font-size: 16px;">Reconocer las características del grupo,
                         para abordar estrategias que permitan optimizar su proceso de aprendizaje.</span>
                 </section>
                 <section class="d-flex list  ">
                     <span style="color:var(--color1);"><i class="fas fa-check-double" aria-hidden="true"></i></span>
-                    <span class="ms-3" style="font-family: 'Poppins', sans-serif;font-size: 16px;">Recibir talleres, charlas y conferencias de terceros, 
+                    <span class="ms-3" style="font-family: 'Poppins', sans-serif;font-size: 16px;">Recibir talleres, charlas y conferencias de terceros,
                         profesionales reconocidos que puedan brindar la orientación que cada aula necesita.</span>
                 </section>
-                
+
             </div>
         </div>
     </section>
@@ -967,7 +1013,7 @@
     <br>
 </body>
 
-<?php include_once  './partials/footer.php'; ?>
+<?php include_once  './partials/footer2.php'; ?>
 
 
 <!-- Script para carousel automatico -->

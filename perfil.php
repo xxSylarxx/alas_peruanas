@@ -996,7 +996,8 @@
             justify-content: center;
             color: var(--color1);
         }
-        #bienvenidos-interno{
+
+        #bienvenidos-interno {
             padding-top: 7rem;
             padding-bottom: 8rem;
         }
@@ -1027,6 +1028,26 @@
             .bgmusica {
                 display: none;
             }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)),
+                    url('./public/img/img-page/vision.jpg');
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: bottom;
+                /*  background-attachment: fixed; */
+
+            }
+
+            #portada h2 {
+                margin-top: 18rem;
+
+            }
+
+            #portada span {
+                display: none;
+
+            }
         }
     </style>
 
@@ -1050,9 +1071,9 @@
         </div>
     </section>
     <section id="bienvenidos-interno">
-        
+
         <div class="container">
-        <h2 style="text-align:center;color:var(--color1);padding:0;">PERFIL DEL EGRESADO</h2>
+            <h2 style="text-align:center;color:var(--color1);padding:0;">PERFIL DEL EGRESADO</h2>
             <div class="separador mx-auto"></div>
 
             <br>
@@ -1063,11 +1084,11 @@
                 <div class="col-lg-5 mt-4 mb-4">
                     <div class="row ">
                         <div class="col-lg">
-                            <p>El perfil de egreso es la visión común e integral de lo 
-                                que deben lograr los estudiantes al término de la educación 
-                                básica. El perfil de egreso describe los aprendizajes comunes 
-                                que todos los estudiantes deben alcanzar como producto de su 
-                                formación básica para desempeñar un papel activo en la sociedad 
+                            <p>El perfil de egreso es la visión común e integral de lo
+                                que deben lograr los estudiantes al término de la educación
+                                básica. El perfil de egreso describe los aprendizajes comunes
+                                que todos los estudiantes deben alcanzar como producto de su
+                                formación básica para desempeñar un papel activo en la sociedad
                                 y seguir aprendiendo a lo largo de la vida. Estos perfiles son:</p>
                         </div>
                     </div>

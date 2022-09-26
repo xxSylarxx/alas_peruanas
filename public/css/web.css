@@ -380,13 +380,14 @@ p {
 }
 
 @media (max-width: 500px) {
+  #header nav.navbar{
+    background-color: var(--color1);
+  }
   #header .barsup span {
     display: none;
   }
 
-  #header .logo {
-    width: 60px;
-  }
+ 
   #header span {
     font-size: 12px;
   }
@@ -394,5 +395,12 @@ p {
   #footer .date-info {
     margin-top: 2rem;
     text-align: center;
+  }
+  #header .logo {
+    width: 30px;
+    /* height: 60px; */
+  }
+  #slider{
+    margin-top: 90px;
   }
 }

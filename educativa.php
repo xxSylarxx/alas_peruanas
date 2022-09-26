@@ -1005,6 +1005,26 @@
             .bgmusica {
                 display: none;
             }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1)),
+                    url('./public/img/img-page/portada_propuesta_principal.jpg');
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: bottom;
+                /*  background-attachment: fixed; */
+
+            }
+
+            #portada h2 {
+                margin-top: 18rem;
+
+            }
+
+            #portada span {
+                display: none;
+
+            }
         }
     </style>
 

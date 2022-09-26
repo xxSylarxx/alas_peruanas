@@ -59,9 +59,54 @@
             z-index: 99999;
 
         }
+
+
     }
 
-    @media screen and (max-width:500px) {}
+    @media screen and (max-width:700px) {
+        .div-social {
+
+            padding-top: 2rem;
+            color: var(--color1);
+            /* display: flex; */
+            flex-direction: column;
+            margin-top: 2rem;
+            justify-content: center;
+            position: absolute;
+            left: 10px;
+            bottom: 390px;
+            z-index: 99999;
+
+        }
+
+        .div-social a {
+
+            font-size: .7rem;
+        }
+
+    }
+
+    @media screen and (max-width:400px) {
+        .div-social a {
+
+            font-size: .5rem;
+        }
+
+        .div-social {
+
+            padding-top: 2rem;
+            color: var(--color1);
+            /* display: flex; */
+            flex-direction: column;
+            margin-top: 2rem;
+            justify-content: center;
+            position: absolute;
+            left: 10px;
+            bottom: 460px;
+            z-index: 99999;
+
+        }
+    }
 </style>
 
 <div class="div-social">

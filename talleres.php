@@ -754,7 +754,6 @@
         #portada {
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
                 url('./public/img/img-page/portada_deportes.jpg');
-            /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
             background-size: 100%;
             background-position: top;
             background-attachment: fixed;
@@ -925,9 +924,50 @@
             }
         }
 
-        @media screen and (max-width:500px) {
+        @media screen and (max-width:700px) {
             .bgmusica {
                 display: none;
+            }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/deporte_karate2.jpg');
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position:bottom;
+                /*  background-attachment: fixed; */
+            }
+
+            #portada h2 {
+                margin-top: 18rem;
+
+            }
+
+            #portada span {
+                display: none;
+
+            }
+
+            #img-parrafo {
+                height: 200px;
+                width: 100%;
+                object-fit: cover;
+                object-position: 80% 20%;
+            }
+
+            #bienvenidos-parrafo>div {
+
+                padding: 2rem !important;
+            }
+
+            #bienvenidos-parrafo2>div {
+
+                padding: 2rem !important;
+            }
+
+            #bienvenidos-parrafo2 p {
+
+                padding: 0;
             }
         }
     </style>
@@ -967,7 +1007,7 @@
                         <div class="col-lg">
                             <br>
                             <br>
-                          
+
                             <p>Es parte de la propuesta formativa del Colegio, ofrecer
                                 talleres extracurriculares de carácter cultural, artísticos
                                 y/o deportivos, para complementar la formación integral de
@@ -1016,14 +1056,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/futbolv2.jpg" width="100%" height="750" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/futbolv2.jpg" width="100%" height="750" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/taek.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/taek.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 3rem;">
@@ -1064,14 +1104,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/danzaprincipal.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/danzaprincipal.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/musicav22.jpeg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/musicav22.jpeg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 3rem;">
@@ -1096,7 +1136,7 @@
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center ">
                             <img src="./public/img/icons/colegio2.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3 ">
@@ -1109,7 +1149,7 @@
                 </div>
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center">
                             <img src="./public/img/icons/profesor.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-2 ">
@@ -1122,7 +1162,7 @@
                 </div>
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center">
                             <img src="./public/img/icons/escritorios.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3">
@@ -1139,7 +1179,7 @@
                             <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/universidad.png" alt="" height="60"></div>
                         </div>
                         <div class="col-lg-6 mx-1">
-                            <div class="d-flex">
+                            <div class="d-flex justify-content-center">
                                 <div class="contador_cantidad text-center d-flex" data-cantidad-total="80">
                                     0
                                 </div>

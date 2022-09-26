@@ -743,9 +743,6 @@
         #portada {
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1)),
                 url('./public/img/img-page/nosotros_portada.jpg');
-            /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-                url('./public/img/img-page/arequipa/portada_historica3.jpg'); */
-            /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
             background-size: 100%;
             background-position: center;
             background-attachment: fixed;
@@ -845,8 +842,30 @@
             animation: aparecer 1.3s;
         }
 
-        @media screen and (max-width:410px) {}
+        @media screen and (max-width:410px) {
+            .bgmusica {
+            display:none;
+        }
+        #portada {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1)),
+                url('./public/img/img-page/nosotros_portada.jpg');
+             background-size: 100%;
+            background-repeat: no-repeat; 
+            background-position: bottom;
+           /*  background-attachment: fixed; */
 
+
+        }
+        #portada h2 {
+           margin-top: 18rem;
+            
+        }
+        #portada span {
+           display: none;
+            
+        }
+
+    }
         @media screen and (max-width:1300px) {
             .bgmusica {
                 
@@ -955,7 +974,7 @@
     <br>
 </body>
 
-<?php include_once  './partials/footer.php'; ?>
+<?php include_once  './partials/footer2.php'; ?>
 
 
 <!-- Script para carousel automatico -->

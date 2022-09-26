@@ -249,6 +249,14 @@
 
         }
 
+        #bienvenidos-parrafo h2 {
+
+            color: white;
+            padding-left: .5rem;
+            padding-right: 10rem;
+
+        }
+
 
 
         #bienvenidos-parrafo2 p {
@@ -259,14 +267,7 @@
 
         }
 
-        #bienvenidos-parrafo p,
-        h2 {
 
-            color: white;
-            padding-left: .5rem;
-            padding-right: 10rem;
-
-        }
 
         #bienvenidos-parrafo img {
 
@@ -283,23 +284,6 @@
             margin-bottom: 20px;
 
         }
-
-        /*  #bienvenidos-parrafo2 {
-            background: linear-gradient(rgba(0, 0, 0, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./public/img/img-page/arequipa/fachada1.jpg');
-            background-size: 120%;
-            padding: 6rem;
-
-        } */
-
-        /* #historia {
-            background: linear-gradient(rgba(129, 17,19, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./public/img/img-page/arequipa/fachada1.jpg');
-            background-size: 100%;
-            padding: 2rem;
-
-        } */
-
 
         .main_div {
 
@@ -903,7 +887,8 @@
         .animar {
             animation: aparecer 1.3s;
         }
-        #bienvenidos-interno{
+
+        #bienvenidos-interno {
             padding-top: 7rem;
             padding-bottom: 6rem;
         }
@@ -933,6 +918,48 @@
         @media screen and (max-width:500px) {
             .bgmusica {
                 display: none;
+            }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1)),
+                    url('./public/img/img-page/nosotros_portada.jpg');
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: bottom;
+                /*  background-attachment: fixed; */
+
+            }
+
+            #portada h2 {
+                margin-top: 18rem;
+
+            }
+
+            #portada span {
+                display: none;
+
+            }
+
+            #img-parrafo {
+                height: 200px;
+                width: 100%;
+                object-fit: cover;
+                object-position: 80% 20%;
+            }
+
+            #bienvenidos-parrafo >div {
+
+                padding: 2rem!important;
+            }
+
+            #bienvenidos-parrafo2 >div {
+
+                padding: 2rem!important;
+            }
+
+            #bienvenidos-parrafo2 p {
+
+                padding: 0;
             }
         }
     </style>
@@ -1011,14 +1038,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/inicialf2.jpg" width="100%" height="510" style="object-fit:cover;" alt="">
+                    <img  id="img-parrafo" src="./public/img/img-page/inicialf2.jpg" width="100%" height="510" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/portada_somos.jpg" width="100%" height="650" style="object-fit:cover;" alt="">
+                    <img  id="img-parrafo" src="./public/img/img-page/portada_somos.jpg" width="100%" height="650" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">
@@ -1068,14 +1095,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/responsabilidadf.jpg" width="100%" height="700" style="object-fit:cover;" alt="">
+                    <img  id="img-parrafo" src="./public/img/img-page/responsabilidadf.jpg" width="100%" height="700" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/portada_valores.jpg" width="100%" height="600" style="object-fit:cover;" alt="">
+                    <img  id="img-parrafo" src="./public/img/img-page/portada_valores.jpg" width="100%" height="600" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">
@@ -1119,7 +1146,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/honestidadvf.jpeg" width="100%" height="680" style="object-fit:cover;" alt="">
+                    <img   id="img-parrafo" src="./public/img/img-page/honestidadvf.jpeg" width="100%" height="680" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>

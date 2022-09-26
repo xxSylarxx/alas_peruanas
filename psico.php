@@ -792,9 +792,9 @@
             opacity: .08;
             filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
             position: absolute;
-            height: 100%;
+            height: 40%;
             top: 100%;
-            left: 8%;
+            left: 33%;
         }
 
         #bienvenidos-interno {
@@ -845,7 +845,52 @@
             animation: aparecer 1.3s;
         }
 
-        @media screen and (max-width:410px) {}
+        @media screen and (max-width:700px) {
+            .bgmusica {
+                display: none;
+            }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/robotica.jpg');
+                    background-size: 100%;
+                background-repeat: no-repeat;
+                background-position:bottom;
+                /*  background-attachment: fixed; */
+
+            }
+
+            #portada h2 {
+                margin-top: 18rem;
+
+            }
+
+            #portada span {
+                display: none;
+
+            }
+            #img-parrafo {
+                height: 200px;
+                width: 100%;
+                object-fit: cover;
+                object-position: 80% 20%;
+            }
+
+            #bienvenidos-parrafo>div {
+
+                padding: 2rem !important;
+            }
+
+            #bienvenidos-parrafo2>div {
+
+                padding: 2rem !important;
+            }
+
+            #bienvenidos-parrafo2 p {
+
+                padding: 0;
+            }
+        }
 
         @media screen and (max-width:1300px) {
             .bgmusica {
@@ -915,7 +960,7 @@
     <br>
 </body>
 
-<?php include_once  './partials/footer.php'; ?>
+<?php include_once  './partials/footer2.php'; ?>
 
 
 <!-- Script para carousel automatico -->
