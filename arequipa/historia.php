@@ -265,21 +265,6 @@
 
         }
 
-        /* #bienvenidos-parrafo2 {
-            background: linear-gradient(rgba(0, 0, 0, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./public/img/img-page/fachada1.jpg');
-            background-size: 120%;
-            padding: 6rem;
-
-        } */
-
-        /* #historia {
-            background: linear-gradient(rgba(129, 17,19, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./public/img/img-page/fachada1.jpg');
-            background-size: 100%;
-            padding: 2rem;
-
-        } */
 
 
         .main_div {
@@ -744,19 +729,16 @@
         #portada {
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
                 url('./public/img/img-page/arequipa/portada_historia2.jpg');
-            /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-                url('./public/img/img-page/arequipa/portada_historica3.jpg'); */
-            /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
             background-size: 100%;
             background-position: center;
             background-attachment: fixed;
             margin-top: -7rem;
-
         }
 
         #portada h2 {
             color: white;
             margin-top: 34rem;
+            margin-bottom: 5rem;
         }
 
         .separador {
@@ -849,7 +831,63 @@
 
 
 
-        @media screen and (max-width:410px) {}
+        @media screen and (max-width:700px) {
+            .bgmusica {
+                display: none;
+            }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/arequipa/portada_historia2.jpg');
+                background-size: 100%;
+                /*  background-repeat: no-repeat; */
+                background-position: bottom;
+            }
+
+            #portada h2 {
+                color: white;
+                margin-bottom: 0rem;
+                margin-top: 12rem;
+
+            }
+
+            #portada span {
+                font-size: 30px;
+            }
+
+            #img-parrafo {
+                height: 300px;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            #bienvenidos-parrafo2 p {
+
+                padding: 0;
+            }
+
+            #bienvenidos-parrafo>div {
+
+                padding: 1rem !important;
+
+            }
+
+            #bienvenidos-parrafo2>div {
+
+
+                padding: 1rem !important;
+
+            }
+
+            #bienvenidos-parrafo {
+                background: linear-gradient(rgba(136, 28, 34, 1) 100%, #ffff 10%, #ffff 50%),
+                    url('./public/img/img-page/arequipa/fachadaf.jpg') !important;
+                background-size: 160%;
+                padding: 6rem;
+
+            }
+
+        }
 
         @media screen and (max-width:1300px) {
             .bgmusica {
@@ -883,9 +921,7 @@
                         <!-- <div class="separador mx-start"></div> -->
                     </h2>
                     <!-- <h2>Bienvenidos</h2>-->
-                    <br>
-                    <br>
-                    <br>
+
                 </div>
             </div>
         </div>
@@ -946,14 +982,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/arequipa/nosotrosv222.jpg" width="100%" height="600" style="object-fit: cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/arequipa/nosotrosv222.jpg" width="100%" height="600" style="object-fit: cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/arequipa/bienvenidos4.jpg" width="100%" height="100%" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/arequipa/bienvenidos4.jpg" width="100%" height="100%" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">
@@ -985,33 +1021,10 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/arequipa/bienvenidos5.jpg" width="100%" height="100%" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/arequipa/bienvenidos5.jpg" width="100%" height="100%" alt="">
                 </div>
             </div>
         </div>
-        <!-- <div class="container-fluid">
-            <div class="row d-flex justify-content-between">
-                <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/arequipa/bienvenidos5.jpg" width="100%" height="100%" alt="">
-                </div>
-                <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
-                    <div style="padding: 5rem;">
-                        
-                        <br>
-                        <p class="px-3">Tercer puesto como mejor danza en el Corso de la Amistad de la Ciudad de Arequipa 2019.</p>
-                        <p class="px-3">En el año 2020 Tercer Puesto en canto solista en los Juegos Florales a nivel Ugel Arequipa Norte.</p>
-                        <p class="px-3">En el año 2021 segundo puesto en Juegos Florales en Instrumentación Solista en los Juegos Florales a nivel Ugel Arequipa Norte.</p>
-                        <p class="px-3">Actualmente sus instalaciones están equipadas con tecnología moderna, se cuenta con centro de computación, robótica, laboratorio de
-                            física y química, biblioteca, los salones están equipados con computadoras y cañones multimedia y
-                            se además un circuito cerrado de cámaras de vigilancia.</p>
-
-
-                    </div>
-                </div>
-
-            </div>
-        </div> -->
-
     </section>
     <!--  <section id="importantes">
         <div class="container">

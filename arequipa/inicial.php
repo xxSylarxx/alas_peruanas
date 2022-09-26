@@ -782,6 +782,7 @@
         #portada h2 {
             color: white;
             margin-top: 34rem;
+            margin-bottom: 5rem;
         }
 
         .bgmusica {
@@ -935,10 +936,72 @@
             }
         }
 
-        @media screen and (max-width:500px) {
+        @media screen and (max-width:700px) {
             .bgmusica {
                 display: none;
             }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/arequipa/portada_inicial.jpg');
+                background-size: 100%;
+                /*  background-repeat: no-repeat; */
+                background-position: bottom;
+            }
+
+            #portada h2 {
+                color: white;
+                margin-bottom: 0rem;
+                margin-top: 12rem;
+
+            }
+
+            #portada span {
+                font-size: 30px;
+            }
+
+            #img-parrafo {
+                height: 300px;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            #bienvenidos-parrafo2 p {
+
+                padding: 0;
+            }
+
+            #bienvenidos-parrafo>div {
+
+                padding: 1rem !important;
+
+            }
+
+            #bienvenidos-parrafo2>div {
+
+
+                padding: 1rem !important;
+
+            }
+
+            #bienvenidos-parrafo {
+                background: linear-gradient(rgba(136, 28, 34, 1) 100%, #ffff 10%, #ffff 50%),
+                    url('./public/img/img-page/arequipa/fachadaf.jpg') !important;
+                background-size: 160%;
+                padding: 6rem;
+
+            }
+            #bienvenidos-parrafo p{
+                text-align: justify!important;
+                padding-right: 0rem;
+
+            }
+            #bienvenidos-parrafo2 p{
+                text-align: justify!important;
+                padding-right: 0rem;
+
+            }
+
         }
     </style>
 
@@ -951,12 +1014,7 @@
                             <span class="letters" style="font-size:50px;">Niveles
                             </span>
                         </span>
-                        <!-- <div class="separador mx-start"></div> -->
                     </h2>
-                    <!-- <h2>Bienvenidos</h2>-->
-                    <br>
-                    <br>
-                    <br>
                 </div>
             </div>
         </div>
@@ -1007,7 +1065,7 @@
             <div class="row d-flex justify-content-between">
                 <div id="bienvenidos-parrafo" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">
-                        <img src="./public/img/icons/ludica.png" alt="">
+                        <img id="img-parrafo" src="./public/img/icons/ludica.png" alt="">
 
                         <h2>ACTIVIDAD LÚDICA</h2>
                         <br>
@@ -1018,14 +1076,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/arequipa/inicialf1.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/arequipa/inicialf1.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/arequipa/inicialf2.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/arequipa/inicialf2.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">
@@ -1057,14 +1115,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/arequipa/inicial2.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/arequipa/inicial2.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/arequipa/inicial.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/arequipa/inicial.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">
@@ -1087,7 +1145,7 @@
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center ">
                             <img src="./public/img/icons/colegio2.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3 ">
@@ -1100,7 +1158,7 @@
                 </div>
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center">
                             <img src="./public/img/icons/profesor.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-2 ">
@@ -1113,7 +1171,7 @@
                 </div>
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center">
                             <img src="./public/img/icons/escritorios.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3">

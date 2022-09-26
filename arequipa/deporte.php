@@ -733,13 +733,10 @@
         }
 
         #portada {
-            /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-                url('./public/img/img-page/arequipa/fachadaf.jpg'); */
+
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
                 url('./public/img/img-page/arequipa/portada_deportes.jpg');
-            /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
             background-size: 100%;
-            /* background-position: center; */
             background-attachment: fixed;
             margin-top: -7rem;
             background-repeat: no-repeat;
@@ -749,6 +746,7 @@
         #portada h2 {
             color: white;
             margin-top: 34rem;
+            margin-bottom: 5rem;
         }
 
         .separador {
@@ -868,7 +866,31 @@
 
         /* --- end --- */
 
-        @media screen and (max-width:410px) {}
+        @media screen and (max-width:700px) {
+            .bgmusica {
+                display: none;
+            }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/arequipa/portada_deportes.jpg');
+                background-size: 100%;
+               
+                background-position: bottom;
+            }
+
+            #portada h2 {
+                color: white;
+                margin-bottom: 0rem;
+                margin-top: 12rem;
+
+            }
+
+            #portada span {
+                font-size: 30px;
+            }
+
+        }
 
         @media screen and (max-width:1300px) {
             .bgmusica {
@@ -882,33 +904,6 @@
         }
     </style>
 
-    <!--  <section id="valores" class="animate__animated animate__zoomIn">
-        <div class="container-fluid p-5">
-            <div class="row d-flex ">
-                <div class="col-lg d-flex justify-content-center mx-3">
-                    <img src="./public/img/icons/libertad.png" class="img-fluid" width="50" height="50" alt="">
-                    <h5 class="my-auto mx-3">Libertad</h5>
-                </div>
-
-                <div class="col-lg d-flex justify-content-center mx-3"><img src="./public/img/icons/solidaridad.png" class="img-fluid" width="50" height="50" alt="">
-                    <h5 class="my-auto mx-3">Solidaridad</h5>
-                </div>
-
-                <div class="col-lg d-flex justify-content-center mx-3"><img src="./public/img/icons/responsabilidad.png" class="img-fluid" width="50" height="50" alt="">
-                    <h5 class="my-auto mx-3">Responsabilidad</h5>
-                </div>
-
-                <div class="col-lg d-flex justify-content-center mx-3"><img src="./public/img/icons/respeto.png" class="img-fluid" width="50" height="50" alt="">
-                    <h5 class="my-auto mx-3">Respeto</h5>
-                </div>
-
-                <div class="col-lg d-flex justify-content-center mx-3"><img src="./public/img/icons/honestidad.png" class="img-fluid" width="50" height="50" alt="">
-                    <h5 class="my-auto mx-3">Honestidad</h5>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
     <section id="portada">
         <div class="container">
             <div class="row">
@@ -917,12 +912,7 @@
                         <span class="text-wrapper">
                             <span class="letters" style="font-size:50px;">Vida Escolar</span>
                         </span>
-                        <!-- <div class="separador mx-start"></div> -->
                     </h2>
-                    <!-- <h2>Bienvenidos</h2>-->
-                    <br>
-                    <br>
-                    <br>
                 </div>
             </div>
         </div>
@@ -1094,9 +1084,9 @@
     <section id="importantes">
         <div class="container">
             <div class="row d-flex justify-content-around">
-                <div class="col-lg-3 d-flex contador">
+                <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center ">
                             <img src="./public/img/icons/colegio2.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3 ">
@@ -1107,9 +1097,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 d-flex contador">
+                <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center">
                             <img src="./public/img/icons/profesor.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-2 ">
@@ -1120,9 +1110,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 d-flex contador">
+                <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center">
                             <img src="./public/img/icons/escritorios.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3">
@@ -1133,13 +1123,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 d-flex contador">
+                <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row">
                         <div class="col-lg-4">
                             <div><img style="align-items:center;display:flex;content:center;margin:auto;" src="./public/img/icons/terreno.png" alt="" height="60"></div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="contador_cantidad text-center" data-cantidad-total="1520">1200</div>
+                            <div class="contador_cantidad text-center" data-cantidad-total="2135">1900</div>
                             <div>
                                 <p id="contadorparrafo">m² área</p>
                             </div>
@@ -1149,7 +1139,6 @@
             </div>
         </div>
     </section>
-
 
 
     <?php include_once  './partials/footer.php'; ?>

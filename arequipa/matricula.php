@@ -747,6 +747,7 @@
         #portada h2 {
             color: white;
             margin-top: 34rem;
+            margin-bottom: 5rem;
         }
 
         .separador {
@@ -923,7 +924,51 @@
 
 
 
-        @media screen and (max-width:410px) {}
+        @media screen and (max-width:700px) {
+            .bgmusica {
+                display: none;
+            }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/arequipa/fachadaf.jpg');
+                background-size: 100%;
+                background-position: bottom;
+            }
+
+            #portada h2 {
+                color: white;
+                margin-bottom: -1rem;
+                margin-top: 11rem;
+
+            }
+
+            #portada span {
+                font-size: 20px;
+            }
+
+            .table-responsive {
+                width: 100%;
+                margin-bottom: 15px;
+                overflow-y: hidden;
+                -ms-overflow-style: -ms-autohiding-scrollbar;
+                border: 1px solid #ddd;
+            }
+
+            .table-responsive>.table {
+                margin-bottom: 0;
+            }
+
+            .table-responsive>.table>thead>tr>th,
+            .table-responsive>.table>tbody>tr>th,
+            .table-responsive>.table>tfoot>tr>th,
+            .table-responsive>.table>thead>tr>td,
+            .table-responsive>.table>tbody>tr>td,
+            .table-responsive>.table>tfoot>tr>td {
+                white-space: nowrap;
+            }
+
+        }
 
         @media screen and (max-width:1200px) {}
     </style>
@@ -936,11 +981,7 @@
                         <span class="text-wrapper">
                             <span class="letters" style="font-size:50px;">Proceso de Matrícula</span>
                         </span>
-                        <!-- <div class="separador mx-start"></div> -->
                     </h2>
-                    <!-- <h2>Bienvenidos</h2>-->
-                    <br>
-                    <br>
                     <br>
                 </div>
             </div>
@@ -956,7 +997,6 @@
             </div>
         </div>
     </section>
-    <br>
     <section>
         <div class="container">
             <div class="row">
@@ -1131,7 +1171,7 @@
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center">
                     <div>
-                        <img src="./public/img/img-page/arequipa/foto_inicial.jpg" width="85%" alt="">
+                        <center><img src="./public/img/img-page/arequipa/foto_inicial.jpg" width="85%" alt=""></center>
                     </div>
                 </div>
             </div>
@@ -1148,7 +1188,7 @@
                 <div class="col-lg-12 my-auto">
 
 
-                    <div class="mt-5 tableover">
+                    <div class="table-responsive mt-5 tableover">
                         <table class="table table-bordered">
                             <thead class="text-white" style="background-color:var(--color1);">
                                 <tr style="text-align:center;">
@@ -1191,11 +1231,12 @@
                 </div>
             </div>
             <br>
+            <p>
             La institución educativa no cobra cuotas de ingreso en ninguno de sus niveles.
             <span style="color:var(--color1);font-weight:bold;">Los montos establecidos para las pensiones escolares 2023 podrían sufrir un incremento en función
                 a distintos factores que afectan los costos de financiamiento de la institución como la inflación
                 y/o aumento de precios de los bienes y servicios en el país,</span>
-            los postulantes a 3 años, deben tener tres años cumplidos al 31 de marzo de 2023.
+            los postulantes a 3 años, deben tener tres años cumplidos al 31 de marzo de 2023.</p>
 
         </div>
     </section>
@@ -1213,7 +1254,7 @@
                 <div class="col-lg-12 my-auto">
 
 
-                    <div class="mt-5 tableover">
+                    <div class="table-responsive mt-5 tableover">
                         <table class="table table-bordered">
                             <thead class="text-white" style="background-color:var(--color1);">
                                 <tr style="text-align:center;">

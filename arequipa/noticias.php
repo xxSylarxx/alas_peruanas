@@ -917,10 +917,30 @@
             }
         }
 
-        @media screen and (max-width:500px) {
+        @media screen and (max-width:700px) {
             .bgmusica {
                 display: none;
             }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/arequipa/portada_noticias.jpg');
+                background-size: 100%;
+
+                background-position: bottom;
+            }
+
+            #portada h2 {
+                color: white;
+                margin-bottom: 0rem;
+                margin-top: 11.8rem;
+
+            }
+
+            #portada span {
+                font-size: 30px;
+            }
+
         }
     </style>
 

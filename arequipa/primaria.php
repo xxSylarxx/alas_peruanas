@@ -764,6 +764,7 @@
         #portada h2 {
             color: white;
             margin-top: 34rem;
+            margin-bottom: 5rem;
         }
 
         .separador {
@@ -897,7 +898,73 @@
 
 
 
-        @media screen and (max-width:410px) {}
+        @media screen and (max-width:700px) {
+            .bgmusica {
+                display: none;
+            }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/arequipa/portada_primaria.jpg');
+                background-size: 100%;
+                /*  background-repeat: no-repeat; */
+                background-position: bottom;
+            }
+
+            #portada h2 {
+                color: white;
+                margin-bottom: 0rem;
+                margin-top: 15rem;
+
+            }
+
+            #portada span {
+                font-size: 30px;
+            }
+
+            #img-parrafo {
+                height: 300px;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            #bienvenidos-parrafo2 p {
+
+                padding: 0;
+            }
+
+            #bienvenidos-parrafo>div {
+
+                padding: 1rem !important;
+
+            }
+
+            #bienvenidos-parrafo2>div {
+
+
+                padding: 1rem !important;
+
+            }
+
+            #bienvenidos-parrafo {
+                background: linear-gradient(rgba(136, 28, 34, 1) 100%, #ffff 10%, #ffff 50%),
+                    url('./public/img/img-page/arequipa/fachadaf.jpg') !important;
+                background-size: 160%;
+                padding: 6rem;
+
+            }
+            #bienvenidos-parrafo p{
+                text-align: justify!important;
+                padding-right: 0rem;
+
+            }
+            #bienvenidos-parrafo2 p{
+                text-align: justify!important;
+                padding-right: 0rem;
+
+            }
+
+        }
 
         @media screen and (max-width:1300px) {
             .bgmusica {
@@ -923,9 +990,7 @@
                         <!-- <div class="separador mx-start"></div> -->
                     </h2>
                     <!-- <h2>Bienvenidos</h2>-->
-                    <br>
-                    <br>
-                    <br>
+                    
                 </div>
             </div>
         </div>
@@ -959,36 +1024,6 @@
         </div>
 
     </section>
-    <!--  <section class="container">
-        <br>
-        <br>
-        <div class="container">
-            <div class="row d-flex justify-content-around">
-                <div class="col-lg-4 mt-4 mb-4">
-
-                    <h1 style="text-align:start;color:var(--color1);">Primaria</h1>
-                    <div class="separador mx-start"></div>
-                </div>
-                <div class="col-lg-8 mt-4 mb-4">
-                    <div class="row ">
-                        <div class="col-lg mx-3">
-                            <p>La educación primaria, en el marco de la formación integral,
-                                busca desarrollar en el niño y niña el conocimiento científico,
-                                la creatividad, el trabajo en equipo y el ejercicio de su ciudadanía
-                                de forma protagónica.</p>
-                        </div>
-                        <div class="col-lg mx-3">
-                            <p>La educación Primaria se trabaja bajo el modelo clásico, para lograr el
-                                aprendizaje profundo a través de leer, pensar, calcular y escribir.
-                                Los contenidos están basados en el CNB e impartidos por docentes
-                                especializados en el área.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section> -->
     <br>
     <br>
     <section id="historia2">
@@ -1008,14 +1043,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/arequipa/primariaf1.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/arequipa/primariaf1.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/arequipa/bienvenidos6.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/arequipa/bienvenidos6.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">
@@ -1047,14 +1082,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/arequipa/primariaf2.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/arequipa/primariaf2.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/arequipa/primaria3.jpeg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/arequipa/primaria3.jpeg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">
@@ -1074,25 +1109,12 @@
         </div>
     </section>
 
-    <!--  <div class="container">
-        <div class="row">
-            <h3 style="color:var(--color1);">Medios Tecnológicos</h3>
-        </div>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-lg-4"><video src="./public/videos/VIDEO_CUBICOL.mp4" class="shadow rounded" width="100%" autoplay="" muted="" loop=""></video></div>
-            <div class="col-lg-4"><img src="./public/img/img-page/arequipa/meet.jpg" class="img-fluid shadow rounded" alt=""></div>
-            <div class="col-lg-4"><img src="./public/img/img-page/arequipa/otrasapp.jpg" class="img-fluid shadow rounded" alt=""></div>
-        </div>
-    </div> -->
-
     <section id="importantes">
         <div class="container">
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center ">
                             <img src="./public/img/icons/colegio2.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3 ">
@@ -1105,7 +1127,7 @@
                 </div>
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center">
                             <img src="./public/img/icons/profesor.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-2 ">
@@ -1118,7 +1140,7 @@
                 </div>
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center">
                             <img src="./public/img/icons/escritorios.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3">

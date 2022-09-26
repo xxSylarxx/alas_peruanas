@@ -888,7 +888,8 @@
             }
         }
 
-        @media screen and (max-width:500px) {
+        @media screen and (max-width:900px) {
+
             .bgmusica {
                 display: none;
             }
@@ -896,6 +897,105 @@
             #correocontacto {
                 font-size: 12px;
             }
+
+            .div-banner {
+                padding-left: 1rem;
+                display: flex;
+                justify-content: start;
+                align-items: flex-end;
+                height: 100%;
+                margin-top: -300px;
+                padding-bottom: 3rem;
+                display: none;
+
+            }
+
+            .text-banner span {
+                font-family: "monserratblack", sans-serif !important;
+                font-weight: 900;
+                font-size: 30px;
+                color: var(--color1);
+            }
+
+            .text-banner p {
+                font-family: "monserratsemibold", sans-serif !important;
+                font-size: 1rem;
+                color: var(--color3);
+            }
+
+            .text-banner img {
+                width: 20px;
+                margin-left: 40%;
+                margin-bottom: 10px;
+            }
+
+            #carousel-noticias .carousel-item p {
+                line-height: 1;
+                font-size: 10px;
+            }
+
+            #pilares .col-md-5 {
+                display: none;
+            }
+
+            #lema {
+            background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
+                url('./public/img/img-page/arequipa/fachadaf.jpg');
+            background-size: 300%;
+            /* background-position: center; */
+            /* background-attachment: fixed; */
+            background-repeat: no-repeat;
+
+
+        }
+
+            #pilares {
+                background: linear-gradient(to top,
+                        rgba(136, 28, 34, 0.7) 55%,
+                        #ffff 10%,
+                        #ffff 50%),
+                    url("./public/img/img-page/fachadaf.jpg");
+                background-size: 300% !important;
+                /* background-position: center; */
+                padding-top: 4rem;
+                padding-bottom: 1rem;
+                margin-top: -10px;
+                background-repeat: no-repeat;
+                border-color: white !important;
+            }
+
+            #valores {
+                margin-top: 10px;
+            }
+
+            .redesS {
+
+                padding-top: 2rem;
+                color: var(--color1);
+                /* display: flex; */
+                flex-direction: column;
+                margin-top: 2rem;
+                justify-content: center;
+                position: absolute;
+                left: 10px;
+                bottom: 370px;
+                z-index: 1;
+            }
+
+            .redesS a {
+                font-size: 13px;
+                color: var(--color1);
+                border: 1px solid var(--color1);
+                text-align: center;
+                border-radius: 50%;
+                width: 35px;
+                height: 35px;
+                margin-bottom: 10px;
+                padding-top: 8px;
+                display: inline-block;
+            }
+
+
         }
     </style>
     <?php include_once  './partials/flotante.php'; ?>
@@ -1188,7 +1288,7 @@
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center ">
                             <img src="./public/img/icons/colegio2.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3 ">
@@ -1201,7 +1301,7 @@
                 </div>
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center">
                             <img src="./public/img/icons/profesor.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-2 ">
@@ -1214,7 +1314,7 @@
                 </div>
                 <div class="col-lg-3 d-flex justify-content-center contador">
                     <div class="row d-flex">
-                        <div class="col-lg-3 ">
+                        <div class="col-lg-3 d-flex justify-content-center">
                             <img src="./public/img/icons/escritorios.png" alt="" height="50">
                         </div>
                         <div class="col-lg-6 mx-3">

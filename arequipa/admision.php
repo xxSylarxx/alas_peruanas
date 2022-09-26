@@ -134,21 +134,6 @@
             z-index: -1;
         }
 
-        /* #valores {
-
-            margin-top: -150px;
-            z-index: 99;
-            position: relative;
-        }
- 
-        #valores h5 {
-            color: black;
-        }
-
-        #valores .container-fluid {
-            background-color: rgba(255, 255, 255, .8);
-            
-        } */
         #valores {
             margin-top: -100px;
         }
@@ -743,10 +728,10 @@
             background-repeat: no-repeat;
 
         }
-
         #portada h2 {
             color: white;
             margin-top: 34rem;
+            margin-bottom: 5rem;
         }
 
         .separador {
@@ -922,7 +907,30 @@
 
 
 
-        @media screen and (max-width:410px) {}
+        @media screen and (max-width:700px) {
+            .bgmusica {
+                display: none;
+            }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/arequipa/fachadaf.jpg');
+                background-size: 100%;
+                background-position: bottom;
+            }
+
+            #portada h2 {
+                color: white;
+                margin-bottom: 0rem;
+                margin-top: 13rem;
+
+            }
+
+            #portada span {
+                font-size: 20px;
+            }
+
+        }
 
         @media screen and (max-width:1200px) {}
     </style>
@@ -937,10 +945,7 @@
                         </span>
                         <!-- <div class="separador mx-start"></div> -->
                     </h2>
-                    <!-- <h2>Bienvenidos</h2>-->
-                    <br>
-                    <br>
-                    <br>
+                    
                 </div>
             </div>
         </div>
@@ -1054,7 +1059,7 @@
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center">
                     <div>
-                        <img src="./public/img/img-page/arequipa/proceso_admision.png" width="75%" alt="">
+                        <center><img src="./public/img/img-page/arequipa/proceso_admision.png" width="75%" alt=""></center>
                     </div>
                 </div>
             </div>

@@ -379,7 +379,7 @@ p {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   #header .barsup span {
     display: none;
   }
@@ -394,5 +394,27 @@ p {
   #footer .date-info {
     margin-top: 2rem;
     text-align: center;
+  }
+  #header nav.navbar {
+    background-color: var(--color1);
+  }
+  #header .barsup span {
+    display: none;
+  }
+
+  #header span {
+    font-size: 12px;
+  }
+
+  #footer .date-info {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  #header .logo {
+    width: 30px;
+    /* height: 60px; */
+  }
+  #slider {
+    margin-top: 90px;
   }
 }
