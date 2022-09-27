@@ -899,7 +899,73 @@
 
 
 
-        @media screen and (max-width:410px) {}
+        @media screen and (max-width:700px) {
+            .bgmusica {
+                display: none;
+            }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/ica/portada_secundariaaaa.jpg');
+                background-size: 100%;
+                
+                background-position: bottom;
+            }
+
+            #portada h2 {
+                color: white;
+                margin-bottom: 0rem;
+                margin-top: 18rem;
+
+            }
+
+            #portada span {
+                font-size: 30px;
+            }
+
+            #img-parrafo {
+                height: 300px;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            #bienvenidos-parrafo2 p {
+
+                padding: 0;
+            }
+
+            #bienvenidos-parrafo>div {
+
+                padding: 1rem !important;
+
+            }
+
+            #bienvenidos-parrafo2>div {
+
+
+                padding: 1rem !important;
+
+            }
+
+            #bienvenidos-parrafo {
+                background: linear-gradient(rgba(136, 28, 34, 1) 100%, #ffff 10%, #ffff 50%),
+                    url('./public/img/img-page/arequipa/fachadaf.jpg') !important;
+                background-size: 160%;
+                padding: 6rem;
+
+            }
+            #bienvenidos-parrafo p{
+                text-align: justify!important;
+                padding-right: 0rem;
+
+            }
+            #bienvenidos-parrafo2 p{
+                text-align: justify!important;
+                padding-right: 0rem;
+
+            }
+
+        }
 
         @media screen and (max-width:1300px) {
             .bgmusica {
@@ -924,10 +990,6 @@
                         </span>
                         <!-- <div class="separador mx-start"></div> -->
                     </h2>
-                    <!-- <h2>Bienvenidos</h2>-->
-                    <br>
-                    <br>
-                    <br>
                 </div>
             </div>
         </div>
@@ -956,44 +1018,6 @@
         </div>
 
     </section>
-
-    <!-- <section class="container">
-        <br>
-        <br>
-        <div class="container">
-            <div class="row d-flex justify-content-around">
-                <div class="col-lg-4 mt-4 mb-4">
-
-                    <h1 style="text-align:start;color:var(--color1);">Secundaria</h1>
-                    <div class="separador mx-start"></div>
-                </div>
-                <div class="col-lg-8 mt-4 mb-4">
-                    <div class="row ">
-                        <div class="col-lg mx-3">
-                            <p>Nuestro proyecto curricular en el nivel
-                                secundaria profundiza y afianza una formación
-                                cristiana – católica, científica, humanística y
-                                tecnológica a los adolescentes. El perfil de nuestros estudiantes
-                                se orienta al desarrollo de competencias para la vida, el trabajo y
-                                el ejercicio de la ciudadanía, desarrollándose en grupos heterogéneos
-                                y de un modo autónomo. El desarrollo de habilidades tecnológicas mediante
-                                la adquisición de habilidades de cómputo, centrándonos en el</p>
-                        </div>
-                        <div class="col-lg mx-3">
-                            <p> manejo de los principales programas de Microsoft Office y otros.</p>
-                            <p>La enseñanza la impartimos tomando en cuenta
-                                los desempeños establecidos por cada área curricular
-                                y que se encuentran alineados a las competencias,
-                                capacidades y estándares de aprendizaje propuestos
-                                en el Currículo Nacional que son evaluados
-                                formativamente.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section> -->
     <br>
     <section id="historia2">
         <div class="container-fluid">
@@ -1013,14 +1037,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/ica/portada_secundaria.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/ica/portada_secundaria.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/ica/secundaria2.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/ica/secundaria2.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">

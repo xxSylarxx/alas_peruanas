@@ -850,6 +850,11 @@
             font-size: 16px;
         }
 
+        #historiaa h2 {
+            text-align: center;
+            color: var(--color1);
+        }
+
         @media screen and (max-width:700px) {
             .bgmusica {
                 display: none;
@@ -858,15 +863,17 @@
             #portada {
                 background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
                     url('./public/img/img-page/robotica.jpg');
-                    background-size: 100%;
+                background-size: 100%;
                 background-repeat: no-repeat;
-                background-position:bottom;
+                background-position: bottom;
                 /*  background-attachment: fixed; */
 
             }
 
             #portada h2 {
-                margin-top: 18rem;
+                color: white;
+                margin-bottom: 0rem;
+                margin-top: 20rem;
 
             }
 
@@ -896,6 +903,16 @@
 
                 padding: 0;
             }
+
+            #historiaa h2 {
+                text-align: center;
+
+            }
+            #historiaa p {
+               font-size: 14px;
+
+            }
+
         }
 
         @media screen and (max-width:1300px) {
@@ -912,6 +929,7 @@
                 padding: 6rem;
 
             }
+
         }
     </style>
 
@@ -924,11 +942,8 @@
                             <span class="letters" style="font-size:50px;">Servicios
                             </span>
                         </span>
-                        <!-- <div class="separador mx-start"></div> -->
-                    </h2>
-                    <br>
-                    <br>
-                    <br>
+                        <h2>
+
                 </div>
             </div>
         </div>
@@ -942,7 +957,7 @@
     <section class="container" id="historiaa">
         <div class="row justify-content-center">
             <div class="col-md-10">
-                <div class="d-flex justify-content-center " style="color:var(--color1);">
+                <div>
                     <h2>LÍNEAS DE ACCIÓN TUTORÍAL:</h2>
                 </div>
                 <div class="separador mx-auto"></div>

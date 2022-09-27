@@ -1212,7 +1212,7 @@
 
     <section id="propuesta">
         <div class="container">
-            <h3 style="color:var(--color1);">NUESTRA PROPUESTA EDUCATIVA</h3>
+            <center><h3 style="color:var(--color1);">NUESTRA PROPUESTA EDUCATIVA</h3></center>
         </div>
         <br>
         <div class="container">

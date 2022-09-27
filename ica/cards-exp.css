@@ -248,7 +248,7 @@ body .options {
   body .options {
     min-width: 520px;
   }
-  body .options .option:nth-child(5) {
+  body .options .option:nth-child(1) {
     display: none;
   }
 }
@@ -256,7 +256,7 @@ body .options {
   body .options {
     min-width: 440px;
   }
-  body .options .option:nth-child(4) {
+  body .options .option:nth-child(2) {
     display: none;
   }
 }
@@ -264,7 +264,7 @@ body .options {
   body .options {
     min-width: 360px;
   }
-  body .options .option:nth-child(3) {
+  body .options .option:nth-child(4) {
     display: none;
   }
 }
@@ -272,7 +272,7 @@ body .options {
   body .options {
     min-width: 280px;
   }
-  body .options .option:nth-child(2) {
+  body .options .option:nth-child(5) {
     display: none;
   }
 }

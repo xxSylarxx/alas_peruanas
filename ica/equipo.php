@@ -819,7 +819,66 @@
 
 
 
-        @media screen and (max-width:410px) {}
+        @media screen and (max-width:700px) {
+            .bgmusica {
+                display: none;
+            }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/ica/fachada2_ica.jpg');
+                background-size: 100%;
+                /*  background-repeat: no-repeat; */
+                background-position: bottom;
+            }
+
+            #portada h2 {
+                color: white;
+                margin-bottom: 0rem;
+                margin-top: 12rem;
+
+            }
+
+            #portada span {
+                font-size: 30px;
+            }
+
+            #img-parrafo {
+                height: 300px;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            #bienvenidos-parrafo2 p {
+
+                padding: 0;
+            }
+
+            #bienvenidos-parrafo>div {
+
+                padding: 1rem !important;
+
+            }
+
+            #bienvenidos-parrafo2>div {
+
+
+                padding: 1rem !important;
+
+            }
+
+            #bienvenidos-parrafo {
+                background: linear-gradient(rgba(136, 28, 34, 1) 100%, #ffff 10%, #ffff 50%),
+                    url('./public/img/img-page/arequipa/fachadaf.jpg') !important;
+                background-size: 160%;
+                padding: 6rem;
+
+            }
+            #valores .front >h5{
+                font-size: 1rem;
+            }
+
+        }
 
         @media screen and (max-width:1200px) {}
     </style>
@@ -837,10 +896,6 @@
                         </span>
                         <!-- <div class="separador mx-start"></div> -->
                     </h2>
-                    <!-- <h2>Bienvenidos</h2>-->
-                    <br>
-                    <br>
-                    <br>
                 </div>
             </div>
         </div>

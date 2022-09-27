@@ -924,7 +924,52 @@
 
 
 
-        @media screen and (max-width:410px) {}
+        @media screen and (max-width:700px) {
+            .bgmusica {
+                display: none;
+            }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/ica/fachada2_ica.jpg');
+                background-size: 100%;
+                background-position: bottom;
+            }
+
+            #portada h2 {
+                color: white;
+                margin-bottom: 0rem;
+                margin-top: 12rem;
+
+            }
+
+            #portada span {
+                font-size: 20px;
+            }
+
+            .table-responsive {
+                width: 100%;
+                margin-bottom: 15px;
+                overflow-y: hidden;
+                -ms-overflow-style: -ms-autohiding-scrollbar;
+                border: 1px solid #ddd;
+            }
+
+            .table-responsive>.table {
+                margin-bottom: 0;
+            }
+
+            .table-responsive>.table>thead>tr>th,
+            .table-responsive>.table>tbody>tr>th,
+            .table-responsive>.table>tfoot>tr>th,
+            .table-responsive>.table>thead>tr>td,
+            .table-responsive>.table>tbody>tr>td,
+            .table-responsive>.table>tfoot>tr>td {
+                white-space: nowrap;
+            }
+
+        }
+
 
         @media screen and (max-width:1200px) {}
     </style>
@@ -939,10 +984,7 @@
                         </span>
                         <!-- <div class="separador mx-start"></div> -->
                     </h2>
-                    <!-- <h2>Bienvenidos</h2>-->
-                    <br>
-                    <br>
-                    <br>
+                    
                 </div>
             </div>
         </div>
@@ -1149,8 +1191,8 @@
                 <div class="col-lg-12 my-auto">
 
 
-                    <div class="mt-5 tableover">
-                        <table class="table table-bordered">
+                    <div class="table-responsive mt-5 tableover">
+                        <table class=" table table-bordered">
                             <thead class="text-white" style="background-color:var(--color1);">
                                 <tr style="text-align:center;">
                                     <td>NIVEL</td>
@@ -1214,7 +1256,7 @@
                 <div class="col-lg-12 my-auto">
 
 
-                    <div class="mt-5 tableover">
+                    <div class="table-responsive mt-5 tableover">
                         <table class="table table-bordered">
                             <thead class="text-white" style="background-color:var(--color1);">
                                 <tr style="text-align:center;">

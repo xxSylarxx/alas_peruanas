@@ -923,7 +923,30 @@
 
 
 
-        @media screen and (max-width:410px) {}
+        @media screen and (max-width:700px) {
+            .bgmusica {
+                display: none;
+            }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/ica/fachada2_ica.jpg');
+                background-size: 100%;
+                background-position: bottom;
+            }
+
+            #portada h2 {
+                color: white;
+                margin-bottom: 0rem;
+                margin-top: 12rem;
+
+            }
+
+            #portada span {
+                font-size: 20px;
+            }
+
+        }
 
         @media screen and (max-width:1200px) {}
     </style>
@@ -936,12 +959,9 @@
                         <span class="text-wrapper">
                             <span class="letters" style="font-size:50px;">PROCESO DE ADMISIÓN</span>
                         </span>
-                        <!-- <div class="separador mx-start"></div> -->
+                       
                     </h2>
-                    <!-- <h2>Bienvenidos</h2>-->
-                    <br>
-                    <br>
-                    <br>
+                   
                 </div>
             </div>
         </div>

@@ -918,10 +918,30 @@
             }
         }
 
-        @media screen and (max-width:500px) {
+        @media screen and (max-width:700px) {
             .bgmusica {
                 display: none;
             }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/ica/portada_noticias.jpg');
+                background-size: 100%;
+
+                background-position: bottom;
+            }
+
+            #portada h2 {
+                color: white;
+                margin-bottom: 0rem;
+                margin-top: 14.5rem;
+
+            }
+
+            #portada span {
+                font-size: 30px;
+            }
+
         }
     </style>
 
@@ -937,9 +957,7 @@
                         <!-- <div class="separador mx-start"></div> -->
                     </h2>
                     <!-- <h2>Bienvenidos</h2>-->
-                    <br>
-                    <br>
-                    <br>
+                    
                 </div>
             </div>
         </div>

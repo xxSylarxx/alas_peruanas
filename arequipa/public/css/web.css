@@ -405,8 +405,7 @@ p {
   #header span {
     font-size: 12px;
   }
-
-  #footer .date-info {
+  #header #footer .date-info {
     margin-top: 2rem;
     text-align: center;
   }

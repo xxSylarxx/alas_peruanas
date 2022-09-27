@@ -57,7 +57,7 @@ switch ($pagina) {
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="boton text-white"><i class="fas fa-bars"></i></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item ">
                         <a class="<?= $active1 ?>" href="index.php">INICIO</a>
@@ -114,8 +114,8 @@ switch ($pagina) {
                             <li><a class="dropdown-item" href="./matricula.php">MATRÍCULA</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.php#contacto">CONTACTO</a>
+                    <li id="colapcontacto" class="nav-item">
+                        <a class="nav-link" id="colapcontacto" href="./index.php#contacto">CONTACTO</a>
                     </li>
                 </ul>
             </div>
@@ -128,7 +128,16 @@ switch ($pagina) {
     var height = document.getElementById('header').clientHeight;
     document.getElementById('head-top').style.height = height + "px";
 </script> -->
+<script>
+    function colapsar() {
+        document.getElementById("navbarNavDropdown").classList.toggle("show")
+    }
 
+    document.getElementById("colapcontacto").onclick = function() {
+        colapsar();
+    }
+    
+</script>
 <script type="text/javascript">
     function validar() {
 
@@ -142,18 +151,3 @@ switch ($pagina) {
         }
     }
 </script>
-
-<!-- <script type="text/javascript">
-    window.addEventListener("scroll", function() {
-        var header = document.querySelector("header");
-        var img1 = './assets/img/icons/logo.png';
-        var img2 = './assets/img/icons/logo2.png';
-
-        var boton1 = 'text-white';
-        var boton2 = 'text-black';
-
-        header.classList.toggle("abajo", window.scrollY > 150);
-        document.querySelector(".logo").setAttribute("src", window.scrollY > 150 ? img2 : img1)
-        document.querySelector(".boton").setAttribute("class", window.scrollY > 150 ? boton1 : boton2)
-    })
-</script> -->

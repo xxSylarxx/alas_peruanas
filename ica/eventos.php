@@ -833,7 +833,74 @@
             margin-top: 1rem;
         }
 
-        @media screen and (max-width:410px) {}
+        @media screen and (max-width:700px) {
+            .bgmusica {
+                display: none;
+            }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/ica/dcolegio.jpg');
+                background-size: 100%;
+
+                background-position: bottom;
+            }
+
+            #portada h2 {
+                color: white;
+                margin-bottom: 0rem;
+                margin-top: 13rem;
+
+            }
+
+            #portada span {
+                font-size: 25px;
+            }
+
+            #bienvenidos-parrafo2 p {
+
+                padding: 0;
+            }
+
+            #bienvenidos-parrafo>div {
+
+                padding: 1rem !important;
+
+            }
+
+            #bienvenidos-parrafo2>div {
+
+
+                padding: 1rem !important;
+
+            }
+
+            #bienvenidos-parrafo2 {
+                background: linear-gradient(rgba(136, 28, 34, 1) 100%, #ffff 10%, #ffff 50%),
+                    url('./public/img/img-page/arequipa/fachadaf.jpg') !important;
+                background-size: 160%;
+                padding: 6rem;
+
+            }
+
+            #bienvenidos-parrafo p {
+                text-align: justify !important;
+                padding-right: 0rem;
+
+            }
+
+            #bienvenidos-parrafo2 p {
+                text-align: justify !important;
+                padding-right: 0rem;
+
+            }
+            #img-parrafo {
+                height: 300px;
+                width: 100%;
+                object-fit: cover;
+            }
+
+        }
 
         @media screen and (max-width:1200px) {}
     </style>
@@ -848,10 +915,6 @@
                         </span>
                         <!-- <div class="separador mx-start"></div> -->
                     </h2>
-                    <!-- <h2>Bienvenidos</h2>-->
-                    <br>
-                    <br>
-                    <br>
                 </div>
             </div>
         </div>
@@ -876,14 +939,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/ica/viacrucis.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/ica/viacrucis.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/ica/dmadre.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/ica/dmadre.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">
@@ -917,14 +980,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/ica/dpadre.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/ica/dpadre.jpg" width="100%" height="500" style="object-fit:cover;" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/ica/portada_somos.jpg" width="100%" height="100%" style="object-fit:cover;" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/ica/portada_somos.jpg" width="100%" height="100%" style="object-fit:cover;" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">

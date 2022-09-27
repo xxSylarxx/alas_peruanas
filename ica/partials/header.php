@@ -119,7 +119,7 @@ switch ($pagina) {
                         </ul>
                     </li>
 
-                    <li class="nav-item ">
+                    <li id="colapcontacto" class="nav-item ">
                         <a class="nav-link" href="./index.php#contacto">CONTACTO</a>
                     </li>
                 </ul>
@@ -133,7 +133,16 @@ switch ($pagina) {
     var height = document.getElementById('header').clientHeight;
     document.getElementById('head-top').style.height = height + "px";
 </script> -->
+<script>
+    function colapsar() {
+        document.getElementById("navbarNavDropdown").classList.toggle("show")
+    }
 
+    document.getElementById("colapcontacto").onclick = function() {
+        colapsar();
+    }
+    
+</script>
 <script type="text/javascript">
     function validar() {
 

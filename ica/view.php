@@ -330,6 +330,9 @@
             #div-portada {
                 font-size: 1rem;
             }
+            #iframefacebook{
+                display: none;
+            }
         }
     </style>
 
@@ -340,7 +343,7 @@
             <div class="col-md-7">
                 <?php include_once './noticias/noticia' . $_GET['id'] . '.php' ?>
             </div>
-            <div class="col-md-3">
+            <div id="iframefacebook" class="col-md-3">
                 <br>
                 <br>
                 <br>

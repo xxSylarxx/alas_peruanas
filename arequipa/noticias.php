@@ -933,7 +933,7 @@
             #portada h2 {
                 color: white;
                 margin-bottom: 0rem;
-                margin-top: 11.8rem;
+                margin-top: 16rem;
 
             }
 
@@ -955,10 +955,7 @@
                         </span>
                         <!-- <div class="separador mx-start"></div> -->
                     </h2>
-                    <!-- <h2>Bienvenidos</h2>-->
-                    <br>
-                    <br>
-                    <br>
+                    
                 </div>
             </div>
         </div>
