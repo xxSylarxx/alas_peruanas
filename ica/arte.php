@@ -734,8 +734,8 @@
         #portada h2 {
             color: white;
             margin-top: 34rem;
+            margin-bottom: 5rem;
         }
-
         .separador {
             background-color: var(--color2);
             height: 4px;

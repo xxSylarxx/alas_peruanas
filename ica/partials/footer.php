@@ -77,13 +77,7 @@
 
 
     @media (max-width: 500px) {
-        .topcontrol {
-            display: none;
-        }
-
-        .topcontrol2 {
-            display: none;
-        }
+    
 
     }
 </style>

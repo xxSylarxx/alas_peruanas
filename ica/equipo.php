@@ -724,19 +724,7 @@
             text-align: left;
         }
 
-        /* #portada {
-            background: linear-gradient(rgba(0, 0, 0, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./public/img/img-page/arequipa/fachadaarequipa.jpeg');
-            background-size: 100%;
-            background-position: center;
-            background-attachment: fixed;
-            margin-top: -7rem;
-        }
-
-        #portada h2 {
-            color: white;
-            margin-top: 15rem;
-        } */
+        
 
         #portada {
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
@@ -751,6 +739,7 @@
         #portada h2 {
             color: white;
             margin-top: 34rem;
+            margin-bottom: 5rem;
         }
 
         .separador {

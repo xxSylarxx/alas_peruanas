@@ -774,8 +774,8 @@
         #portada h2 {
             color: white;
             margin-top: 34rem;
+            margin-bottom: 5rem;
         }
-
         .separador {
             background-color: var(--color2);
             height: 4px;
@@ -866,7 +866,63 @@
 
 
 
-        @media screen and (max-width:410px) {}
+        @media screen and (max-width:700px) {
+            .bgmusica {
+                display: none;
+            }
+
+            #portada {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+                    url('./public/img/img-page/ica/portada_nosotros.jpg');
+                background-size: 100%;
+                /*  background-repeat: no-repeat; */
+                background-position: bottom;
+            }
+
+            #portada h2 {
+                color: white;
+                margin-bottom: 0rem;
+                margin-top: 15rem;
+
+            }
+
+            #portada span {
+                font-size: 30px;
+            }
+
+            #img-parrafo {
+                height: 300px;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            #bienvenidos-parrafo2 p {
+
+                padding: 0;
+            }
+
+            #bienvenidos-parrafo>div {
+
+                padding: 1rem !important;
+
+            }
+
+            #bienvenidos-parrafo2>div {
+
+
+                padding: 1rem !important;
+
+            }
+
+            #bienvenidos-parrafo {
+                background: linear-gradient(rgba(136, 28, 34, 1) 100%, #ffff 10%, #ffff 50%),
+                    url('./public/img/img-page/arequipa/fachadaf.jpg') !important;
+                background-size: 160%;
+                padding: 6rem;
+
+            }
+
+        }
 
         @media screen and (max-width:1300px) {
             .bgmusica {
@@ -888,34 +944,6 @@
         }
     </style>
 
-
-    <!--  <section id="valores" class="animate__animated animate__zoomIn">
-        <div class="container-fluid p-5">
-            <div class="row d-flex ">
-                <div class="col-lg d-flex justify-content-center mx-3">
-                    <img src="./public/img/icons/libertad.png" class="img-fluid" width="50" height="50" alt="">
-                    <h5 class="my-auto mx-3">Libertad</h5>
-                </div>
-
-                <div class="col-lg d-flex justify-content-center mx-3"><img src="./public/img/icons/solidaridad.png" class="img-fluid" width="50" height="50" alt="">
-                    <h5 class="my-auto mx-3">Solidaridad</h5>
-                </div>
-
-                <div class="col-lg d-flex justify-content-center mx-3"><img src="./public/img/icons/responsabilidad.png" class="img-fluid" width="50" height="50" alt="">
-                    <h5 class="my-auto mx-3">Responsabilidad</h5>
-                </div>
-
-                <div class="col-lg d-flex justify-content-center mx-3"><img src="./public/img/icons/respeto.png" class="img-fluid" width="50" height="50" alt="">
-                    <h5 class="my-auto mx-3">Respeto</h5>
-                </div>
-
-                <div class="col-lg d-flex justify-content-center mx-3"><img src="./public/img/icons/honestidad.png" class="img-fluid" width="50" height="50" alt="">
-                    <h5 class="my-auto mx-3">Honestidad</h5>
-                </div>
-            </div>
-        </div>
-
-    </section> -->
     <section id="portada">
         <div class="container">
             <div class="row">
@@ -927,10 +955,7 @@
                         </span>
                         <!-- <div class="separador mx-start"></div> -->
                     </h2>
-                    <!-- <h2>Bienvenidos</h2>-->
-                    <br>
-                    <br>
-                    <br>
+                   
                 </div>
             </div>
         </div>
@@ -999,14 +1024,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/ica/nosotros1.jpg" width="100%" height="100%" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/ica/nosotros1.jpg" width="100%" height="100%" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/ica/nosotros2.jpg" width="100%" height="100%" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/ica/nosotros2.jpg" width="100%" height="100%" alt="">
                 </div>
                 <div id="bienvenidos-parrafo2" class="col-lg-6 p-0">
                     <div style="padding: 5rem;">
@@ -1046,7 +1071,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <img src="./public/img/img-page/ica/nosotros3.jpg" width="100%" height="100%" alt="">
+                    <img id="img-parrafo" src="./public/img/img-page/ica/nosotros3.jpg" width="100%" height="100%" alt="">
                 </div>
             </div>
         </div>

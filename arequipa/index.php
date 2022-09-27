@@ -939,15 +939,15 @@
             }
 
             #lema {
-            background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
-                url('./public/img/img-page/arequipa/fachadaf.jpg');
-            background-size: 300%;
-            /* background-position: center; */
-            /* background-attachment: fixed; */
-            background-repeat: no-repeat;
+                background: linear-gradient(rgba(136, 28, 34, 0.8) 100%, #ffff 10%, #ffff 50%),
+                    url('./public/img/img-page/arequipa/fachadaf.jpg');
+                background-size: 300%;
+                /* background-position: center; */
+                /* background-attachment: fixed; */
+                background-repeat: no-repeat;
 
 
-        }
+            }
 
             #pilares {
                 background: linear-gradient(to top,
