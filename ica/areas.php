@@ -942,7 +942,7 @@
             #portada h2 {
                 color: white;
                 margin-bottom: 0rem;
-                margin-top: 13.5rem;
+                margin-top: 18rem;
 
             }
 
