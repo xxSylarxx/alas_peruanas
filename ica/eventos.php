@@ -994,7 +994,7 @@
                         <img src="./public/img/icons/colegio.png" alt="">
                         <h2 style="color:white;">DÍA DEL COLEGIO</h2>
                         <br>
-                        <p>Cada 23 de setiembre celebramos el aniversario de
+                        <p>Cada 24 de agosto celebramos el aniversario de
                             nuestro Colegio Alas Peruanas. Un día en el
                             que toda la Comunidad celebra el Día del
                             Colegio en una especial ceremonia y

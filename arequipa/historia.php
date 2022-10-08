@@ -940,19 +940,18 @@
                 <div class="col-lg-5 mt-4 mb-4">
                     <div class="row ">
                         <div class="col-lg">
-                            <p>Ubicada en la Urb. Aproviord B-6
-                                ASVEA del distrito de Arequipa, siendo su actual director el Lic. German Chipana Huanca,
-                                en su local cuenta con los niveles de Inicial, Primaria y Secundaria perteneciente a la
-                                promotora INVERSIONES EDUCATIVAS IESCOOP SAC.
+                            <p>Ubicada en la Urb. Aproviord B-6 ASVEA del distrito de Arequipa, 
+                                siendo su actual director el Lic. German Chipana Huanca, en su local 
+                                cuenta con los niveles de Inicial, Primaria y Secundaria perteneciente 
+                                a la promotora INVERSIONES EDUCATIVAS IESCOOP SAC.
                             </p>
-                            <p>Con Resolución Directoral 01256 de la Dirección Regional
-                                de Educación de Arequipa con fecha 12 de diciembre del año 1992 se inicia la
-                                institución educativa con el nombre de Sor Ana de los Ángeles y de Jesús en
-                                el local ubicado en la Av. La Salle en el año 1994, luego se traslada a su
-                                propio local. Por Resolución Directoral Nº 01091 de la unidad de servicios
-                                educativos Arequipa Sur se cambia el nombre a Centro Educativo Particular Alas
-                                Peruanas desde el año 1998. En ese mismo año la Universidad Alas Peruanas es la
-                                promotora de la institución educativa.</p>
+                            <p>Con Resolución Directoral 01256 de la Dirección Regional 
+                                de Educación de Arequipa con fecha 12 de diciembre del año 1992 
+                                se inicia la institución educativa con el nombre de Sor Ana de los 
+                                Ángeles y de Jesús en el local ubicado en la Av. La Salle en el año 1994, 
+                                luego se traslada a su propio local. Por Resolución Directoral Nº 01091 de la 
+                                unidad de servicios educativos Arequipa Sur se cambia el nombre a Centro Educativo 
+                                Particular Alas Peruanas desde el año 1998.</p>
                         </div>
 
 

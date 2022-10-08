@@ -864,7 +864,7 @@
         }
 
         #lema-banner {
-            font-size: 2rem;
+            font-size: 1.7rem;
             color: var(--color10);
             font-weight: bold;
         }
@@ -1044,7 +1044,7 @@
                 </div> -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./public/img/banner/banner2_alas_peruanas.jpg" class="d-block w-100">
+                        <img src="./public/img/banner/baner_ica_inicial.jpg" class="d-block w-100">
                         <div class="div-banner container">
                             <div class="text-banner">
                                 <img src="./public/img/icons/logo.png" alt="">
@@ -1062,7 +1062,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./public/img/banner/banner_alas_peruanas.jpg" class="d-block w-100">
+                        <img src="./public/img/banner/baner_ica_primaria.jpg" class="d-block w-100">
                         <div class="div-banner container">
                             <div class="text-banner">
                                 <img src="./public/img/icons/logo.png" alt="">
@@ -1071,13 +1071,13 @@
                                 <a href="./primaria.php"><span>NIVEL PRIMARIA</span></a>
                                 <br>
                                 <br>
-                                <p>Desarrollamos en nuestros estudiantes el conocimiento <br>
-                                    científico,la creatividad y el trabajo en equipo.</p>
+                                <p>Desarrollamos en nuestros estudiantes el <br> conocimiento 
+                                    científico,la creatividad y el trabajo<br>  en equipo.</p>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item ">
-                        <img src="./public/img/banner/banner3_alas_peruanas.jpg" class="d-block w-100">
+                        <img src="./public/img/banner/baner_ica_secundaria.jpg" class="d-block w-100">
                         <div class="div-banner container">
                             <div class="text-banner">
                                 <img src="./public/img/icons/logo.png" alt="">
@@ -1509,17 +1509,17 @@
                     <div class="d-flex justify-content-start flex-lg-row flex-column celEmail">
                         <div class="d-flex ">
                             <span class="me-4"> <i class="fas fa-phone-alt fa-lg" style="color: var(--color1);"></i> </span>
-                            <div class="col-lg">
+                            <div class="col-lg">&nbsp;&nbsp;
                                 <h5>Teléfonos</h5>
-                                <p class="mt-3 text">944 594 646 - 993764570</p>
+                                <p class="mt-3 text">056 - 626665&nbsp;&nbsp;&nbsp;&nbsp;</p>
                             </div>
                         </div>
                         <div class="d-flex " style="margin:0px 0px 0px 3px;">
                             <span class="me-4"> <i class="fas fa-envelope fa-lg" style="color: var(--color1);"></i> </span>
                             <div class="col-lg">
                                 <h5>Email</h5>
-                                <a id="correocontacto" href="mailto:admision-alasperuanas_aqp@iepap.edu.pe" class="mt-3 text">admision-alasperuanas_aqp@iepap.edu.pe</a><br>
-                                <a id="correocontacto" href="mailto:iepalasperuanasaqp@iepap.edu.pe" class="mt-3 text">iepalasperuanasaqp@iepap.edu.pe</a>
+                                <a id="correocontacto" href="mailto:iepalasperuanasica@hotmail.com" class="mt-3 text">iepalasperuanasica@hotmail.com</a><br>
+                                <!-- <a id="correocontacto" href="mailto:iepalasperuanasaqp@iepap.edu.pe" class="mt-3 text">iepalasperuanasaqp@iepap.edu.pe</a> -->
                             </div>
                         </div>
 

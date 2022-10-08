@@ -1064,7 +1064,7 @@
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center">
                     <div>
-                        <center><img src="./public/img/img-page/ica/admision_ica.png" width="75%" alt=""></center>
+                        <center><img src="./public/img/img-page/ica/proceso_admision_icav2.png" width="75%" alt=""></center>
                     </div>
                 </div>
             </div>

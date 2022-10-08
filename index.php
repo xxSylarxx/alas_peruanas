@@ -1128,7 +1128,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 mt-4 mb-4">
-                    <center><img src="./public/img/img-page/coordinador_academico.jpg" width="80%" class="img-fluid" alt=""></center>
+                    <center><img src="./public/img/img-page/director.jpg" width="80%" class="img-fluid" alt=""></center>
                 </div>
             </div>
         </div>

@@ -919,7 +919,7 @@
             <div class="col-md-4">
                 <div class="card" style="border: 0;">
                     <div class="card-body text-center">
-                        <img src="./public/img/icons/avatar_hombre.png" class="w-75 rounded-circle shadow">
+                        <img src="./public/img/img-page/ica/director.jpg" class="w-75 rounded-circle shadow">
                         <br><br>
                         <p class="prim text-center">Lic. Germán Víctor Chipana Huanca </p>
                         <h5 class="secu text-center"><b>Director</b></h5>
@@ -929,7 +929,7 @@
             <div class="col-md-4">
                 <div class="card" style="border: 0;">
                     <div class="card-body text-center">
-                        <img src="./public/img/icons/avatar_hombre.png" class="w-75 rounded-circle shadow">
+                        <img src="./public/img/img-page/ica/julio.jpeg" class="w-75 rounded-circle shadow">
                         <br><br>
                         <p class="prim text-center">Prof. Julio Víctor Huarcaya Ventura</p>
                         <h5 class="secu text-center"><b>Coordinador Académico</b></h5>
@@ -939,7 +939,7 @@
             <div class="col-md-4">
                 <div class="card" style="border: 0;">
                     <div class="card-body text-center">
-                        <img src="./public/img/icons/avatar_hombre.png" class="w-75 rounded-circle shadow">
+                        <img src="./public/img/img-page/ica/samuel.jpeg" class="w-75 rounded-circle shadow">
                         <br><br>
                         <p class="prim text-center">Mag. Samuel Alcides Yallico Rojas</p>
                         <h5 class="secu text-center"><b>Coordinador Institucional</b></h5>

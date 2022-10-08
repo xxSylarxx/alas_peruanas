@@ -904,7 +904,7 @@
             <div class="col-md-4">
                 <div class="card" style="border: 0;">
                     <div class="card-body text-center">
-                        <img src="./public/img/icons/avatar_hombre.png" class="w-75 rounded-circle shadow">
+                        <img src="./public/img/img-page/arequipa/director.jpg" class="w-75 rounded-circle shadow">
                         <br><br>
                         <p class="prim text-center">Lic. Germán Víctor Chipana Huanca </p>
                         <h5 class="secu text-center"><b>Director</b></h5>
@@ -924,7 +924,7 @@
             <div class="col-md-4">
                 <div class="card" style="border: 0;">
                     <div class="card-body text-center">
-                        <img src="./public/img/icons/avatar_hombre.png" class="w-75 rounded-circle shadow">
+                        <img src="./public/img/img-page/arequipa/coordinadoraa.jpg" class="w-75 rounded-circle shadow">
                         <br><br>
                         <p class="prim text-center">Prof. Rosa Amelia Cáceres Chacón</p>
                         <h5 class="secu text-center"><b>Coordinadora Institucional</b></h5>

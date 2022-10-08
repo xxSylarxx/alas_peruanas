@@ -942,8 +942,8 @@
                         <p>
                             Las habilidades de cómo aprender, investigar, liderar, colaborar y 
                             comunicar sus aprendizajes se desarrollan a lo largo de su educación 
-                            en Alas Peruanas. Pero su aprendizaje también sucede también fuera de 
-                            las aulas, y buscamos que los estudiantes sean conscientes de cómo las 
+                            en Alas Peruanas. Pero su aprendizaje también sucede fuera de las aulas,
+                             y buscamos que los estudiantes sean conscientes de cómo las 
                             habilidades se usan en otras actividades.
                         </p>
                         <p>

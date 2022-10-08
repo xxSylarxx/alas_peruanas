@@ -726,7 +726,7 @@
 
         #portada {
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-                url('./public/img/img-page/arequipa/portada_areas.jpg');
+                url('./public/img/img-page/arequipa/blibliotecavf.jpeg');
             /* background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
             background-size: 100%;
             /* background-position: center; */
@@ -1173,7 +1173,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 mt-4 mb-4">
-                    <center><img src="./public/img/img-page/arequipa/comunicacion.jpg" width="90%" alt=""></center>
+                    <center><img src="./public/img/img-page/arequipa/comunicacionf.jpg" width="90%" alt=""></center>
                 </div>
 
             </div>
@@ -1327,7 +1327,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 mt-4 mb-4">
-                    <center><img src="./public/img/img-page/arequipa/matematica.jpg" width="90%" alt=""></center>
+                    <center><img src="./public/img/img-page/arequipa/matematicaf.jpg" width="90%" alt=""></center>
                 </div>
 
             </div>
