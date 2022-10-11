@@ -1069,6 +1069,7 @@
                     <div style="padding: 3rem;">
                         <img src="./public/img/icons/taekwondo.png" alt="">
                         <h2>TAEKWONDO</h2>
+                        <p>Taller disponible sólo en la sede Arequipa.</p>
                         <br>
                         <p>Un ejercicio muy bueno para la mente aumenta el autocontrol y
                             la confianza. Con la práctica mejoramos nuestro cuerpo y lo dominamos,
