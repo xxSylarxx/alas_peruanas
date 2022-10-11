@@ -86,8 +86,6 @@
             color: white;
             font-size: 14px;
             font-weight: bold;
-
-
             transform: translateY(-5%);
 
         }
@@ -169,10 +167,10 @@
             background-color: white;
         }
 
-        #valores .flip:nth-child(1):hover .card {
+        /* #valores .flip:nth-child(1):hover .card {
             transform: rotateY(180deg);
 
-        }
+        } */
 
         #valores .front,
         #valores .back {
@@ -1060,7 +1058,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 p-0 ">
+            <!-- <div class="col-lg-6 p-0 ">
                 <div class="flip mx-1">
                     <div class="card shadow ">
                         <div class="front ">
@@ -1074,7 +1072,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
 

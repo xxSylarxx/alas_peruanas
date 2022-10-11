@@ -169,11 +169,11 @@
             background-color: white;
         }
 
-        #valores .flip:nth-child(1):hover .card {
+        /* #valores .flip:nth-child(1):hover .card {
             transform: rotateY(180deg);
 
         }
-
+ */
         #valores .front,
         #valores .back {
 
