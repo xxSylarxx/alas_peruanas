@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Bienvenidos a los Colegios Alas Peruanas .Tenemos un colegio en Arequipa quien cumple 30 años de servicio y el colegio de Ica quien cumple 23 años sirviendo a la comunidad.">
     <title>Colegio Alas Peruanas</title>
     <link rel="shortcut icon" href="./public/img/icons/logo.png">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
@@ -884,19 +884,20 @@
                 left: -10px;
                 z-index: -99;
             }
+
             .redesS {
-            /*  border-top: 1px solid var(--color6); */
-            padding-top: 2rem;
-            color: var(--color1);
-            /* display: flex; */
-            flex-direction: column;
-            margin-top: 2rem;
-            justify-content: center;
-            position: absolute;
-            left: 10px;
-            bottom: 130px;
-            z-index: 99999;
-        }
+                /*  border-top: 1px solid var(--color6); */
+                padding-top: 2rem;
+                color: var(--color1);
+                /* display: flex; */
+                flex-direction: column;
+                margin-top: 2rem;
+                justify-content: center;
+                position: absolute;
+                left: 10px;
+                bottom: 130px;
+                z-index: 99999;
+            }
         }
 
         @media screen and (max-width:900px) {
@@ -983,15 +984,15 @@
 
                 padding-top: 2rem;
                 color: var(--color1);
-               
+
                 flex-direction: row;
                 margin-top: 2rem;
                 justify-content: center;
                 position: absolute;
                 left: 10px;
-                bottom:410px;
+                bottom: 410px;
                 z-index: 1;
-                display:flex;
+                display: flex;
             }
 
             .redesS a {
@@ -1003,7 +1004,7 @@
                 width: 35px;
                 height: 35px;
                 margin-bottom: 10px;
-                margin:0px 3px;
+                margin: 0px 3px;
                 padding-top: 8px;
                 display: inline-block;
             }
@@ -1071,8 +1072,8 @@
                                 <a href="./primaria.php"><span>NIVEL PRIMARIA</span></a>
                                 <br>
                                 <br>
-                                <p>Desarrollamos en nuestros estudiantes el <br> conocimiento 
-                                    científico,la creatividad y el trabajo<br>  en equipo.</p>
+                                <p>Desarrollamos en nuestros estudiantes el <br> conocimiento
+                                    científico,la creatividad y el trabajo<br> en equipo.</p>
                             </div>
                         </div>
                     </div>
@@ -1225,7 +1226,9 @@
 
     <section id="propuesta">
         <div class="container">
-            <center><h3 style="color:var(--color1);">NUESTRA PROPUESTA EDUCATIVA</h3></center>
+            <center>
+                <h3 style="color:var(--color1);">NUESTRA PROPUESTA EDUCATIVA</h3>
+            </center>
         </div>
         <br>
         <div class="container">
@@ -1568,10 +1571,10 @@
                                     <input class="form-control form-control-lg mt-3" type="text" placeholder="Nombre*" name="nombre" required="">
                                 </div>
                                 <div class="col">
-                                    <input class="form-control form-control-lg mt-3" type="text" placeholder="Correo*" name="celular" required="">
+                                    <input class="form-control form-control-lg mt-3" type="email" placeholder="Correo*" name="correo" required="">
                                 </div>
                             </div>
-                            <input class="form-control form-control-lg mt-3" type="text" placeholder="Asunto*" name="correo" required="">
+                            <input class="form-control form-control-lg mt-3" type="text" placeholder="Asunto*" name="asunto" required="">
                             <div class="mt-3">
                                 <textarea class="form-control form-control-lg" rows="3" placeholder="Mensaje*" name="mensaje" required=""></textarea>
                             </div>
@@ -1622,6 +1625,19 @@
 
 
 </body>
+<div class="modal fade" id="terminosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Políticas de Privacidad</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <iframe src="./public/files/politicasdeprivacidad.pdf" width="100%" frameborder="0" height="580"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
 <?php include_once  './partials/footer.php'; ?>
 
 
@@ -1712,12 +1728,28 @@
         elementosHTML.forEach(elementoHTML => {
             observer.observe(elementoHTML)
         })
-    })
+    });
 </script>
 
 
 <script>
     AOS.init();
+</script>
+<script>
+    function enviarCorreo(e) {
+        e.preventDefault();
+        const data = new FormData(document.getElementById('formContacto'));
+        fetch('./lib/correo_mailer.php', {
+            method: 'POST',
+            body: data
+        }).then(function(res) {
+            return res.text();
+        }).then(function(res) {
+            alert(res);
+        }).then(function(res) {
+            e.target.reset();
+        });
+    }
 </script>
 
 

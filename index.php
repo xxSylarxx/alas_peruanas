@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Bienvenidos a los Colegios Alas Peruanas .Tenemos un colegio en Arequipa quien cumple 30 años de servicio y el colegio de Ica quien cumple 23 años sirviendo a la comunidad.">
     <title>Colegio Alas Peruanas</title>
     <link rel="shortcut icon" href="./public/img/icons/logo.png">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
@@ -1105,19 +1105,23 @@
                     <div class="row ">
                         <div class="col-lg">
                             <br>
-                            <p>Bienvenidos a los Colegios Alas Peruanas y gracias por considerarnos como una posibilidad para la educación de sus hijos.</p>
-                            <p>Nuestra Institución tiene 30 años al servicio de la educación
-                                arequipeña, formando estudiantes integrales y nuestra
-                                educación va de acuerdo a cada etapa de su desarrollo,
-                                en diversos ámbitos de la ciencia, tecnología, arte y deporte.</p>
-                            <p>Entendemos que una formación educativa de alto
-                                nivel está cimentada en la adquisición
-                                de habilidades y conocimientos para instruir
-                                ciudadanos capaces de integrarse a la sociedad.</p>
-                            <p>Aspiramos a brindar un servicio educativo con excelencia,
-                                sólido en valores, desarrollando en los estudiantes competencias
-                                que promuevan la investigación, la innovación y el cuidado del
-                                medio ambiente.</p>
+                            <p>Bienvenidos a los Colegios Alas Peruanas y gracias
+                                por considerarnos como una posibilidad para la educación de sus hijos.</p>
+                            <p>Contamos con dos colegios uno ubicado en la ciudad de Arequipa y el otro
+                                en la ciudad de Ica, ambas instituciones forman parte de la promotora
+                                Inversiones Educativas IESCOOP SAC. Tenemos una amplia experiencia;
+                                el colegio de Arequipa quien cumple 30 años de servicio y el colegio
+                                de Ica quien cumple 23 años sirviendo a la comunidad de Ica.</p>
+                            <p>Nuestra vocación es lo que nos lleva día a día a seguir innovando y
+                                trabajar para formar alumnos íntegros con una sólida formación en
+                                valores y trabajar en colaboración con los padres de familia de
+                                nuestros colegios ya que ustedes papás, son un pilar importante
+                                en la educación de sus hijos.</p>
+                            <p>Las habilidades de cómo aprender, investigar, liderar, colaborar y
+                                comunicar sus aprendizajes se desarrollan a lo largo de su educación
+                                en Alas Peruanas. Pero su aprendizaje también sucede fuera de las aulas,
+                                y buscamos que los estudiantes sean conscientes de cómo las
+                                habilidades se usan en otras actividades.</p>
                             <br>
                             <div class="d-flex justify-content-center">
                                 <div class="main_div">
