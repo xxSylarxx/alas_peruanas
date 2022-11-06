@@ -1,39 +1,48 @@
 <?php
-
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
 
-require_once './PHPMailer/PHPMailer.php';
 
-// no toca para nada
-$objmail = new PHPMailer();
-$objmail->CharSet = 'UTF-8';
-$objmail->IsHTML(true);
-$objmail->isSMTP();
-$objmail->SMTPDebug  = false;
-$objmail->SMTPSecure = '';
-$objmail->Host = 'correo.cubicol.com.pe';
-$objmail->SMTPAuth = false;
-$objmail->Port = 25;
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
+require 'PHPMailer/src/Exception.php';
 
-// modificar
-$objmail->From = 'iepap@cubicol.com.pe';
-$objmail->FromName = 'PAG. WEB';
-$objmail->AddAddress('iepalasperuanasaqp@iepap.edu.pe', 'COLEGIO ALAS PERUANAS - SEDE AREQUIPA');
-//$objmail->AddCC('axelmol2018@gmail.com', 'EJEMPLO');
-$objmail->Subject = 'REGISTRO PARA RECIBIR NOTICIAS REFERENTE A ADMISIÓN Y VACANTES ESCOLARES';
-$objmail->Body = '
+$mail = new PHPMailer(true);
+
+
+try {
+    $mail->SMTPDebug = false;                     
+    $mail->isSMTP();
+    $mail->Host       = 'correo.cubicol.com.pe';
+    $mail->SMTPAutoTLS = false;
+    $mail->SMTPSecure = false;
+    $mail->Port       = 25;
+
+    //Recipients
+    $mail->setFrom('iepap@cubicol.com.pe', 'COLEGIOS ALAS PERUANAS');
+    //$mail->addAddress('iepalasperuanasaqp@iepap.edu.pe', 'COLEGIO ALAS PERUANAS - SEDE AREQUIPA');
+	$mail->addAddress('axelmol2018@gmail.com', 'COLEGIO ALAS PERUANAS - SEDE AREQUIPA');
+    //$mail->addCC('cc@example.com');
+	
+    //Content
+    $mail->isHTML(true);
+    $mail->Subject = 'REGISTRO PARA RECIBIR NOTICIAS REFERENTE A ADMISION Y VACANTES ESCOLARES';
+    $mail->Body    = '
             <h4><b>INFORMACIÓN - COLEGIO ALAS PERUANAS - SEDE AREQUIPA</b></h4>
             <p><b>Nombre : </b>' . $_POST['nombre'] . '</p>
             <p><b>Correo : </b>' . $_POST['correo'] . '</p>
             <p><b>Asunto : </b>' . $_POST['asunto'] . '</p>
             <p><b>Mensaje : </b>' . $_POST['mensaje'] . '</p>';
-            
-if ($objmail->Send()) {
+
+               
+if ($mail->Send()) {
 
     echo "SE ENVIO LA CONSULTA CORRECTAMENTE";
 
-} else {
-    echo 'OCURRIÓ UN ERROR, NO SE PUDO PROCESAR EL ENVÍO';
+}
+} catch (Exception $e) {
+   echo 'OCURRIÓ UN ERROR, NO SE PUDO PROCESAR EL ENVÍO';
 }
 
 //print_r($_POST);
